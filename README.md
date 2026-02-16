@@ -35,7 +35,7 @@ port/
 - **CSS3**: Modern styling with animations and responsive design
 - **JavaScript**: Vanilla JS for interactivity (smooth scrolling, mobile menu, animations)
 - **Google Fonts**: Inter font family
-- **The Chat Widget**: Live chat integration
+- **GhostChat**: Live chat integration
 
 ## Getting Started
 
@@ -61,7 +61,7 @@ python3 -m http.server 8000
 - **Hero**: Introduction and key specialties
 - **Stats Bar**: Quick metrics and achievements
 - **Featured Work**: Showcase of SaaS products and projects
-  - The Chat Widget
+  - GhostChat
   - Trekit
   - KaspaWoo
 - **Professional Work**: Client work and custom Gutenberg systems
@@ -71,7 +71,7 @@ python3 -m http.server 8000
 
 ## Projects Featured
 
-### The Chat Widget
+### GhostChat
 A privacy-first, ultra-light chat widget engineered to be 20–35× smaller and 3–8× faster than legacy tools.
 
 **Tech Stack**: Cloudflare Workers, Durable Objects, Supabase, Stripe
