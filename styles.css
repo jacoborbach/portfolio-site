@@ -750,6 +750,12 @@ h1 {
   border-top: 1px solid rgba(209, 213, 219, 0.6);
 }
 
+.project-highlights + .project-links {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
+}
+
 .highlight-item {
   display: flex;
   flex-direction: column;
