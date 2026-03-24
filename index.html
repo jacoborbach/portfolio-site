@@ -22,14 +22,15 @@
   <meta property="og:image" content="https://jacoborbach.com/images/jacob.jpg" />
   
   <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Jacob Orbach – Full‑Stack Developer & SaaS Builder" />
   <meta name="twitter:description" content="Full-stack developer and SaaS builder. I design, build, and scale fast, lightweight digital products." />
   <meta name="twitter:image" content="https://jacoborbach.com/images/jacob.jpg" />
-  
+  <meta property="og:locale" content="en_US" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 
   <!-- Ahrefs Web Analytics -->
@@ -71,6 +72,7 @@
 </head>
 
 <body>
+  <a href="#top" class="skip-link">Skip to content</a>
   <div class="page">
     <header class="site-header">
       <div class="shell">
@@ -87,7 +89,7 @@
             <a href="#philosophy" class="nav-link">Philosophy</a>
             <a href="#contact" class="nav-link nav-link-cta">Contact</a>
           </nav>
-          <button class="mobile-menu-toggle" aria-label="Toggle menu">
+          <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
             <span></span>
             <span></span>
             <span></span>
@@ -157,7 +159,7 @@
             <aside class="hero-aside">
               <div class="hero-photo-card">
                 <div class="hero-photo">
-                  <img src="images/jacob.jpg" alt="Jacob Orbach" />
+                  <img src="images/jacob.jpg" alt="Jacob Orbach" width="800" height="800" />
                 </div>
                 <div class="hero-status">
                   <span class="status-indicator"></span>
@@ -186,8 +188,8 @@
               <div class="stat-label">Products Shipped</div>
             </div>
             <div class="stat-item fade-in">
-              <div class="stat-number">1,445</div>
-              <div class="stat-label">GitHub Contributions (2025)</div>
+              <div class="stat-number">1,445+</div>
+              <div class="stat-label">GitHub Contributions (2024–2025)</div>
             </div>
           </div>
         </div>
@@ -209,7 +211,7 @@
             <!-- Project 1 - Featured Large -->
             <div class="project-card project-card-featured fade-in">
               <div class="project-image">
-                <img src="images/ghostchat.png" alt="GhostChat Dashboard" loading="lazy" />
+                <img src="images/ghostchat.png" alt="GhostChat Dashboard" loading="lazy" width="1200" height="630" />
                 <span class="badge badge-floating">SaaS</span>
               </div>
               <div class="project-content">
@@ -237,7 +239,7 @@
                 </div>
                 <div class="project-links">
                   <a href="https://ghostchat.dev/" target="_blank" rel="noopener" class="project-link">View Project</a>
-                  <a href="#" onclick="document.getElementById('ghostchat-bubble').click();return false;" class="project-link">Chat now</a>
+                  <a href="#" class="project-link" id="ghostchat-trigger">Chat now</a>
                 </div>
               </div>
             </div>
@@ -245,7 +247,7 @@
             <!-- Project 2 - KaspaWoo -->
             <div class="project-card fade-in">
               <div class="project-image">
-                <img src="images/kaspa-wordpress-plugin.png" alt="Kaspa Payment Gateway for WooCommerce" loading="lazy" />
+                <img src="images/kaspa-wordpress-plugin.png" alt="Kaspa Payment Gateway for WooCommerce" loading="lazy" width="1544" height="500" />
                 <span class="badge badge-floating">Plugin</span>
               </div>
               <div class="project-content">
@@ -270,7 +272,7 @@
             <!-- Project 3 - Gmailytics -->
             <div class="project-card fade-in">
               <div class="project-image">
-                <img src="images/dashboard-preview.png" alt="Gmailytics – Gmail Unsubscribe Tool" loading="lazy" />
+                <img src="images/dashboard-preview.png" alt="Gmailytics – Gmail Unsubscribe Tool" loading="lazy" width="2252" height="1532" />
                 <span class="badge badge-floating">SaaS</span>
               </div>
               <div class="project-content">
@@ -292,7 +294,7 @@
             <!-- Project 4 - Trekit -->
             <div class="project-card fade-in">
               <div class="project-image">
-                <img src="images/trekit-dark-project.png" alt="Trekit - Explore the World" loading="lazy" />
+                <img src="images/trekit-dark-project.png" alt="Trekit - Explore the World" loading="lazy" width="1280" height="800" />
                 <span class="badge badge-floating">Product</span>
               </div>
               <div class="project-content">
@@ -599,7 +601,7 @@
     <footer class="site-footer">
       <div class="shell">
         <div class="site-footer-inner">
-          <span>© <span id="year"></span> Jacob Orbach</span>
+          <span>© <span id="year">2026</span> Jacob Orbach</span>
           <span class="footer-meta">Fast, lightweight, production‑ready.</span>
         </div>
       </div>
@@ -619,71 +621,73 @@
       })
       .filter(Boolean);
 
-    // Smooth scrolling for internal links with offset
+    // Smooth scrolling for internal links with offset (desktop + mobile)
+    function smoothScrollTo(targetId) {
+      const target = document.getElementById(targetId);
+      if (!target) return;
+
+      const headerOffset = headerEl.offsetHeight + 12;
+      const elementPosition = target.getBoundingClientRect().top + window.scrollY;
+      const offsetPosition = elementPosition - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
+    }
+
     navLinks.forEach((anchor) => {
       anchor.addEventListener("click", function (e) {
-        const targetId = this.getAttribute("href").slice(1);
-        const target = document.getElementById(targetId);
-        if (!target) return;
         e.preventDefault();
-
-        const headerOffset = headerEl.offsetHeight + 12;
-        const elementPosition = target.getBoundingClientRect().top + window.scrollY;
-        const offsetPosition = elementPosition - headerOffset;
-
-        window.scrollTo({
-          top: offsetPosition,
-          behavior: "smooth",
-        });
+        smoothScrollTo(this.getAttribute("href").slice(1));
       });
     });
 
-    // Shrink header + highlight current section on scroll
+    // Shrink header + highlight current section on scroll (throttled)
+    let scrollTicking = false;
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 40) {
-        headerEl.classList.add("site-header-scrolled");
-      } else {
-        headerEl.classList.remove("site-header-scrolled");
-      }
-
-      const marker = headerEl.offsetHeight + 40;
-
-      let currentSection = null;
-      for (const section of sections) {
-        const rect = section.getBoundingClientRect();
-        if (rect.top <= marker && rect.bottom >= marker) {
-          currentSection = section;
-          break;
+      if (scrollTicking) return;
+      scrollTicking = true;
+      requestAnimationFrame(() => {
+        if (window.scrollY > 40) {
+          headerEl.classList.add("site-header-scrolled");
+        } else {
+          headerEl.classList.remove("site-header-scrolled");
         }
-      }
 
-      navLinks.forEach((link) => link.classList.remove("nav-link-active"));
-      if (currentSection) {
-        const activeLink = document.querySelector(
-          `.site-nav a[href="#${currentSection.id}"]`
-        );
-        if (activeLink) {
-          activeLink.classList.add("nav-link-active");
+        const marker = headerEl.offsetHeight + 40;
+
+        let currentSection = null;
+        for (const section of sections) {
+          const rect = section.getBoundingClientRect();
+          if (rect.top <= marker && rect.bottom >= marker) {
+            currentSection = section;
+            break;
+          }
         }
-      }
+
+        navLinks.forEach((link) => link.classList.remove("nav-link-active"));
+        if (currentSection) {
+          const activeLink = document.querySelector(
+            `.site-nav a[href="#${currentSection.id}"]`
+          );
+          if (activeLink) {
+            activeLink.classList.add("nav-link-active");
+          }
+        }
+        scrollTicking = false;
+      });
     });
 
     // Scroll-triggered fade-in animations
-    const observerOptions = {
-      root: null,
-      rootMargin: "0px",
-      threshold: 0.15
-    };
-
     const fadeObserver = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           entry.target.classList.add("visible");
-          // Optional: stop observing after animation triggers once
           fadeObserver.unobserve(entry.target);
         }
       });
-    }, observerOptions);
+    }, { threshold: 0.15 });
 
     document.querySelectorAll(".fade-in").forEach(el => {
       fadeObserver.observe(el);
@@ -694,29 +698,50 @@
     const mobileMenu = document.querySelector(".mobile-menu");
     const mobileNavLinks = document.querySelectorAll(".mobile-nav-link");
 
+    function closeMobileMenu() {
+      mobileMenuToggle.classList.remove("active");
+      mobileMenuToggle.setAttribute("aria-expanded", "false");
+      mobileMenu.classList.remove("active");
+      document.body.style.overflow = "";
+    }
+
     mobileMenuToggle.addEventListener("click", () => {
-      mobileMenuToggle.classList.toggle("active");
-      mobileMenu.classList.toggle("active");
-      document.body.style.overflow = mobileMenu.classList.contains("active") ? "hidden" : "";
+      const isOpen = mobileMenu.classList.contains("active");
+      if (isOpen) {
+        closeMobileMenu();
+      } else {
+        mobileMenuToggle.classList.add("active");
+        mobileMenuToggle.setAttribute("aria-expanded", "true");
+        mobileMenu.classList.add("active");
+        document.body.style.overflow = "hidden";
+      }
     });
 
-    // Close mobile menu when clicking a link
+    // Close mobile menu when clicking a link + smooth scroll
     mobileNavLinks.forEach(link => {
-      link.addEventListener("click", () => {
-        mobileMenuToggle.classList.remove("active");
-        mobileMenu.classList.remove("active");
-        document.body.style.overflow = "";
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        closeMobileMenu();
+        smoothScrollTo(link.getAttribute("href").slice(1));
       });
     });
 
     // Close mobile menu on escape key
     document.addEventListener("keydown", (e) => {
       if (e.key === "Escape" && mobileMenu.classList.contains("active")) {
-        mobileMenuToggle.classList.remove("active");
-        mobileMenu.classList.remove("active");
-        document.body.style.overflow = "";
+        closeMobileMenu();
       }
     });
+
+    // GhostChat trigger
+    const ghostchatTrigger = document.getElementById("ghostchat-trigger");
+    if (ghostchatTrigger) {
+      ghostchatTrigger.addEventListener("click", (e) => {
+        e.preventDefault();
+        const bubble = document.getElementById("ghostchat-bubble");
+        if (bubble) bubble.click();
+      });
+    }
   </script>
   <script src="https://api.ghostchat.dev/widget.js?v=7" data-site="clc415a5360fd24b3dae065239"></script>
 </body>
