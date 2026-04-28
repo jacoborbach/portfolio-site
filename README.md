@@ -22,10 +22,11 @@ port/
 ├── index.html          # Main HTML file
 ├── styles.css          # Stylesheet
 ├── images/             # Project images and assets
-│   ├── jacob.jpg
+│   ├── jacob-orbach-headshot.jpg
+│   ├── ghostchat.png
+│   ├── gmailytics-dashboard.png
 │   ├── kaspa-wordpress-plugin.png
-│   ├── trekit-dark-project.png
-│   └── Screenshot 2026-01-06 at 9.39.23 AM.png
+│   └── trekit-dark-project.png
 └── README.md           # This file
 ```
 
