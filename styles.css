@@ -368,6 +368,14 @@ h1 {
   margin: 0 0 1.5rem;
 }
 
+.hero-lede-emph {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: #0f172a;
+  font-weight: 500;
+  margin: 0 0 1rem;
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
