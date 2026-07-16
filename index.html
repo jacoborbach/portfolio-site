@@ -660,6 +660,20 @@
   </div>
 
   <script>
+    // Strip UTM params from the address bar — but only after the page has
+    // fully loaded, so the async Ahrefs analytics script has already
+    // captured the original URL for attribution.
+    window.addEventListener("load", () => {
+      if (location.search.includes("utm_")) {
+        const params = new URLSearchParams(location.search);
+        [...params.keys()]
+          .filter((k) => k.startsWith("utm_"))
+          .forEach((k) => params.delete(k));
+        const qs = params.toString();
+        history.replaceState(null, "", location.pathname + (qs ? "?" + qs : "") + location.hash);
+      }
+    });
+
     // Set current year in footer
     document.getElementById("year").textContent = new Date().getFullYear();
 
