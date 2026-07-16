@@ -1,3 +1,14 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("fonts/inter-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 *,
 *::before,
 *::after {
@@ -441,6 +452,21 @@ h1 {
   box-shadow: 0 16px 32px rgba(15, 23, 42, 0.18);
 }
 
+.btn-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.7rem 0.4rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #1d4ed8;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 .hero-meta {
   font-size: 0.92rem;
   line-height: 1.7;
@@ -650,6 +676,74 @@ h1 {
 
 .project-card:hover .project-image img {
   transform: scale(1.05);
+}
+
+.mini-projects {
+  margin-top: 2.2rem;
+}
+
+.mini-projects-title {
+  margin: 0 0 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #64748b;
+}
+
+.mini-projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.2rem;
+}
+
+.mini-project-card {
+  display: block;
+  padding: 1.2rem 1.4rem;
+  border-radius: 1.1rem;
+  border: 1px solid rgba(191, 219, 254, 0.9);
+  background: #ffffff;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.mini-project-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.12);
+  text-decoration: none;
+}
+
+.mini-project-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  margin-bottom: 0.4rem;
+}
+
+.mini-project-header h4 {
+  margin: 0;
+  font-size: 1.05rem;
+  color: #0f172a;
+}
+
+.mini-project-card p {
+  margin: 0 0 0.7rem;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: #4b5563;
+}
+
+.mini-project-link {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #1d4ed8;
+}
+
+@media (max-width: 720px) {
+  .mini-projects-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .badge {
