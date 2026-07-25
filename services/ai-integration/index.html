@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Custom AI Integration – LLM Features, Agents & Chatbots · Jacob Orbach</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+    content="Custom AI integration for real products: LLM-powered support agents, grounded answers over your own content, and cost-controlled model routing. Claude, OpenAI, and self-hosted models — shipped to production, not demos." />
+  <link rel="canonical" href="https://jacoborbach.com/services/ai-integration/" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <meta name="theme-color" content="#1d4ed8" />
+  <meta name="author" content="Jacob Orbach" />
+
+  <link rel="preload" as="font" href="/fonts/inter-latin.woff2" type="font/woff2" crossorigin />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://jacoborbach.com/services/ai-integration/" />
+  <meta property="og:title" content="Custom AI Integration – LLM Features, Agents & Chatbots" />
+  <meta property="og:description" content="LLM features shipped to production: support agents, grounded answers, cost-controlled model routing. Claude, OpenAI, and self-hosted." />
+  <meta property="og:image" content="https://jacoborbach.com/images/ghostchat.png" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Custom AI Integration – LLM Features, Agents & Chatbots" />
+  <meta name="twitter:description" content="LLM features shipped to production: support agents, grounded answers, cost-controlled model routing." />
+  <meta name="twitter:image" content="https://jacoborbach.com/images/ghostchat.png" />
+
+  <link rel="stylesheet" href="/styles.css" />
+
+  <script src="https://analytics.ahrefs.com/analytics.js" data-key="JphkmiSku3joWLXA1Mcg/w" async></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://jacoborbach.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://jacoborbach.com/services/" },
+          { "@type": "ListItem", "position": 3, "name": "AI Integration", "item": "https://jacoborbach.com/services/ai-integration/" }
+        ]
+      },
+      {
+        "@type": "Service",
+        "name": "Custom AI Integration",
+        "url": "https://jacoborbach.com/services/ai-integration/",
+        "serviceType": "AI and LLM integration development",
+        "description": "Custom AI integration for production products: LLM-powered support agents, retrieval-grounded answers, cost-controlled model routing, and AI features inside existing applications.",
+        "provider": { "@type": "Person", "name": "Jacob Orbach", "url": "https://jacoborbach.com/" },
+        "areaServed": "Worldwide"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do you keep LLM costs under control?",
+            "acceptedAnswer": { "@type": "Answer", "text": "By routing each request to the cheapest model that can answer it. Most messages are simple and go to a small fast model; only the ones that genuinely need reasoning or retrieved context escalate to a larger model. Caching, prompt trimming, and hard token ceilings sit on top of that." }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I use my own model or keep data in-house?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. I publish an open-source agent runner that lets teams run their own model on their own infrastructure, supporting Anthropic, OpenAI, and local Ollama models. If data residency or privacy is the constraint, the architecture can keep every inference call inside your environment." }
+          },
+          {
+            "@type": "Question",
+            "name": "Is a chatbot on my site a security risk?",
+            "acceptedAnswer": { "@type": "Answer", "text": "It can be, and most implementations underestimate it. Visitor messages are untrusted input from the public internet. Any agent exposed to them must be sandboxed away from your codebase, databases, and internal tools, with tightly scoped permissions. I design for prompt injection as a baseline assumption rather than an afterthought." }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <a href="#top" class="skip-link">Skip to content</a>
+  <div class="page">
+    <header class="site-header">
+      <div class="shell">
+        <div class="site-header-inner">
+          <a class="brand" href="/">
+            <span class="brand-mark"></span>
+            <span class="brand-text">Jacob&nbsp;Orbach</span>
+          </a>
+          <nav class="site-nav">
+            <a href="/#work" class="nav-link">Work</a>
+            <a href="/services/" class="nav-link nav-link-active">Services</a>
+            <a href="/#professional" class="nav-link">Experience</a>
+            <a href="/#stack" class="nav-link">Stack</a>
+            <a href="/#contact" class="nav-link nav-link-cta">Contact</a>
+          </nav>
+          <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="mobile-menu">
+        <nav class="mobile-nav">
+          <a href="/#work" class="mobile-nav-link">Work</a>
+          <a href="/services/" class="mobile-nav-link">Services</a>
+          <a href="/#professional" class="mobile-nav-link">Experience</a>
+          <a href="/#stack" class="mobile-nav-link">Stack</a>
+          <a href="/#contact" class="mobile-nav-link mobile-nav-link-cta">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero" id="top">
+        <div class="shell">
+          <ol class="breadcrumb">
+            <li><a href="/">Home</a></li>
+            <li><a href="/services/">Services</a></li>
+            <li>AI Integration</li>
+          </ol>
+          <p class="eyebrow">Custom AI Integration</p>
+          <h1>AI features that survive contact with real users</h1>
+          <p class="hero-lede hero-lede-emph">
+            The demo is the easy part. Making it cheap, safe, and accurate on
+            live traffic is the job.
+          </p>
+          <p class="hero-lede">
+            I build LLM features into real products — support agents that
+            actually answer, retrieval grounded in your own content, and model
+            routing that keeps the bill from tripling when you grow. I run this
+            in production on my own SaaS, on paying customers' traffic, which is
+            why I know where it breaks.
+          </p>
+          <div class="hero-actions">
+            <a href="mailto:jacoborbach96@gmail.com?subject=AI%20integration%20enquiry" class="btn btn-primary btn-primary-large">
+              <span>Discuss an AI build</span>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </a>
+            <a href="#proof" class="btn btn-ghost">See what I've shipped</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- What I build -->
+      <section class="section section-alt">
+        <div class="shell">
+          <header class="section-header">
+            <p class="eyebrow">Scope</p>
+            <h2>What I build</h2>
+          </header>
+
+          <div class="service-grid">
+            <div class="service-card fade-in">
+              <h3>AI support &amp; sales agents</h3>
+              <p>
+                Chat agents that answer from your knowledge base, your product
+                pages, and your docs — and hand off to a human on the questions
+                where a wrong answer would cost you a customer.
+              </p>
+            </div>
+            <div class="service-card fade-in">
+              <h3>Grounded answers over your content</h3>
+              <p>
+                Retrieval pipelines so the model answers from your actual
+                content instead of inventing plausible fiction. Includes the
+                unglamorous part: chunking, freshness, and citation.
+              </p>
+            </div>
+            <div class="service-card fade-in">
+              <h3>AI inside an existing product</h3>
+              <p>
+                Summarization, classification, extraction, drafting, semantic
+                search. Bolted onto the app you already have, without a rewrite
+                and without a new vendor platform.
+              </p>
+            </div>
+            <div class="service-card fade-in">
+              <h3>Internal tooling &amp; automation</h3>
+              <p>
+                The workflows eating your team's week — triaging tickets,
+                parsing documents, enriching records, generating first drafts of
+                things a human then approves.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Proof -->
+      <section class="section" id="proof">
+        <div class="shell">
+          <header class="section-header">
+            <p class="eyebrow">Proof</p>
+            <h2>Running in production, not in a notebook</h2>
+          </header>
+
+          <div class="prose">
+            <h3>GhostChat AI — live on customer traffic</h3>
+            <p>
+              <a href="https://ghostchat.dev/" target="_blank" rel="noopener">GhostChat</a> is my
+              privacy-first chat SaaS. Its AI responder runs on Claude Haiku in
+              production, answering real visitor messages on paying customers'
+              websites — grounded in each site's own knowledge base and behavior
+              prompt, on Cloudflare Workers with Durable Objects for session
+              state. The widget on this page is that product.
+            </p>
+
+            <h3>ghostchat-agent — open-source, bring your own model</h3>
+            <p>
+              I publish
+              <a href="https://www.npmjs.com/package/ghostchat-agent" target="_blank" rel="noopener">ghostchat-agent</a>
+              on npm (MIT licensed) so teams can run their own AI on their own
+              infrastructure: their model, their server, their data. It supports
+              Anthropic, OpenAI, and local Ollama models behind one webhook
+              interface, with a setup wizard that provisions the whole thing in
+              a couple of minutes.
+            </p>
+
+            <div class="callout">
+              <p>
+                <strong>The part I'd point a client to first:</strong> that
+                package's README opens with a security warning, not a feature
+                list. It tells you to run the agent in an isolated folder with no
+                access to your codebase or databases, and explains why — visitor
+                messages are untrusted input from the public internet, and an
+                agent with filesystem access is a prompt-injection target.
+              </p>
+              <p>
+                Most AI integrations ship without anyone having thought about
+                that. It's the first thing I design for.
+              </p>
+            </div>
+
+            <h3>Cost-controlled model routing</h3>
+            <p>
+              The failure mode nobody warns you about is the invoice. Sending
+              every message to a frontier model is how a working prototype
+              becomes an unaffordable product at scale.
+            </p>
+            <p>
+              I architect these systems to classify each request and route it to
+              the cheapest model that can actually handle it. Simple turns —
+              greetings, FAQ-answerable questions, follow-ups already covered by
+              context in the conversation — go to a small fast model. Only the
+              turns that genuinely need retrieval or hard synthesis escalate to a
+              larger one, and once the retrieved context is in the conversation
+              history, follow-ups drop back down. That routing decision is
+              per-message, not per-conversation, and it is usually the difference
+              between an AI feature that pays for itself and one that gets
+              switched off after the first big bill.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- What most integrations get wrong -->
+      <section class="section section-alt">
+        <div class="shell">
+          <header class="section-header">
+            <p class="eyebrow">Hard-Won</p>
+            <h2>Four things that sink AI features</h2>
+            <p>
+              These are the issues that show up in month two, after the demo has
+              already been approved.
+            </p>
+          </header>
+          <div class="prose">
+            <ol class="steps">
+              <li>
+                <strong>Unbounded cost</strong>
+                No routing, no caching, no token ceilings. Works fine at 100
+                messages a day and becomes indefensible at 10,000. Fixed by
+                routing and hard limits designed in from the start.
+              </li>
+              <li>
+                <strong>Confident wrong answers</strong>
+                A model with no grounding will invent a refund policy you don't
+                have. Fixed by retrieval over your real content plus explicit
+                handoff rules for questions where being wrong is expensive.
+              </li>
+              <li>
+                <strong>Prompt injection</strong>
+                Anything a visitor types is hostile input. An agent wired to your
+                tools, files, or database without sandboxing is a live
+                vulnerability, not a feature.
+              </li>
+              <li>
+                <strong>No way to tell if it's working</strong>
+                Without logging, evaluation cases, and a review loop, "is the AI
+                any good?" becomes a matter of opinion. I wire measurement in
+                before launch so the answer stays factual.
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <!-- Stack -->
+      <section class="section">
+        <div class="shell">
+          <header class="section-header">
+            <p class="eyebrow">Stack</p>
+            <h2>What I work with</h2>
+          </header>
+          <div class="stack-grid">
+            <div class="stack-group">
+              <h3>Models &amp; providers</h3>
+              <p>
+                Anthropic Claude, OpenAI, and self-hosted Ollama models.
+                Provider-agnostic by default so you aren't locked to one vendor's
+                pricing.
+              </p>
+            </div>
+            <div class="stack-group">
+              <h3>Application layer</h3>
+              <p>
+                Node.js, TypeScript, React, Next.js, Cloudflare Workers and
+                Durable Objects, Supabase, PostgreSQL with vector search.
+              </p>
+            </div>
+            <div class="stack-group">
+              <h3>Around the model</h3>
+              <p>
+                Retrieval and chunking, streaming responses, webhook
+                architectures, evaluation harnesses, cost and latency
+                instrumentation.
+              </p>
+            </div>
+          </div>
+
+          <div class="cta-band">
+            <h2>Have an AI feature in mind?</h2>
+            <p>
+              Tell me what you want it to do and who it's for. I'll tell you
+              honestly whether an LLM is the right tool — sometimes it isn't, and
+              that's a cheaper conversation to have now than after the build.
+            </p>
+            <div class="cta-band-actions">
+              <a href="mailto:jacoborbach96@gmail.com?subject=AI%20integration%20enquiry" class="btn btn-primary btn-primary-large">
+                <span>Email me</span>
+              </a>
+              <a href="/services/" class="btn btn-ghost btn-large">All services</a>
+            </div>
+          </div>
+
+          <div class="related-links">
+            <a href="/services/web-applications/">Web application development</a>
+            <a href="/services/product-launch/">Idea to first payment</a>
+            <a href="/services/seo-growth/">SEO &amp; organic growth</a>
+            <a href="/case-studies/seo-authority-network/">SEO case study</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell">
+        <div class="site-footer-inner">
+          <span>© <span id="year">2026</span> Jacob Orbach</span>
+          <span class="footer-meta">Fast, lightweight, production‑ready.</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="/site.js"></script>
+  <script src="https://api.ghostchat.dev/widget.js?v=7" data-site="clc415a5360fd24b3dae065239"></script>
+</body>
+
+</html>

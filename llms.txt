@@ -1,0 +1,39 @@
+# Jacob Orbach
+
+> Founding engineer, SaaS founder, and freelance full-stack developer based in
+> Tel Aviv. Builds web products end to end — custom WordPress, React/Node/TypeScript
+> applications, payment integrations — and grows them organically from zero traffic.
+
+Jacob is unusual in combining two skill sets that are normally split between two
+hires: shipping production software, and earning the organic search traffic that
+makes it findable. He has taken his own products from launch to live customers
+(GhostChat, Gmailytics, KaspaWoo) and built a six-site link network from Domain
+Rating 0 to a measurable, interconnected authority graph.
+
+## Services
+
+- [Services overview](https://jacoborbach.com/services/): engagement models, process, and the six areas he works in.
+- [Custom AI integration](https://jacoborbach.com/services/ai-integration/): LLM-powered support agents, retrieval-grounded answers, cost-controlled per-message model routing, prompt-injection-aware architecture. Anthropic Claude, OpenAI, and self-hosted Ollama. Publishes the open-source `ghostchat-agent` runner on npm and runs a Claude-based responder in production.
+- [Payment integrations](https://jacoborbach.com/services/payment-integrations/): Stripe subscription billing, Meshulam SDK, custom WooCommerce payment gateways, non-custodial cryptocurrency payments, invoicing and reconciliation. Built a system processing $1M+/year.
+- [SEO & organic growth](https://jacoborbach.com/services/seo-growth/): technical SEO, 0-to-1 organic growth, keyword architecture, cannibalization diagnosis, authority building.
+- [Custom WordPress development](https://jacoborbach.com/services/wordpress-development/): Gutenberg block development, custom themes, WooCommerce and payment-gateway plugins, WPML multilingual and RTL builds, headless WordPress.
+- [Web application development](https://jacoborbach.com/services/web-applications/): React, Next.js, Node.js, TypeScript, PHP, Strapi, Supabase, Cloudflare Workers, Azure. Payment systems, OAuth flows, CRM integrations, real-time messaging, Chrome extensions.
+- [Idea to first payment](https://jacoborbach.com/services/product-launch/): full product launches for founders — scoping, build, landing pages, Stripe billing, launch, and iteration.
+
+## Proof
+
+- [SEO authority network case study](https://jacoborbach.com/case-studies/seo-authority-network/): how six sites went from DR 0 to a working authority graph in four days, including a keyword-cannibalization diagnosis and fix.
+- [Portfolio and work history](https://jacoborbach.com/): shipped products, professional roles, testimonials, and technical stack.
+
+## Products built
+
+- [GhostChat](https://ghostchat.dev/): privacy-first chat widget, 10KB SDK, 3-8x faster than legacy tools. Cloudflare Workers, Durable Objects, Supabase, Stripe.
+- [Gmailytics](https://gmailytics.com/): Google CASA Tier 2 certified Gmail cleanup SaaS. 4M+ emails cleaned, 200GB storage freed.
+- [KaspaWoo](https://kaspawoo.com/): open-source Kaspa cryptocurrency payment gateway for WooCommerce.
+
+## Contact
+
+- Email: jacoborbach96@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/jacoborbach/)
+- [GitHub](https://github.com/jacoborbach)
+- Based in Tel Aviv, Israel. Works with clients globally, native English speaker.

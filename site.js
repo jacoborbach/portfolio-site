@@ -1,0 +1,149 @@
+// Shared behavior for every page. Pieces that only exist on the homepage
+// (scroll-spy, in-page anchors) simply no-op elsewhere.
+
+// Strip UTM params from the address bar — but only after the page has
+// fully loaded, so the async Ahrefs analytics script has already
+// captured the original URL for attribution.
+window.addEventListener("load", () => {
+  if (location.search.includes("utm_")) {
+    const params = new URLSearchParams(location.search);
+    [...params.keys()]
+      .filter((k) => k.startsWith("utm_"))
+      .forEach((k) => params.delete(k));
+    const qs = params.toString();
+    history.replaceState(null, "", location.pathname + (qs ? "?" + qs : "") + location.hash);
+  }
+});
+
+// Set current year in footer
+const yearEl = document.getElementById("year");
+if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+const headerEl = document.querySelector(".site-header");
+
+// Only same-page anchors participate in scroll-spy. On subpages the nav
+// points at "/#work" style URLs, so this list comes back empty.
+const navLinks = document.querySelectorAll('.site-nav a[href^="#"]');
+const sections = Array.from(navLinks)
+  .map((link) => document.getElementById(link.getAttribute("href").slice(1)))
+  .filter(Boolean);
+
+function smoothScrollTo(targetId) {
+  const target = document.getElementById(targetId);
+  if (!target) return;
+
+  const headerOffset = headerEl.offsetHeight + 12;
+  const elementPosition = target.getBoundingClientRect().top + window.scrollY;
+
+  window.scrollTo({
+    top: elementPosition - headerOffset,
+    behavior: "smooth",
+  });
+}
+
+document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+  anchor.addEventListener("click", function (e) {
+    const id = this.getAttribute("href").slice(1);
+    if (!id || !document.getElementById(id)) return;
+    e.preventDefault();
+    smoothScrollTo(id);
+  });
+});
+
+// Shrink header + highlight current section on scroll (throttled)
+let scrollTicking = false;
+window.addEventListener("scroll", () => {
+  if (scrollTicking) return;
+  scrollTicking = true;
+  requestAnimationFrame(() => {
+    if (window.scrollY > 40) {
+      headerEl.classList.add("site-header-scrolled");
+    } else {
+      headerEl.classList.remove("site-header-scrolled");
+    }
+
+    const marker = headerEl.offsetHeight + 40;
+
+    let currentSection = null;
+    for (const section of sections) {
+      const rect = section.getBoundingClientRect();
+      if (rect.top <= marker && rect.bottom >= marker) {
+        currentSection = section;
+        break;
+      }
+    }
+
+    navLinks.forEach((link) => link.classList.remove("nav-link-active"));
+    if (currentSection) {
+      const activeLink = document.querySelector(
+        `.site-nav a[href="#${currentSection.id}"]`
+      );
+      if (activeLink) activeLink.classList.add("nav-link-active");
+    }
+    scrollTicking = false;
+  });
+});
+
+// Scroll-triggered fade-in animations
+const fadeObserver = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("visible");
+      fadeObserver.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.15 });
+
+document.querySelectorAll(".fade-in").forEach((el) => fadeObserver.observe(el));
+
+// Mobile menu toggle
+const mobileMenuToggle = document.querySelector(".mobile-menu-toggle");
+const mobileMenu = document.querySelector(".mobile-menu");
+
+function closeMobileMenu() {
+  mobileMenuToggle.classList.remove("active");
+  mobileMenuToggle.setAttribute("aria-expanded", "false");
+  mobileMenu.classList.remove("active");
+  document.body.style.overflow = "";
+}
+
+if (mobileMenuToggle && mobileMenu) {
+  mobileMenuToggle.addEventListener("click", () => {
+    if (mobileMenu.classList.contains("active")) {
+      closeMobileMenu();
+    } else {
+      mobileMenuToggle.classList.add("active");
+      mobileMenuToggle.setAttribute("aria-expanded", "true");
+      mobileMenu.classList.add("active");
+      document.body.style.overflow = "hidden";
+    }
+  });
+
+  // Close mobile menu when clicking a link; scroll if it's a same-page target
+  document.querySelectorAll(".mobile-nav-link").forEach((link) => {
+    link.addEventListener("click", (e) => {
+      const href = link.getAttribute("href");
+      closeMobileMenu();
+      if (href.startsWith("#") && document.getElementById(href.slice(1))) {
+        e.preventDefault();
+        smoothScrollTo(href.slice(1));
+      }
+    });
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && mobileMenu.classList.contains("active")) {
+      closeMobileMenu();
+    }
+  });
+}
+
+// GhostChat trigger
+const ghostchatTrigger = document.getElementById("ghostchat-trigger");
+if (ghostchatTrigger) {
+  ghostchatTrigger.addEventListener("click", (e) => {
+    e.preventDefault();
+    const bubble = document.getElementById("ghostchat-bubble");
+    if (bubble) bubble.click();
+  });
+}

@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Payment Integration Developer – Stripe, Meshulam & Custom Gateways · Jacob Orbach</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+    content="Payment integration development: Stripe billing, Meshulam SDK, custom WooCommerce gateways, and crypto payments. Built a payment system processing $1M+ per year in transaction volume." />
+  <link rel="canonical" href="https://jacoborbach.com/services/payment-integrations/" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <meta name="theme-color" content="#1d4ed8" />
+  <meta name="author" content="Jacob Orbach" />
+
+  <link rel="preload" as="font" href="/fonts/inter-latin.woff2" type="font/woff2" crossorigin />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://jacoborbach.com/services/payment-integrations/" />
+  <meta property="og:title" content="Payment Integration Developer – Stripe, Meshulam & Custom Gateways" />
+  <meta property="og:description" content="Stripe billing, Meshulam SDK, custom WooCommerce gateways, crypto payments. A system I built processes $1M+/year." />
+  <meta property="og:image" content="https://jacoborbach.com/images/kaspa-wordpress-plugin.png" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Payment Integration Developer – Stripe, Meshulam & Custom Gateways" />
+  <meta name="twitter:description" content="Stripe billing, Meshulam SDK, custom WooCommerce gateways, crypto payments." />
+  <meta name="twitter:image" content="https://jacoborbach.com/images/kaspa-wordpress-plugin.png" />
+
+  <link rel="stylesheet" href="/styles.css" />
+
+  <script src="https://analytics.ahrefs.com/analytics.js" data-key="JphkmiSku3joWLXA1Mcg/w" async></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://jacoborbach.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://jacoborbach.com/services/" },
+          { "@type": "ListItem", "position": 3, "name": "Payment Integrations", "item": "https://jacoborbach.com/services/payment-integrations/" }
+        ]
+      },
+      {
+        "@type": "Service",
+        "name": "Payment Integration Development",
+        "url": "https://jacoborbach.com/services/payment-integrations/",
+        "serviceType": "Payment systems and billing integration",
+        "description": "Stripe subscription billing, Meshulam SDK integration, custom WooCommerce payment gateways, cryptocurrency payments, invoicing and reconciliation.",
+        "provider": { "@type": "Person", "name": "Jacob Orbach", "url": "https://jacoborbach.com/" },
+        "areaServed": "Worldwide"
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <a href="#top" class="skip-link">Skip to content</a>
+  <div class="page">
+    <header class="site-header">
+      <div class="shell">
+        <div class="site-header-inner">
+          <a class="brand" href="/">
+            <span class="brand-mark"></span>
+            <span class="brand-text">Jacob&nbsp;Orbach</span>
+          </a>
+          <nav class="site-nav">
+            <a href="/#work" class="nav-link">Work</a>
+            <a href="/services/" class="nav-link nav-link-active">Services</a>
+            <a href="/#professional" class="nav-link">Experience</a>
+            <a href="/#stack" class="nav-link">Stack</a>
+            <a href="/#contact" class="nav-link nav-link-cta">Contact</a>
+          </nav>
+          <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="mobile-menu">
+        <nav class="mobile-nav">
+          <a href="/#work" class="mobile-nav-link">Work</a>
+          <a href="/services/" class="mobile-nav-link">Services</a>
+          <a href="/#professional" class="mobile-nav-link">Experience</a>
+          <a href="/#stack" class="mobile-nav-link">Stack</a>
+          <a href="/#contact" class="mobile-nav-link mobile-nav-link-cta">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero" id="top">
+        <div class="shell">
+          <ol class="breadcrumb">
+            <li><a href="/">Home</a></li>
+            <li><a href="/services/">Services</a></li>
+            <li>Payment Integrations</li>
+          </ol>
+          <p class="eyebrow">Payments</p>
+          <h1>Payment systems that reconcile at the end of the month</h1>
+          <p class="hero-lede hero-lede-emph">
+            Taking money is easy. Taking it reliably, refunding it, invoicing it,
+            and proving where it went is the actual work.
+          </p>
+          <p class="hero-lede">
+            I've built payment infrastructure on three different kinds of rails —
+            a card gateway processing over $1M a year, Stripe subscription
+            billing for my own SaaS products, and an open-source cryptocurrency
+            gateway for WooCommerce. Different rails, same hard parts: webhooks
+            that arrive twice, states that get stuck, and edge cases that only
+            show up with real money.
+          </p>
+          <div class="hero-actions">
+            <a href="mailto:jacoborbach96@gmail.com?subject=Payment%20integration%20enquiry" class="btn btn-primary btn-primary-large">
+              <span>Discuss a payments project</span>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </a>
+            <a href="#proof" class="btn btn-ghost">See the systems</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats-bar">
+        <div class="shell">
+          <div class="stats-grid">
+            <div class="stat-item fade-in">
+              <div class="stat-number">$1M+</div>
+              <div class="stat-label">/Year processed through a system I built</div>
+            </div>
+            <div class="stat-item fade-in">
+              <div class="stat-number">3</div>
+              <div class="stat-label">Payment rails: cards, subscriptions, crypto</div>
+            </div>
+            <div class="stat-item fade-in">
+              <div class="stat-number">2</div>
+              <div class="stat-label">Open-source payment packages published</div>
+            </div>
+            <div class="stat-item fade-in">
+              <div class="stat-number">90%</div>
+              <div class="stat-label">Faster contract turnaround via e-signatures</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="shell">
+          <header class="section-header">
+            <p class="eyebrow">Scope</p>
+            <h2>What I integrate</h2>
+          </header>
+
+          <div class="service-grid">
+            <div class="service-card fade-in">
+              <h3>Stripe billing &amp; subscriptions</h3>
+              <p>
+                Checkout, subscriptions, plan changes, proration, failed-payment
+                recovery, and the webhook handling that keeps your database
+                agreeing with Stripe's.
+              </p>
+            </div>
+            <div class="service-card fade-in">
+              <h3>Meshulam &amp; Israeli gateways</h3>
+              <p>
+                Full Meshulam SDK integration including tokenization, recurring
+                charges, and invoice generation — built into a Strapi backend
+                and running in production.
+              </p>
+            </div>
+            <div class="service-card fade-in">
+              <h3>Custom WooCommerce gateways</h3>
+              <p>
+                When your processor has no plugin, or the one that exists is
+                abandoned. Written to the WooCommerce gateway API properly, so
+                refunds and order states behave.
+              </p>
+            </div>
+            <div class="service-card fade-in">
+              <h3>Cryptocurrency payments</h3>
+              <p>
+                Non-custodial crypto acceptance where funds go straight to the
+                merchant's own wallet. Address derivation, confirmation
+                monitoring, and order reconciliation.
+              </p>
+            </div>
+            <div class="service-card fade-in">
+              <h3>Invoicing &amp; documents</h3>
+              <p>
+                Automated PDF invoice generation, e-signature flows, and the
+                document trail your finance team and auditors will ask for.
+              </p>
+            </div>
+            <div class="service-card fade-in">
+              <h3>Rescue &amp; reconciliation</h3>
+              <p>
+                Payments landing but orders not updating. Duplicate charges.
+                Webhooks silently failing for three weeks. I find it and fix it.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="proof">
+        <div class="shell">
+          <header class="section-header">
+            <p class="eyebrow">Proof</p>
+            <h2>Systems handling real money</h2>
+          </header>
+
+          <div class="prose">
+            <h3>Meshulam + Strapi — $1M+ per year</h3>
+            <p>
+              At One Digital I built an end-to-end payment system on the Meshulam
+              SDK inside a Strapi backend, processing <strong>over $1,000,000 a
+              year in transaction volume</strong>. That included the payment flow
+              itself, automated PDF invoice generation via Dockerized Puppeteer
+              on Azure Functions, and the reconciliation work that makes finance
+              trust the numbers.
+            </p>
+
+            <h3>Stripe — billing my own SaaS</h3>
+            <p>
+              <a href="https://ghostchat.dev/" target="_blank" rel="noopener">GhostChat</a> and
+              <a href="https://gmailytics.com/" target="_blank" rel="noopener">Gmailytics</a> run on
+              Stripe subscription billing that I built and operate. There is a
+              particular kind of care you develop when the failed-payment webhook
+              is your own revenue, and that's the standard I bring to client
+              billing systems.
+            </p>
+
+            <h3>KaspaWoo — open-source crypto gateway</h3>
+            <p>
+              A production Kaspa payment gateway for WooCommerce, open-sourced on
+              <a href="https://github.com/jacoborbach/kaspa-payments-gateway-woocommerce" target="_blank" rel="noopener">GitHub</a>.
+              It's non-custodial: payments derive to the merchant's own wallet,
+              never mine. The address derivation is its own MIT-licensed npm
+              package,
+              <a href="https://www.npmjs.com/package/kaspa-simple-wallet" target="_blank" rel="noopener">kaspa-simple-wallet</a>
+              — watch-only derivation from a KPUB/XPUB, Kaspium-compatible, so
+              the store never holds a private key.
+            </p>
+
+            <div class="callout">
+              <p>
+                <strong>Why the non-custodial detail matters:</strong> a store
+                that never holds keys can't lose them. Most payment bugs are
+                really state bugs — and the best fix is usually an architecture
+                where the dangerous state doesn't exist in your system at all.
+              </p>
+            </div>
+
+            <h3>E-signatures and contract flow</h3>
+            <p>
+              At Hertz Furniture I integrated SignNow for e-signatures on PDF
+              quotes, cutting contract turnaround time by 90%. Payments rarely
+              live alone — they sit next to quotes, contracts, invoices, and a
+              CRM that all need to agree with each other.
+            </p>
+          </div>
+
+          <div class="cta-band">
+            <h2>Got a payments problem?</h2>
+            <p>
+              New integration, custom gateway, or something that's quietly
+              broken and costing you orders — describe it and I'll tell you what
+              it'll take.
+            </p>
+            <div class="cta-band-actions">
+              <a href="mailto:jacoborbach96@gmail.com?subject=Payment%20integration%20enquiry" class="btn btn-primary btn-primary-large">
+                <span>Email me</span>
+              </a>
+              <a href="/services/" class="btn btn-ghost btn-large">All services</a>
+            </div>
+          </div>
+
+          <div class="related-links">
+            <a href="/services/wordpress-development/">WordPress development</a>
+            <a href="/services/web-applications/">Web applications</a>
+            <a href="/services/product-launch/">Idea to launch</a>
+            <a href="/services/ai-integration/">AI integration</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell">
+        <div class="site-footer-inner">
+          <span>© <span id="year">2026</span> Jacob Orbach</span>
+          <span class="footer-meta">Fast, lightweight, production‑ready.</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="/site.js"></script>
+  <script src="https://api.ghostchat.dev/widget.js?v=7" data-site="clc415a5360fd24b3dae065239"></script>
+</body>
+
+</html>
