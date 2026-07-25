@@ -22,13 +22,12 @@ Rating 0 to a measurable, interconnected authority graph.
 
 ## Proof
 
-- [SEO authority network case study](https://jacoborbach.com/case-studies/seo-authority-network/): how six sites went from DR 0 to a working authority graph in four days, including a keyword-cannibalization diagnosis and fix.
 - [Portfolio and work history](https://jacoborbach.com/): shipped products, professional roles, testimonials, and technical stack.
 
 ## Products built
 
-- [GhostChat](https://ghostchat.dev/): privacy-first chat widget, 10KB SDK, 3-8x faster than legacy tools. Cloudflare Workers, Durable Objects, Supabase, Stripe.
-- [Gmailytics](https://gmailytics.com/): Google CASA Tier 2 certified Gmail cleanup SaaS. 4M+ emails cleaned, 200GB storage freed.
+- [GhostChat](https://ghostchat.dev/): privacy-first chat widget, ~15KB SDK, 3-8x faster than legacy tools. Cloudflare Workers, Durable Objects, Supabase, Stripe.
+- [Gmailytics](https://gmailytics.com/): Google CASA Tier 2 certified Gmail cleanup SaaS. 4.5M+ emails cleaned, 200GB storage freed.
 - [KaspaWoo](https://kaspawoo.com/): open-source Kaspa cryptocurrency payment gateway for WooCommerce.
 
 ## Contact
