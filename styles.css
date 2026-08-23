@@ -690,6 +690,11 @@ h1 {
   object-fit: contain;
 }
 
+/* Letterbox bars match the GhostChat OG artwork's own background */
+.project-image-dark {
+  background: #0e0e24;
+}
+
 .project-card:hover .project-image img {
   transform: scale(1.05);
 }
