@@ -15,10 +15,6 @@ web properties from zero organic traffic — the same work he does for clients.
 - [Services overview](https://jacoborbach.com/services/): engagement models, process, and the six areas he works in.
 - [Custom AI integration](https://jacoborbach.com/services/ai-integration/): LLM-powered support agents, retrieval-grounded answers, cost-controlled per-message model routing, prompt-injection-aware architecture. Anthropic Claude, OpenAI, and self-hosted Ollama. Publishes the open-source `ghostchat-agent` runner on npm and runs a Claude-based responder in production.
 - [Payment integrations](https://jacoborbach.com/services/payment-integrations/): Stripe subscription billing, Meshulam SDK, custom WooCommerce payment gateways, non-custodial cryptocurrency payments, invoicing and reconciliation. Built a system processing $1M+/year.
-- [SEO & organic growth](https://jacoborbach.com/services/seo-growth/): technical SEO, 0-to-1 organic growth, keyword architecture, cannibalization diagnosis, authority building.
-- [Custom WordPress development](https://jacoborbach.com/services/wordpress-development/): Gutenberg block development, custom themes, WooCommerce and payment-gateway plugins, WPML multilingual and RTL builds, headless WordPress.
-- [Web application development](https://jacoborbach.com/services/web-applications/): React, Next.js, Node.js, TypeScript, PHP, Strapi, Supabase, Cloudflare Workers, Azure. Payment systems, OAuth flows, CRM integrations, real-time messaging, Chrome extensions.
-- [Idea to first payment](https://jacoborbach.com/services/product-launch/): full product launches for founders — scoping, build, landing pages, Stripe billing, launch, and iteration.
 
 ## Proof
 

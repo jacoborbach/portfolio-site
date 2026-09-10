@@ -218,34 +218,79 @@
           <div class="prose">
             <h3>Meshulam + Strapi — $1M+ per year</h3>
             <p>
-              At One Digital I built an end-to-end payment system on the Meshulam
-              SDK inside a Strapi backend, processing <strong>over $1,000,000 a
-              year in transaction volume</strong>. That included the payment flow
-              itself, automated PDF invoice generation via Dockerized Puppeteer
-              on Azure Functions, and the reconciliation work that makes finance
-              trust the numbers.
+              At One Digital I built an end-to-end payment system on the
+              Meshulam SDK inside a Strapi backend, processing <strong>over
+              $1,000,000 a year in transaction volume</strong>. The interesting
+              half was never the charge call. It was everything that has to stay
+              true afterwards:
             </p>
+            <ul class="list">
+              <li>
+                <strong>Webhook reconciliation.</strong> Gateways retry. They
+                deliver out of order, they deliver twice, and occasionally they
+                deliver three weeks late. Every handler is idempotent and keyed
+                on the provider's own transaction id, so a replayed webhook
+                updates a record instead of creating a second order.
+              </li>
+              <li>
+                <strong>Lifecycle hooks as the single source of truth.</strong>
+                Order state transitions live in Strapi lifecycle hooks rather
+                than scattered through controllers, so a payment can't be
+                marked paid down one code path and left pending down another.
+              </li>
+              <li>
+                <strong>Invoices generated automatically.</strong> Dockerized
+                Puppeteer on Azure Functions renders the PDF invoice as part of
+                the payment flow, not as a monthly chore, which is the
+                difference between finance trusting the system and finance
+                keeping a parallel spreadsheet.
+              </li>
+            </ul>
 
-            <h3>Stripe — billing my own SaaS</h3>
+            <h3>Stripe — billing my own SaaS, in production</h3>
             <p>
               <a href="https://ghostchat.dev/" target="_blank" rel="noopener">GhostChat</a> and
               <a href="https://gmailytics.com/" target="_blank" rel="noopener">Gmailytics</a> run on
-              Stripe subscription billing that I built and operate. There is a
-              particular kind of care you develop when the failed-payment webhook
-              is your own revenue, and that's the standard I bring to client
-              billing systems.
+              Stripe subscription billing I built and still operate. Two
+              decisions there are worth stealing for any subscription product:
+            </p>
+            <ul class="list">
+              <li>
+                <strong>Entitlements resolve from the subscription itself.</strong>
+                What a customer can do is derived from the Stripe price they're
+                actually on, not from a plan name copied into your own database
+                at signup. Those two drift apart the first time someone
+                upgrades mid-cycle, and once they drift you are reconciling
+                access by hand.
+              </li>
+              <li>
+                <strong>Pricing changes don't re-tier existing subscribers.</strong>
+                Because the entitlement follows the price the subscription holds,
+                repricing is a new Price object, not a migration script run
+                against live customers at 2am.
+              </li>
+            </ul>
+            <p>
+              There is a particular kind of care you develop when the
+              failed-payment webhook is your own revenue, and that's the
+              standard I bring to client billing systems.
             </p>
 
             <h3>KaspaWoo — open-source crypto gateway</h3>
             <p>
-              A production Kaspa payment gateway for WooCommerce, open-sourced on
-              <a href="https://github.com/jacoborbach/kaspa-payments-gateway-woocommerce" target="_blank" rel="noopener">GitHub</a>.
+              A production Kaspa payment gateway for WooCommerce, open-sourced
+              on <a href="https://github.com/jacoborbach/kaspa-payments-gateway-woocommerce" target="_blank" rel="noopener">GitHub</a>.
               It's non-custodial: payments derive to the merchant's own wallet,
-              never mine. The address derivation is its own MIT-licensed npm
-              package,
+              never mine. The address derivation had to be its own package
+              because no lightweight JavaScript option existed — the official
+              tooling is a WASM build far too heavy to sit inside a WordPress
+              plugin — so I wrote
               <a href="https://www.npmjs.com/package/kaspa-simple-wallet" target="_blank" rel="noopener">kaspa-simple-wallet</a>
-              — watch-only derivation from a KPUB/XPUB, Kaspium-compatible, so
-              the store never holds a private key.
+              in pure JS and published it MIT: watch-only derivation from a
+              KPUB/XPUB, Kaspium-compatible, so the store never holds a private
+              key. It is written to the WooCommerce gateway API properly, which
+              means refunds and order states behave the way the rest of the
+              admin expects them to.
             </p>
 
             <div class="callout">
@@ -282,10 +327,9 @@
           </div>
 
           <div class="related-links">
-            <a href="/services/wordpress-development/">WordPress development</a>
-            <a href="/services/web-applications/">Web applications</a>
-            <a href="/services/product-launch/">Idea to launch</a>
             <a href="/services/ai-integration/">AI integration</a>
+            <a href="/services/">Work with me</a>
+            <a href="/#work">Featured work</a>
           </div>
         </div>
       </section>
@@ -312,12 +356,9 @@
           <div class="footer-col">
             <h3>Services</h3>
             <ul>
+              <li><a href="/services/">Work with me</a></li>
               <li><a href="/services/ai-integration/">AI integration</a></li>
-              <li><a href="/services/web-applications/">Web applications</a></li>
-              <li><a href="/services/wordpress-development/">WordPress development</a></li>
               <li><a href="/services/payment-integrations/">Payment integrations</a></li>
-              <li><a href="/services/seo-growth/">SEO &amp; organic growth</a></li>
-              <li><a href="/services/product-launch/">Idea to launch</a></li>
             </ul>
           </div>
 

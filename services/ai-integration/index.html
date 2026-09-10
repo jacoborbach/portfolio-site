@@ -226,12 +226,46 @@
             <h3>GhostChat AI — live on customer traffic</h3>
             <p>
               <a href="https://ghostchat.dev/" target="_blank" rel="noopener">GhostChat</a> is my
-              privacy-first chat SaaS. Its AI responder runs on Claude Haiku in
-              production, answering real visitor messages on paying customers'
-              websites — grounded in each site's own knowledge base and behavior
-              prompt, on Cloudflare Workers with Durable Objects for session
-              state. The widget on this page is that product.
+              privacy-first chat SaaS. Its AI responder runs on Claude via the
+              Anthropic API, answering real visitor messages on paying
+              customers' websites — grounded in each site's own knowledge base
+              and behaviour prompt, on Cloudflare Workers with Durable Objects
+              for per-conversation state. The widget on this page is that
+              product.
             </p>
+            <p>
+              The parts that took the longest are the ones demos skip:
+            </p>
+            <ul class="list">
+              <li>
+                <strong>Grounding that refuses to guess.</strong> The model
+                answers from the site's own FAQ knowledge base and stays inside
+                it. Getting a confident model to say "I'll get someone to
+                answer that" instead of inventing a plausible policy is a
+                prompt-and-retrieval problem, and it is most of the work.
+              </li>
+              <li>
+                <strong>Handoff that doesn't strand anyone.</strong> When the
+                agent hits a question it shouldn't answer, it hands off to a
+                human — and if nobody is online, it says when the team is
+                actually back, in the owner's own wording and the owner's own
+                timezone. Every unattended handoff is a lead you already paid
+                for.
+              </li>
+              <li>
+                <strong>A unit cost you can defend.</strong> Replies land around
+                a third of a cent each. Knowing that number is what lets you
+                offer AI on every plan instead of hiding it behind an
+                enterprise tier, and it comes from model choice and prompt size,
+                not from wishful pricing.
+              </li>
+              <li>
+                <strong>Per-site isolation.</strong> Each site gets its own
+                knowledge base, its own behaviour prompt, and its own limits,
+                because one customer's tone and another's compliance rules are
+                not the same product.
+              </li>
+            </ul>
 
             <h3>ghostchat-agent — open-source, bring your own model</h3>
             <p>
@@ -372,9 +406,9 @@
           </div>
 
           <div class="related-links">
-            <a href="/services/web-applications/">Web application development</a>
-            <a href="/services/product-launch/">Idea to first payment</a>
-            <a href="/services/seo-growth/">SEO &amp; organic growth</a>
+            <a href="/services/payment-integrations/">Payment integrations</a>
+            <a href="/services/">Work with me</a>
+            <a href="/#work">Featured work</a>
           </div>
         </div>
       </section>
@@ -401,12 +435,9 @@
           <div class="footer-col">
             <h3>Services</h3>
             <ul>
+              <li><a href="/services/">Work with me</a></li>
               <li><a href="/services/ai-integration/">AI integration</a></li>
-              <li><a href="/services/web-applications/">Web applications</a></li>
-              <li><a href="/services/wordpress-development/">WordPress development</a></li>
               <li><a href="/services/payment-integrations/">Payment integrations</a></li>
-              <li><a href="/services/seo-growth/">SEO &amp; organic growth</a></li>
-              <li><a href="/services/product-launch/">Idea to launch</a></li>
             </ul>
           </div>
 
