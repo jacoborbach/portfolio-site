@@ -1,6 +1,6 @@
 # Jacob Orbach
 
-> Founding engineer, SaaS founder, and freelance full-stack developer based in
+> Full-stack developer, SaaS builder, and freelance full-stack developer based in
 > Tel Aviv. Builds web products end to end — custom WordPress, React/Node/TypeScript
 > applications, payment integrations — and grows them organically from zero traffic.
 
@@ -27,7 +27,7 @@ web properties from zero organic traffic — the same work he does for clients.
 ## Products built
 
 - [GhostChat](https://ghostchat.dev/): privacy-first chat widget, ~15KB SDK, 3-8x faster than legacy tools. Cloudflare Workers, Durable Objects, Supabase, Stripe.
-- [Gmailytics](https://gmailytics.com/): Google CASA Tier 2 certified Gmail cleanup SaaS. 4.5M+ emails cleaned, 200GB storage freed.
+- [Gmailytics](https://gmailytics.com/): Google CASA Tier 2 certified Gmail cleanup SaaS. 5.2M+ emails cleaned, 300GB storage freed.
 - [KaspaWoo](https://kaspawoo.com/): open-source Kaspa cryptocurrency payment gateway for WooCommerce.
 
 ## Contact
