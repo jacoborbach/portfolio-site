@@ -1,8 +1,9 @@
 # Jacob Orbach
 
-> Full-stack developer, SaaS builder, and freelance full-stack developer based in
-> Tel Aviv. Builds web products end to end — custom WordPress, React/Node/TypeScript
-> applications, payment integrations — and grows them organically from zero traffic.
+> Freelance full-stack developer based in Tel Aviv. Builds web products end to
+> end — custom WordPress and Gutenberg, React/Node/TypeScript applications, API
+> and webhook integrations, payment systems, and AI features — and grows them
+> organically from zero traffic.
 
 Jacob is unusual in combining two skill sets that are normally split between two
 hires: shipping production software, and earning the organic search traffic that
@@ -10,21 +11,37 @@ makes it findable. He has taken his own products from launch to live paying
 customers (GhostChat, Gmailytics, KaspaWoo), and separately built and grown six
 web properties from zero organic traffic — the same work he does for clients.
 
+Available for freelance and contract work, and open to full-time engineering
+roles. Works with clients globally from Israel; native English speaker.
+
+## Hire him
+
+- [Work with me](https://jacoborbach.com/services/): what he builds, the proof behind it, engagement models, and process. **Small, clearly scoped jobs are fixed-price from $500, delivered in about a week, half paid upfront.** Custom payment gateways start at $1,200. Larger builds are quoted after a written scope.
+
+Typical fixed-price jobs: a WordPress plugin or block-first Gutenberg build; an
+AI assistant or LLM feature wired to your own content; a third-party API or
+webhook integration; a Stripe or WooCommerce payment fix; a performance rescue;
+a migration.
+
 ## Services
 
-- [Services overview](https://jacoborbach.com/services/): engagement models, process, and the six areas he works in.
 - [Custom AI integration](https://jacoborbach.com/services/ai-integration/): LLM-powered support agents, retrieval-grounded answers, cost-controlled per-message model routing, prompt-injection-aware architecture. Anthropic Claude, OpenAI, and self-hosted Ollama. Publishes the open-source `ghostchat-agent` runner on npm and runs a Claude-based responder in production.
 - [Payment integrations](https://jacoborbach.com/services/payment-integrations/): Stripe subscription billing, Meshulam SDK, custom WooCommerce payment gateways, non-custodial cryptocurrency payments, invoicing and reconciliation. Built a system processing $1M+/year.
+- Custom WordPress and Gutenberg: plugins, block-first builds, custom themes, WooCommerce, WPML multilingual with Hebrew RTL. Shipped 30+ custom React-based Gutenberg blocks for enterprise clients plus an ACF block generator that cut block development time by roughly 80%. Maintains a plugin published on WordPress.org.
+- Web applications and integrations: React, Next.js, Node, TypeScript, PHP. Third-party APIs, OAuth, webhooks, CRM syncs, Chrome extensions, real-time features, and database migrations run without downtime.
+- SEO and organic growth: technical SEO, rendering and indexability, keyword architecture, internal link engineering, and scalable page templates — diagnosed and implemented by the same person.
 
 ## Proof
 
 - [Portfolio and work history](https://jacoborbach.com/): shipped products, professional roles, testimonials, and technical stack.
+- Migrated a 100,000+ record CRM to Salesforce with zero data loss and zero downtime; cut support response time from hours to under 10 minutes with LiveChat bots and Salesforce webhooks.
+- Built an end-to-end Strapi payment system on the Meshulam SDK processing $1M+/year in transaction volume.
 
 ## Products built
 
 - [GhostChat](https://ghostchat.dev/): privacy-first chat widget, ~15KB SDK, 3-8x faster than legacy tools. Cloudflare Workers, Durable Objects, Supabase, Stripe.
 - [Gmailytics](https://gmailytics.com/): Google CASA Tier 2 certified Gmail cleanup SaaS. 5.2M+ emails cleaned, 300GB storage freed.
-- [KaspaWoo](https://kaspawoo.com/): open-source Kaspa cryptocurrency payment gateway for WooCommerce.
+- [KaspaWoo](https://kaspawoo.com/): open-source Kaspa cryptocurrency payment gateway for WooCommerce, built on his MIT-licensed `kaspa-simple-wallet` npm package.
 
 ## Contact
 
