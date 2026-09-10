@@ -228,9 +228,9 @@
               <li>
                 <strong>Webhook reconciliation.</strong> Gateways retry. They
                 deliver out of order, they deliver twice, and occasionally they
-                deliver three weeks late. Every handler is idempotent and keyed
-                on the provider's own transaction id, so a replayed webhook
-                updates a record instead of creating a second order.
+                deliver three weeks late. Getting a replayed webhook to update
+                the order it already created, instead of creating a second one,
+                is most of the work in any payment integration.
               </li>
               <li>
                 <strong>Lifecycle hooks as the single source of truth.</strong>
@@ -264,10 +264,12 @@
                 access by hand.
               </li>
               <li>
-                <strong>Pricing changes don't re-tier existing subscribers.</strong>
-                Because the entitlement follows the price the subscription holds,
-                repricing is a new Price object, not a migration script run
-                against live customers at 2am.
+                <strong>Repricing is a new Price, not a migration.</strong>
+                Because entitlement is read from the subscription itself,
+                changing what you charge means publishing a new Price object
+                rather than running a script against live customers at 2am —
+                and you decide deliberately, per entitlement, which existing
+                subscribers move.
               </li>
             </ul>
             <p>
