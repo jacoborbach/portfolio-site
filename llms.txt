@@ -27,7 +27,7 @@ a migration.
 
 - [Custom AI integration](https://jacoborbach.com/services/ai-integration/): LLM-powered support agents, retrieval-grounded answers, cost-controlled per-message model routing, prompt-injection-aware architecture. Anthropic Claude, OpenAI, and self-hosted Ollama. Publishes the open-source `ghostchat-agent` runner on npm and runs a Claude-based responder in production.
 - [Payment integrations](https://jacoborbach.com/services/payment-integrations/): Stripe subscription billing, Meshulam SDK, custom WooCommerce payment gateways, non-custodial cryptocurrency payments, invoicing and reconciliation. Built a system processing $1M+/year (annualized).
-- Custom WordPress and Gutenberg: plugins, block-first builds, custom themes, WooCommerce, WPML multilingual with Hebrew RTL. Shipped 30+ custom React-based Gutenberg blocks for enterprise clients plus an ACF block generator that cut block development time by roughly 80%. Maintains a plugin published on WordPress.org.
+- Custom WordPress and Gutenberg: plugins, block-first builds, custom themes, WooCommerce, WPML multilingual with Hebrew RTL. Shipped 30+ custom React-based Gutenberg blocks for enterprise clients plus an ACF block generator that cut block development time by roughly 80%. Maintains two plugins published on WordPress.org, one a WooCommerce payment gateway.
 - Web applications and integrations: React, Next.js, Node, TypeScript, PHP. Third-party APIs, OAuth, webhooks, CRM syncs, Chrome extensions, real-time features, and database migrations run without downtime.
 - SEO and organic growth: technical SEO, rendering and indexability, keyword architecture, internal link engineering, and scalable page templates — diagnosed and implemented by the same person.
 
@@ -39,7 +39,7 @@ a migration.
 
 ## Products built
 
-- [GhostChat](https://ghostchat.dev/): privacy-first chat widget, ~15KB SDK, 3-8x faster than legacy tools. Cloudflare Workers, Durable Objects, Supabase, Stripe.
+- [GhostChat](https://ghostchat.dev/): privacy-first chat widget, ~15KB vanilla-JS SDK, 3-8x faster than legacy tools. Next.js dashboard on Vercel, Cloudflare Workers API with Durable Objects for real-time messaging, Supabase, Stripe.
 - [Gmailytics](https://gmailytics.com/): Google CASA Tier 2 certified Gmail cleanup SaaS. 5.2M+ emails cleaned, 300GB storage freed.
 - [KaspaWoo](https://kaspawoo.com/): open-source Kaspa cryptocurrency payment gateway for WooCommerce, built on his MIT-licensed `kaspa-simple-wallet` npm package.
 
