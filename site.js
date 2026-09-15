@@ -15,6 +15,15 @@ window.addEventListener("load", () => {
   }
 });
 
+// A fresh click on a link should land at the top of the new page. Chrome will
+// otherwise restore whatever scroll position it remembers for that URL, so
+// following "All services" from a deep page can drop you mid-page. Back and
+// forward are deliberately left alone — restoring position there is correct.
+const navEntry = performance.getEntriesByType("navigation")[0];
+if (navEntry && navEntry.type === "navigate" && !location.hash) {
+  window.scrollTo(0, 0);
+}
+
 // Set current year in footer
 const yearEl = document.getElementById("year");
 if (yearEl) yearEl.textContent = new Date().getFullYear();
