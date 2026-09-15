@@ -92,14 +92,6 @@ window.addEventListener("scroll", () => {
         });
     }
 
-    // Reveal the section nav once the reader is past the hero.
-    if (sectionNav) {
-      const firstSection = sections[0];
-      const trigger = firstSection
-        ? firstSection.offsetTop - headerEl.offsetHeight - 80
-        : window.innerHeight * 0.6;
-      sectionNav.classList.toggle("section-nav-visible", window.scrollY > trigger);
-    }
     scrollTicking = false;
   });
 });
@@ -166,4 +158,28 @@ if (ghostchatTrigger) {
     const bubble = document.getElementById("ghostchat-bubble");
     if (bubble) bubble.click();
   });
+}
+
+// Reveal the section nav once the reader reaches the first section. Driven by
+// IntersectionObserver rather than the scroll handler so it does not depend on
+// scroll events firing. Note the first section must come from the section nav
+// itself: `sections` is in DOM order, and the header nav (carrying #contact)
+// precedes the section nav, so sections[0] is not the top of the page.
+if (sectionNav) {
+  const firstLink = sectionNav.querySelector('a[href^="#"]');
+  const firstTarget =
+    firstLink && document.getElementById(firstLink.getAttribute("href").slice(1));
+
+  if (firstTarget) {
+    const reveal = new IntersectionObserver(
+      ([entry]) => {
+        sectionNav.classList.toggle(
+          "section-nav-visible",
+          entry.boundingClientRect.top <= 90
+        );
+      },
+      { rootMargin: "-90px 0px 0px 0px", threshold: 0 }
+    );
+    reveal.observe(firstTarget);
+  }
 }
