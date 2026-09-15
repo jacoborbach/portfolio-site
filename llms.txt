@@ -16,7 +16,7 @@ roles. Works with clients globally from Israel; native English speaker.
 
 ## Hire him
 
-- [Work with me](https://jacoborbach.com/services/): what he builds, the proof behind it, engagement models, and process. **Small, clearly scoped jobs are fixed-price from $500, delivered in about a week, half paid upfront.** Custom payment gateways start at $1,200. Larger builds are quoted after a written scope.
+- [Work with me](https://jacoborbach.com/services/): what he builds, the proof behind it, engagement models, and process. Small, clearly scoped jobs are fixed-price and delivered in about a week, half paid upfront, starting at $500; custom payment gateways start at $1,200. **Larger builds and ongoing retainers are quoted after a written scope.**
 
 Typical fixed-price jobs: a WordPress plugin or block-first Gutenberg build; an
 AI assistant or LLM feature wired to your own content; a third-party API or
@@ -26,7 +26,7 @@ a migration.
 ## Services
 
 - [Custom AI integration](https://jacoborbach.com/services/ai-integration/): LLM-powered support agents, retrieval-grounded answers, cost-controlled per-message model routing, prompt-injection-aware architecture. Anthropic Claude, OpenAI, and self-hosted Ollama. Publishes the open-source `ghostchat-agent` runner on npm and runs a Claude-based responder in production.
-- [Payment integrations](https://jacoborbach.com/services/payment-integrations/): Stripe subscription billing, Meshulam SDK, custom WooCommerce payment gateways, non-custodial cryptocurrency payments, invoicing and reconciliation. Built a system processing $1M+/year.
+- [Payment integrations](https://jacoborbach.com/services/payment-integrations/): Stripe subscription billing, Meshulam SDK, custom WooCommerce payment gateways, non-custodial cryptocurrency payments, invoicing and reconciliation. Built a system processing $1M+/year (annualized).
 - Custom WordPress and Gutenberg: plugins, block-first builds, custom themes, WooCommerce, WPML multilingual with Hebrew RTL. Shipped 30+ custom React-based Gutenberg blocks for enterprise clients plus an ACF block generator that cut block development time by roughly 80%. Maintains a plugin published on WordPress.org.
 - Web applications and integrations: React, Next.js, Node, TypeScript, PHP. Third-party APIs, OAuth, webhooks, CRM syncs, Chrome extensions, real-time features, and database migrations run without downtime.
 - SEO and organic growth: technical SEO, rendering and indexability, keyword architecture, internal link engineering, and scalable page templates — diagnosed and implemented by the same person.
@@ -35,7 +35,7 @@ a migration.
 
 - [Portfolio and work history](https://jacoborbach.com/): shipped products, professional roles, testimonials, and technical stack.
 - Migrated a 100,000+ record CRM to Salesforce with zero data loss and zero downtime; cut support response time from hours to under 10 minutes with LiveChat bots and Salesforce webhooks.
-- Built an end-to-end Strapi payment system on the Meshulam SDK processing $1M+/year in transaction volume.
+- Built an end-to-end Strapi payment system on the Meshulam SDK processing $1M+/year (annualized) in transaction volume.
 
 ## Products built
 
