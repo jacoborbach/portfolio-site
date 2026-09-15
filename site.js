@@ -21,9 +21,13 @@ if (yearEl) yearEl.textContent = new Date().getFullYear();
 
 const headerEl = document.querySelector(".site-header");
 
-// Only same-page anchors participate in scroll-spy. On subpages the nav
-// points at "/#work" style URLs, so this list comes back empty.
-const navLinks = document.querySelectorAll('.site-nav a[href^="#"]');
+// Scroll-spy runs over the section nav (in-page links). The header nav now
+// carries page-level links only, so anything with a "#" in it there — just
+// Contact — joins in too and highlights like any other section.
+const navLinks = document.querySelectorAll(
+  '.section-nav a[href^="#"], .site-nav a[href^="#"]'
+);
+const sectionNav = document.querySelector(".section-nav");
 const sections = Array.from(navLinks)
   .map((link) => document.getElementById(link.getAttribute("href").slice(1)))
   .filter(Boolean);
@@ -73,12 +77,28 @@ window.addEventListener("scroll", () => {
       }
     }
 
-    navLinks.forEach((link) => link.classList.remove("nav-link-active"));
+    navLinks.forEach((link) => {
+      link.classList.remove("nav-link-active", "section-nav-link-active");
+    });
     if (currentSection) {
-      const activeLink = document.querySelector(
-        `.site-nav a[href="#${currentSection.id}"]`
-      );
-      if (activeLink) activeLink.classList.add("nav-link-active");
+      document
+        .querySelectorAll(`a[href="#${currentSection.id}"]`)
+        .forEach((link) => {
+          link.classList.add(
+            link.classList.contains("section-nav-link")
+              ? "section-nav-link-active"
+              : "nav-link-active"
+          );
+        });
+    }
+
+    // Reveal the section nav once the reader is past the hero.
+    if (sectionNav) {
+      const firstSection = sections[0];
+      const trigger = firstSection
+        ? firstSection.offsetTop - headerEl.offsetHeight - 80
+        : window.innerHeight * 0.6;
+      sectionNav.classList.toggle("section-nav-visible", window.scrollY > trigger);
     }
     scrollTicking = false;
   });
