@@ -2178,8 +2178,8 @@ a.service-card:hover {
 .theme-home .section-hero {
   background:
     radial-gradient(circle at 1px 1px, rgba(29, 78, 216, 0.13) 1px, transparent 0) 0 0 / 22px 22px,
-    radial-gradient(900px 480px at 88% 10%, rgba(167, 139, 250, 0.22), transparent 60%),
-    linear-gradient(135deg, #eef4ff 0%, #f5f0ff 55%, #fff6ee 100%);
+    radial-gradient(900px 480px at 88% 10%, rgba(56, 189, 248, 0.22), transparent 60%),
+    linear-gradient(135deg, #eaf2ff 0%, #eef8ff 55%, #f4fbf8 100%);
 }
 
 .theme-svc .page-hero {
