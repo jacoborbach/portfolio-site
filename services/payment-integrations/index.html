@@ -55,7 +55,7 @@
   </script>
 </head>
 
-<body>
+<body class="theme-pay">
   <a href="#top" class="skip-link">Skip to content</a>
   <div class="page">
     <header class="site-header">
@@ -91,7 +91,8 @@
 
     <main>
       <section class="page-hero" id="top">
-        <div class="shell">
+        <div class="shell split-hero">
+          <div class="split-hero-copy">
           <ol class="breadcrumb">
             <li><a href="/">Home</a></li>
             <li><a href="/services/">Services</a></li>
@@ -121,6 +122,19 @@
             </a>
             <a href="#proof" class="btn btn-ghost">See the systems</a>
           </div>
+        </div>
+
+          <aside class="art-card art-dark" aria-label="Example of payment webhook handling">
+            <div class="art-bar"><span class="art-dots"><i></i><i></i><i></i></span><span>webhooks · live</span><span class="art-tag">Example</span></div>
+            <ul class="art-log">
+              <li><span class="ok">200</span><code>payment.succeeded</code><em>order #4821 paid</em></li>
+              <li><span class="dup">200</span><code>payment.succeeded</code><em>retry · already applied</em></li>
+              <li><span class="ok">200</span><code>invoice.created</code><em>PDF sent</em></li>
+              <li><span class="warn">200</span><code>charge.refunded</code><em>order #4790 refunded</em></li>
+              <li><span class="ok">200</span><code>subscription.renewed</code><em>plan unchanged</em></li>
+            </ul>
+            <div class="art-foot">Books balanced · 0 duplicate charges</div>
+          </aside>
         </div>
       </section>
 
