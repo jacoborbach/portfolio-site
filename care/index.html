@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>WordPress Maintenance & Care Plans – Updates, Backups, Fixes · Jacob Orbach</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+    content="WordPress maintenance by a developer, not a ticket queue: a backup before every update, staging tests where your host supports it, uptime monitoring, and fix time every month. $250/mo · ₪500/mo + VAT in Israel." />
+  <link rel="canonical" href="https://jacoborbach.com/care/" />
+  <link rel="alternate" hreflang="en" href="https://jacoborbach.com/care/" />
+  <link rel="alternate" hreflang="he" href="https://jacoborbach.com/care/#he" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <meta name="theme-color" content="#1d4ed8" />
+  <meta name="author" content="Jacob Orbach" />
+
+  <link rel="preload" as="font" href="/fonts/inter-latin.woff2" type="font/woff2" crossorigin />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://jacoborbach.com/care/" />
+  <meta property="og:title" content="WordPress Maintenance & Care Plans" />
+  <meta property="og:description" content="A backup before every update, staging tests where your host supports it, monitoring, and monthly fix time. From a developer who builds WordPress, not just updates it." />
+  <meta property="og:image" content="https://jacoborbach.com/images/kaspa-wordpress-plugin.png" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:locale:alternate" content="he_IL" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="WordPress Maintenance & Care Plans" />
+  <meta name="twitter:description" content="Updates, backups, monitoring and monthly fix time for WordPress sites." />
+  <meta name="twitter:image" content="https://jacoborbach.com/images/kaspa-wordpress-plugin.png" />
+
+  <link rel="stylesheet" href="/styles.css" />
+
+  <script src="https://analytics.ahrefs.com/analytics.js" data-key="JphkmiSku3joWLXA1Mcg/w" async></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://jacoborbach.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://jacoborbach.com/services/" },
+          { "@type": "ListItem", "position": 3, "name": "WordPress Care", "item": "https://jacoborbach.com/care/" }
+        ]
+      },
+      {
+        "@type": "Service",
+        "name": "WordPress Maintenance (Care Plan)",
+        "url": "https://jacoborbach.com/care/",
+        "serviceType": "WordPress website maintenance",
+        "description": "Monthly WordPress care: core, plugin and theme updates with a backup first and staging tests where the host supports it, uptime and security monitoring, a short monthly report, and fix time each month.",
+        "provider": { "@type": "Person", "name": "Jacob Orbach", "url": "https://jacoborbach.com/" },
+        "areaServed": "Worldwide",
+        "offers": [
+          { "@type": "Offer", "price": "250", "priceCurrency": "USD", "description": "Per month, up to 3 hours of fix time" },
+          { "@type": "Offer", "price": "500", "priceCurrency": "ILS", "description": "Per month plus VAT, up to 2.5 hours of fix time (Israel)" }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="care-page">
+  <a href="#top" class="skip-link">Skip to content</a>
+  <div class="page">
+    <header class="site-header">
+      <div class="shell">
+        <div class="site-header-inner">
+          <a class="brand" href="/">
+            <span class="brand-mark"></span>
+            <span class="brand-text">Jacob&nbsp;Orbach</span>
+          </a>
+          <nav class="site-nav">
+            <a href="/services/" class="nav-link">Work with me</a>
+            <a href="/services/ai-integration/" class="nav-link">AI integration</a>
+            <a href="/services/payment-integrations/" class="nav-link">Payment integrations</a>
+            <a href="#contact" class="nav-link nav-link-cta">Contact</a>
+          </nav>
+          <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="mobile-menu">
+        <nav class="mobile-nav">
+          <a href="/services/" class="mobile-nav-link">Work with me</a>
+          <a href="/services/ai-integration/" class="mobile-nav-link">AI integration</a>
+          <a href="/services/payment-integrations/" class="mobile-nav-link">Payment integrations</a>
+          <a href="#contact" class="mobile-nav-link mobile-nav-link-cta">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero care-hero" id="top">
+        <div class="shell care-hero-grid">
+          <div class="care-hero-copy">
+          <ol class="breadcrumb">
+            <li><a href="/">Home</a></li>
+            <li><a href="/services/">Services</a></li>
+            <li>WordPress Care</li>
+          </ol>
+          <p class="eyebrow">WordPress maintenance</p>
+          <h1>Your WordPress site, kept current and quietly working</h1>
+          <p class="hero-lede hero-lede-emph">
+            A backup before every update. Tested on a staging copy when your
+            host supports it. Someone who notices when it goes down.
+          </p>
+          <p class="hero-lede">
+            I build WordPress for a living: plugins on WordPress.org, 30+ custom
+            Gutenberg blocks, multilingual sites. So when an update breaks
+            something, I fix the cause instead of rolling back and hoping.
+            One monthly price, fix time included, no ticket queue.
+          </p>
+          <div class="hero-actions">
+            <a href="mailto:jacoborbach96@gmail.com?subject=WordPress%20care%20plan" class="btn btn-primary btn-primary-large">
+              <span>Ask about your site</span>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </a>
+            <a href="#he" class="btn btn-ghost" lang="he">בעברית</a>
+          </div>
+          </div>
+
+          <aside class="wp-card" aria-label="Example of a monthly care report">
+            <div class="wp-card-bar">
+              <span class="wp-logo" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M5.2 8.6l3.6 9.8 2.3-6.7-1.6-4.3M10.6 7.4h3.2M8.4 7.4h1.2M13.2 7.4l3.4 10.2 2.1-6.9c.5-1.6-.3-2.7-1-3.3" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+              <span>Monthly care report</span>
+              <span class="wp-card-tag">Example</span>
+            </div>
+            <ul class="wp-card-rows">
+              <li><span class="wp-dot wp-dot-ok"></span><span>WordPress core</span><strong>Up to date</strong></li>
+              <li><span class="wp-dot wp-dot-ok"></span><span>Plugins &amp; theme</span><strong>12 updated</strong></li>
+              <li><span class="wp-dot wp-dot-ok"></span><span>Backup before updates</span><strong>Verified</strong></li>
+              <li><span class="wp-dot wp-dot-ok"></span><span>Uptime</span><strong>99.9%</strong></li>
+              <li><span class="wp-dot wp-dot-warn"></span><span>Contact form</span><strong>Fixed</strong></li>
+            </ul>
+            <div class="wp-card-foot">Fix time used: 1.5 of 3 hrs</div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="stats-bar">
+        <div class="shell">
+          <div class="stats-grid">
+            <div class="stat-item fade-in">
+              <div class="stat-number">$250</div>
+              <div class="stat-label">A month, up to 3 hours of fixes included</div>
+            </div>
+            <div class="stat-item fade-in">
+              <div class="stat-number">1 day</div>
+              <div class="stat-label">Response time, business days</div>
+            </div>
+            <div class="stat-item fade-in">
+              <div class="stat-number">100%</div>
+              <div class="stat-label">Of updates preceded by a backup</div>
+            </div>
+            <div class="stat-item fade-in">
+              <div class="stat-number">0</div>
+              <div class="stat-label">Lock-in: cancel with a month's notice</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="shell">
+          <header class="section-header">
+            <p class="eyebrow">Every month</p>
+            <h2>What's included</h2>
+          </header>
+
+          <div class="service-grid">
+            <div class="service-card fade-in">
+              <span class="care-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12a8 8 0 0 1 13.7-5.6M20 12a8 8 0 0 1-13.7 5.6M17.7 3v3.4h-3.4M6.3 21v-3.4h3.4"/></svg></span>
+              <h3>Updates, done safely</h3>
+              <p>
+                WordPress core, plugins and theme. Backed up first, tested on a
+                staging copy when your host provides one, then applied to the
+                live site and checked.
+                Major versions (a big Elementor or WooCommerce jump) get extra
+                care, and I tell you before I start.
+              </p>
+            </div>
+            <div class="service-card fade-in">
+              <span class="care-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v6c0 1.7 3.1 3 7 3s7-1.3 7-3V6M5 12v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6"/></svg></span>
+              <h3>Backups you can restore</h3>
+              <p>
+                Regular automatic backups stored off your server, plus one
+                before every change I make. A backup nobody has tested is a
+                hope, so I check that they actually restore.
+              </p>
+            </div>
+            <div class="service-card fade-in">
+              <span class="care-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.5-3 8.3-7 10-4-1.7-7-5.5-7-10V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg></span>
+              <h3>Uptime &amp; security</h3>
+              <p>
+                Monitoring that tells me when the site is down, SSL kept valid,
+                security scanning, and removal of plugins and admin accounts
+                that shouldn't be there anymore.
+              </p>
+            </div>
+            <div class="service-card fade-in">
+              <span class="care-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L4 17l3 3 5.3-5.3a4 4 0 0 0 5.4-5.4l-2.4 2.4-2.4-.6-.6-2.4 2.4-2.4z"/></svg></span>
+              <h3>Fix time</h3>
+              <p>
+                Up to 3 hours a month for the small things: a broken form, a
+                layout glitch after an update, a slow page. Anything bigger is
+                quoted first, and you decide.
+              </p>
+            </div>
+            <div class="service-card fade-in">
+              <span class="care-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 13h6M10 17h6"/></svg></span>
+              <h3>A short monthly report</h3>
+              <p>
+                What was updated, what I found, what I fixed, and anything you
+                should know about. Plain English, one email.
+              </p>
+            </div>
+            <div class="service-card fade-in">
+              <span class="care-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg></span>
+              <h3>One person who knows your site</h3>
+              <p>
+                Not a rotating support desk. The same developer every month,
+                who remembers why that plugin is there.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="proof">
+        <div class="shell">
+          <header class="section-header">
+            <p class="eyebrow">Why me</p>
+            <h2>A developer doing the upkeep</h2>
+          </header>
+
+          <div class="prose">
+            <p>
+              Most maintenance services are good at clicking "update" and bad at
+              what happens when it breaks. I've been on the building side of
+              WordPress for years:
+            </p>
+            <ul class="list">
+              <li>
+                <strong>Two plugins on WordPress.org,</strong> one of them a
+                WooCommerce payment gateway, so I know how plugins behave when
+                WordPress or WooCommerce changes underneath them.
+              </li>
+              <li>
+                <strong>30+ custom Gutenberg blocks</strong> for enterprise
+                clients at a digital agency, plus Elementor sites and WPML
+                multilingual builds with Hebrew RTL and English LTR.
+              </li>
+              <li>
+                <strong>Ongoing upkeep for a media organisation's three
+                sites:</strong> WordPress, Elementor and plugins kept current,
+                DNS, SSL and caching across cPanel and Cloudflare, and the
+                Search Console side. Including a site that was broken when I
+                took it over.
+              </li>
+              <li>
+                <strong>A broken Elementor site rebuilt end to end</strong> for a
+                freelance client, with new pages designed on it.
+              </li>
+            </ul>
+
+            <div class="callout">
+              <p>
+                <strong>If an update breaks something, it's on me.</strong>
+                Because every change starts with a backup, the worst case is a
+                quick restore, and fixing what the update broke comes out of my
+                time, not your fix hours.
+              </p>
+            </div>
+
+            <h3>Before we start</h3>
+            <p>
+              The monthly price is for a site in normal shape. If yours is
+              badly out of date (years behind on WordPress or WooCommerce, or
+              plugins that are no longer maintained), there's a one-time
+              catch-up first, quoted after I look at it. That's where most of
+              the risk sits, so I'd rather price it honestly than bury it in
+              the monthly fee.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="faq">
+        <div class="shell">
+          <header class="section-header">
+            <p class="eyebrow">Questions</p>
+            <h2>Common questions</h2>
+          </header>
+
+          <div class="faq-list">
+            <div class="faq-item">
+              <h3>What does it cost?</h3>
+              <p>
+                $250 a month, including up to 3 hours of fixes. In Israel,
+                ₪500 a month plus VAT, including up to 2.5 hours. Extra work is
+                quoted before I do it. A site that's badly out of date gets a
+                one-time catch-up quote first.
+              </p>
+            </div>
+            <div class="faq-item">
+              <h3>Do I have to move hosting?</h3>
+              <p>
+                No. I work with the hosting you already have. If it's causing
+                problems (slow, unreliable, or overpriced), I'll tell you and
+                suggest options, but moving is your call.
+              </p>
+            </div>
+            <div class="faq-item">
+              <h3>What access do you need?</h3>
+              <p>
+                An administrator login for WordPress, your hosting panel,
+                read access to your domain/DNS settings, and Cloudflare if you
+                use it. You keep ownership of everything:
+                your site, your hosting, your domain.
+              </p>
+            </div>
+            <div class="faq-item">
+              <h3>How fast do you respond?</h3>
+              <p>
+                Within one business day. If the site is down, I look at it the
+                same day during working hours.
+              </p>
+            </div>
+            <div class="faq-item">
+              <h3>Can I cancel?</h3>
+              <p>
+                Anytime, with a month's notice. No contract term. If you leave,
+                you get your latest backup and everything stays yours.
+              </p>
+            </div>
+            <div class="faq-item">
+              <h3>Do you work with agencies?</h3>
+              <p>
+                Yes. If you build WordPress sites for clients and would rather
+                not do the monthly upkeep, I can do it under your name, white
+                label, with per-site pricing for agencies. Email me and we'll
+                work out what fits.
+              </p>
+            </div>
+            <div class="faq-item">
+              <h3>What counts as extra work?</h3>
+              <p>
+                New pages, new features, content and design changes, redesigns,
+                and SEO projects. Those are quoted before I start. WooCommerce
+                stores and multilingual sites are quoted separately, because
+                there is more to keep working. Keeping what you have working and up to date
+                is what the monthly fee covers.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="he" lang="he" dir="rtl">
+        <div class="shell">
+          <header class="section-header">
+            <p class="eyebrow">בעברית</p>
+            <h2>תחזוקת אתר וורדפרס</h2>
+          </header>
+
+          <div class="prose">
+            <div class="callout">
+              <p>
+                <strong>מענה תוך יום עסקים אחד.</strong>
+                <strong>אם עדכון שובר משהו, משחזרים מגיבוי ומתקנים, בלי תוספת תשלום.</strong>
+              </p>
+            </div>
+
+            <p>
+              אני מפתח וורדפרס: תוספים בספריית WordPress.org, מעל 30 בלוקים
+              מותאמים לגוטנברג, אתרים רב-לשוניים עם RTL. כשעדכון שובר משהו, אני
+              מתקן את הסיבה, לא רק מחזיר גרסה.
+            </p>
+
+            <h3>מה כלול בכל חודש</h3>
+            <ul class="list">
+              <li><strong>עדכוני ליבה, תוספים וערכות נושא</strong>, תמיד אחרי גיבוי. כשהאחסון מאפשר, בדיקה קודם על עותק של האתר (סביבת staging).</li>
+              <li><strong>גיבוי לפני כל שינוי</strong>, ובנוסף גיבוי אוטומטי קבוע מחוץ לשרת.</li>
+              <li><strong>ניטור זמינות ומהירות</strong>: התראה כשהאתר נופל, תעודת SSL תקינה.</li>
+              <li><strong>סריקת אבטחה</strong> והסרת תוספים ומשתמשים מיותרים.</li>
+              <li><strong>תיקונים קטנים</strong>: עד 2.5 שעות בחודש.</li>
+              <li><strong>דוח חודשי קצר</strong>: מה עודכן, מה נמצא ומה תוקן.</li>
+            </ul>
+
+            <h3>מה לא כלול</h3>
+            <p>
+              שינויי תוכן ועיצוב, עמודים חדשים ואינטגרציות: 200 ₪ לשעה + מע״מ,
+              בהצעת מחיר מראש. חנויות WooCommerce ואתרים רב-לשוניים מקבלים
+              הצעת מחיר נפרדת.
+            </p>
+
+            <div class="callout">
+              <p>
+                <strong>המחיר: 500 ₪ לחודש + מע״מ</strong>, כולל עד 2.5 שעות
+                תיקונים. חודשי, מראש, ביטול בהודעה של חודש. המחירים לא כוללים
+                מע״מ. אתר שלא עודכן זמן רב מקבל קודם הצעת מחיר חד-פעמית להשלמת
+                העדכונים.
+              </p>
+            </div>
+
+            <h3>מה אני צריך מכם</h3>
+            <p>
+              משתמש מנהל בוורדפרס, גישה לפאנל האחסון, גישת צפייה להגדרות
+              הדומיין (DNS), ו-Cloudflare אם יש. אין צורך להחליף אחסון: האתר,
+              הדומיין והאחסון נשארים שלכם.
+            </p>
+
+            <p>יעקב אורבך</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="shell">
+          <div class="cta-band" id="contact">
+            <h2>Want your site looked after?</h2>
+            <p>
+              Send me the address. I'll take a look and tell you what shape
+              it's in, what the first month would involve, and the price.
+            </p>
+            <p lang="he" dir="rtl">
+              שלחו לי את כתובת האתר, ואחזור אליכם עם תמונת מצב והצעת מחיר.
+            </p>
+            <div class="cta-band-actions">
+              <a href="mailto:jacoborbach96@gmail.com?subject=WordPress%20care%20plan" class="btn btn-primary btn-primary-large">
+                <span>Email me</span>
+              </a>
+              <a href="/services/" class="btn btn-ghost btn-large">All services</a>
+            </div>
+          </div>
+
+          <div class="related-links">
+            <a href="/services/">Work with me</a>
+            <a href="/services/payment-integrations/">Payment integrations</a>
+            <a href="/#work">Featured work</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell">
+        <div class="footer-grid">
+          <div class="footer-col footer-col-brand">
+            <a class="brand" href="/">
+              <span class="brand-mark"></span>
+              <span class="brand-text">Jacob&nbsp;Orbach</span>
+            </a>
+            <p>
+              Full‑stack developer in Tel Aviv. I build web products end to
+              end — and grow them from zero organic traffic.
+            </p>
+            <p class="footer-status">
+              <span class="status-indicator"></span>
+              Open to select opportunities
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <h3>Services</h3>
+            <ul>
+              <li><a href="/services/">Work with me</a></li>
+              <li><a href="/services/ai-integration/">AI integration</a></li>
+              <li><a href="/services/payment-integrations/">Payment integrations</a></li>
+              <li><a href="/care/">WordPress care</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Products</h3>
+            <ul>
+              <li><a href="https://ghostchat.dev/" target="_blank" rel="noopener">GhostChat</a></li>
+              <li><a href="https://gmailytics.com/" target="_blank" rel="noopener">Gmailytics</a></li>
+              <li><a href="https://kaspawoo.com/" target="_blank" rel="noopener">KaspaWoo</a></li>
+              <li><a href="https://hummustrail.com/" target="_blank" rel="noopener">Hummus Trail</a></li>
+              <li><a href="https://theabroadbible.com/" target="_blank" rel="noopener">Abroad Bible</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>More</h3>
+            <ul>
+              <li><a href="/#work">Featured work</a></li>
+              <li><a href="/#professional">Experience</a></li>
+              <li><a href="/Jacob_Orbach_CV.pdf">Resume (PDF)</a></li>
+              <li><a href="https://www.linkedin.com/in/jacoborbach/" target="_blank" rel="noopener">LinkedIn</a></li>
+              <li><a href="https://github.com/jacoborbach" target="_blank" rel="noopener">GitHub</a></li>
+              <li><a href="mailto:jacoborbach96@gmail.com">Email me</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="site-footer-inner">
+          <span>© <span id="year">2026</span> Jacob Orbach</span>
+          <span class="footer-meta">Fast, lightweight, production‑ready.</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="/site.js"></script>
+  <script src="https://api.ghostchat.dev/widget.js?v=7" data-site="clc415a5360fd24b3dae065239"></script>
+</body>
+
+</html>

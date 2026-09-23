@@ -16,7 +16,7 @@ roles. Works with clients globally from Israel; native English speaker.
 
 ## Hire him
 
-- [Work with me](https://jacoborbach.com/services/): what he builds, the proof behind it, engagement models, and process. Small, clearly scoped jobs are fixed-price and delivered in about a week, half paid upfront, starting at $500; custom payment gateways start at $1,200. Ongoing WordPress care plans (updates, backups, monitoring, fix time) are from $500 setup, then $250/mo for up to 3 hours a month; sites that are badly out of date are quoted after a look at a staging copy. **Larger builds and development retainers are quoted after a written scope.**
+- [Work with me](https://jacoborbach.com/services/): what he builds, the proof behind it, engagement models, and process. Small, clearly scoped jobs are fixed-price and delivered in about a week, half paid upfront, starting at $500; custom payment gateways start at $1,200. Ongoing WordPress care plans (updates with a backup first, monitoring, fix time) are $250/mo for up to 3 hours a month, or ₪500/mo + VAT for up to 2.5 hours in Israel; sites that are badly out of date get a one-time catch-up quote first. Details: [WordPress care](https://jacoborbach.com/care/). **Larger builds and development retainers are quoted after a written scope.**
 
 Typical fixed-price jobs: a WordPress plugin or block-first Gutenberg build; an
 AI assistant or LLM feature wired to your own content; a third-party API or
@@ -24,6 +24,8 @@ webhook integration; a Stripe or WooCommerce payment fix; a performance rescue;
 a migration.
 
 ## Services
+
+- [WordPress care / maintenance](https://jacoborbach.com/care/): monthly WordPress upkeep by a developer who builds WordPress: core, plugin and theme updates with a backup before every change and staging tests where the host supports it, uptime and security monitoring, a short monthly report, and monthly fix time. $250/mo (3 hrs) or ₪500/mo + VAT (2.5 hrs) in Israel. Response within one business day; cancel with a month's notice. Hebrew section on the page.
 
 - [Custom AI integration](https://jacoborbach.com/services/ai-integration/): LLM-powered support agents, retrieval-grounded answers, cost-controlled per-message model routing, prompt-injection-aware architecture. Anthropic Claude, OpenAI, and self-hosted Ollama. Publishes the open-source `ghostchat-agent` runner on npm and runs a Claude-based responder in production.
 - [Payment integrations](https://jacoborbach.com/services/payment-integrations/): Stripe subscription billing, Meshulam SDK, custom WooCommerce payment gateways, non-custodial cryptocurrency payments, invoicing and reconciliation. Built a system processing $1M+/year (annualized).
@@ -40,8 +42,12 @@ a migration.
 ## Products built
 
 - [GhostChat](https://ghostchat.dev/): privacy-first chat widget, ~15KB vanilla-JS SDK, 3-8x faster than legacy tools. Next.js dashboard on Vercel, Cloudflare Workers API with Durable Objects for real-time messaging, Supabase, Stripe.
-- [Gmailytics](https://gmailytics.com/): Google CASA Tier 2 certified Gmail cleanup SaaS. 5.2M+ emails cleaned, 300GB storage freed.
+- [Gmailytics](https://gmailytics.com/): Google CASA Tier 2 certified Gmail cleanup SaaS. 5M+ emails cleaned, 300GB storage freed.
 - [KaspaWoo](https://kaspawoo.com/): open-source Kaspa cryptocurrency payment gateway for WooCommerce, built on his MIT-licensed `kaspa-simple-wallet` npm package.
+
+## More
+
+- [Full site content for LLMs](https://jacoborbach.com/llms-full.txt)
 
 ## Contact
 
