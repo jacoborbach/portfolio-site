@@ -1,7 +1,6 @@
 # Jacob Orbach — full site content
 
-> Full text of jacoborbach.com for language models. Summary version: https://jacoborbach.com/llms.txt
-
+> Full text of jacoborbach.com for language models. Summary: https://jacoborbach.com/llms.txt
 
 ---
 
@@ -10,21 +9,17 @@ Page title: Jacob Orbach – Full-Stack Developer · Tel Aviv
 
 Hi, I'm Jacob
 
-#
-Full-Stack Developer
+# Full-Stack Developer
 
 I build fast, lightweight web products and ship them end to end.
 
-Four years of production React, Next.js, Node and PHP for
-enterprise clients, plus two SaaS products of my own with paying
-customers. Production‑ready systems that ship fast and stay fast.
+Four years of production React, Next.js, Node and PHP for enterprise clients, plus two SaaS products of my own with paying customers. Production‑ready systems that ship fast and stay fast.
 
 Let's build something
 
 View my work
 
-**Specialties:** SaaS architecture · Product engineering · WordPress + Gutenberg ·
-Node/TypeScript · Strapi · Azure · Supabase · Cloudflare Workers
+**Specialties:** SaaS architecture · Product engineering · WordPress + Gutenberg · Node/TypeScript · Strapi · Azure · Supabase · Cloudflare Workers
 
 Based in Tel Aviv · Available globally
 
@@ -50,33 +45,21 @@ Featured Work
 
 ## SaaS & products I've shipped
 
-Selected work from products I've designed, built, and launched
-outside of traditional client work.
+Selected work from products I've designed, built, and launched outside of traditional client work.
 
 SaaS
 
 ### GhostChat
 
-A privacy‑first, ultra‑light chat widget engineered to be
-**up to 20× smaller** and **3–8× faster** than legacy tools like Intercom or
-Drift. The chat widget on this site is GhostChat. Its [AI assistant](https://jacoborbach.com/services/ai-integration/) answers from each site’s own knowledge base.
+A privacy‑first, ultra‑light chat widget engineered to be **up to 20× smaller** and **3–8× faster** than legacy tools like Intercom or Drift. The chat widget on this site is GhostChat. Its [AI assistant](https://jacoborbach.com/services/ai-integration/) answers from each site’s own knowledge base.
 
-Cloudflare Workers
-Durable Objects
-Next.js · Vercel
-Supabase
-Stripe
+Cloudflare Workers Durable Objects Next.js · Vercel Supabase Stripe
 
-**~15KB**
-Embeddable SDK
+**~15KB** Embeddable SDK
 
-**3–8× faster**
-vs. legacy tools
+**3–8× faster** vs. legacy tools
 
-[View Project](https://ghostchat.dev/)
-[How it works](https://ghostchat.dev/how-our-widget-works?utm_source=jacoborbach&utm_campaign=portfolio-card)
-Chat now
-[Widget GitHub](https://github.com/jacoborbach/ghostchat-widget)
+[View Project](https://ghostchat.dev/) [How it works](https://ghostchat.dev/how-our-widget-works?utm_source=jacoborbach&utm_campaign=portfolio-card) Chat now [Widget GitHub](https://github.com/jacoborbach/ghostchat-widget)
 
 SaaS
 
@@ -84,22 +67,15 @@ SaaS
 
 Google CASA Tier 2 certified SaaS web app that scans your inbox and lets you bulk‑unsubscribe from unwanted emails in one click.
 
-Web App
-Chrome Extension
-Gmail API
-OAuth
+Web App Chrome Extension Gmail API OAuth
 
-**5M+**
-Emails cleaned
+**5M+** Emails cleaned
 
-**300GB**
-Storage freed
+**300GB** Storage freed
 
-**CASA Tier 2**
-Google certified
+**CASA Tier 2** Google certified
 
-[View Project](https://gmailytics.com/)
-[Chrome Web Store](https://chromewebstore.google.com/detail/gmailytics/nmmkncnnggchmnoinmpoockpdpboonkj)
+[View Project](https://gmailytics.com/) [Chrome Web Store](https://chromewebstore.google.com/detail/gmailytics/nmmkncnnggchmnoinmpoockpdpboonkj)
 
 Plugin
 
@@ -107,145 +83,97 @@ Plugin
 
 Production‑ready Kaspa crypto [payment gateway](https://jacoborbach.com/services/payment-integrations/) for WooCommerce. Open source — plugin on GitHub, powered by my kaspa‑simple‑wallet npm package.
 
-WordPress
-WooCommerce
-Crypto
-Open source
+WordPress WooCommerce Crypto Open source
 
-[Site](https://kaspawoo.com/)
-[GitHub](https://github.com/jacoborbach/kaspa-payments-gateway-woocommerce)
-[npm](https://www.npmjs.com/package/kaspa-simple-wallet)
+[Site](https://kaspawoo.com/) [GitHub](https://github.com/jacoborbach/kaspa-payments-gateway-woocommerce) [npm](https://www.npmjs.com/package/kaspa-simple-wallet)
 
 ### Also building
 
 [
 
-Hummus Trail
-Content
+Hummus Trail Content
 
-Backpacker guides for the Israeli post‑army "hummus trail" — 14+ destination
-guides across India, Southeast Asia, and South America. SEO‑first content
-site with affiliate monetization.
+Backpacker guides for the Israeli post‑army "hummus trail" — 14+ destination guides across India, Southeast Asia, and South America. SEO‑first content site with affiliate monetization.
 
-hummustrail.com
-](https://hummustrail.com/)
-[
+hummustrail.com ](https://hummustrail.com/) [
 
-Abroad Bible
-Content
+Abroad Bible Content
 
-The study‑abroad guide students pass down — city guides for London, Paris,
-Barcelona, and beyond, with budget and weekend‑travel playbooks.
+The study‑abroad guide students pass down — city guides for London, Paris, Barcelona, and beyond, with budget and weekend‑travel playbooks.
 
-theabroadbible.com
-](https://theabroadbible.com/)
+theabroadbible.com ](https://theabroadbible.com/)
 
 Open Source
 
 ## Packages I publish and maintain
 
-Code I've released for anyone to use, under MIT. Publishing means
-writing documentation, handling issues, and living with your own
-API decisions — which is a useful discipline.
+Code I've released for anyone to use, under MIT. Publishing means writing documentation, handling issues, and living with your own API decisions — which is a useful discipline.
 
 [
 
-ghostchat-agent
-npm
+ghostchat-agent npm
 
-Run your own AI agent on GhostChat — your model, your
-infrastructure, your data. Supports Anthropic, OpenAI, and local
-Ollama models behind one webhook, with a setup wizard and a
-security model built for untrusted public input.
+Run your own AI agent on GhostChat — your model, your infrastructure, your data. Supports Anthropic, OpenAI, and local Ollama models behind one webhook, with a setup wizard and a security model built for untrusted public input.
 
-npm · MIT
-](https://www.npmjs.com/package/ghostchat-agent)
+npm · MIT ](https://www.npmjs.com/package/ghostchat-agent)
 
 [
 
-kaspa-simple-wallet
-npm
+kaspa-simple-wallet npm
 
-Watch-only Kaspa address derivation from a KPUB/XPUB, Kaspium
-compatible. Powers the KaspaWoo gateway so merchants can accept
-crypto without their store ever holding a private key.
+Watch-only Kaspa address derivation from a KPUB/XPUB, Kaspium compatible. Powers the KaspaWoo gateway so merchants can accept crypto without their store ever holding a private key.
 
-npm · MIT
-](https://www.npmjs.com/package/kaspa-simple-wallet)
+npm · MIT ](https://www.npmjs.com/package/kaspa-simple-wallet)
 
 [
 
-Kaspa Payments for WooCommerce
-Plugin
+Kaspa Payments for WooCommerce Plugin
 
-A complete, production cryptocurrency payment gateway for
-WooCommerce — non-custodial, open source, and written properly
-against the WooCommerce gateway API.
+A complete, production cryptocurrency payment gateway for WooCommerce — non-custodial, open source, and written properly against the WooCommerce gateway API.
 
-GitHub
-](https://github.com/jacoborbach/kaspa-payments-gateway-woocommerce)
+GitHub ](https://github.com/jacoborbach/kaspa-payments-gateway-woocommerce)
 
 [
 
-ghostchat-widget
-SDK
+ghostchat-widget SDK
 
-The ~15KB embeddable chat SDK behind GhostChat — up to 20× smaller
-than legacy widgets. It's the one running on this page right now.
+The ~15KB embeddable chat SDK behind GhostChat — up to 20× smaller than legacy widgets. It's the one running on this page right now.
 
-GitHub
-](https://github.com/jacoborbach/ghostchat-widget)
+GitHub ](https://github.com/jacoborbach/ghostchat-widget)
 
 Work With Me
 
 ## I build the product and get it traffic
 
-Available for client work alongside my own products. Small,
-well-defined jobs turn around in about a week; larger builds are
-quoted. Most teams hire a developer to build the
-thing, then hire someone else to make people find it — I do both.
+Available for client work alongside my own products. Small, well-defined jobs turn around in about a week; larger builds are quoted. Most teams hire a developer to build the thing, then hire someone else to make people find it — I do both.
 
 [
 
 ### Custom AI integration
 
-LLM features that survive real traffic: support agents, grounded
-answers over your own content, and cost-controlled model routing.
-Running in production on my own SaaS today.
+LLM features that survive real traffic: support agents, grounded answers over your own content, and cost-controlled model routing. Running in production on my own SaaS today.
 
-AI integration →
-](https://jacoborbach.com/services/ai-integration/)
-[
+AI integration → ](https://jacoborbach.com/services/ai-integration/) [
 
 ### Payment integrations
 
-Stripe billing, Meshulam, custom WooCommerce gateways, crypto.
-Built for enterprise clients and running on my own products.
+Stripe billing, Meshulam, custom WooCommerce gateways, crypto. Built for enterprise clients and running on my own products.
 
-Payment integrations →
-](https://jacoborbach.com/services/payment-integrations/)
-[
+Payment integrations → ](https://jacoborbach.com/services/payment-integrations/) [
 
 ### WordPress plugins & blocks
 
-Gutenberg blocks, plugins, and themes built like software — not
-page-builder bloat. Two of my own plugins are live on WordPress.org,
-one a WooCommerce payment gateway.
+Gutenberg blocks, plugins, and themes built like software — not page-builder bloat. Two of my own plugins are live on WordPress.org, one a WooCommerce payment gateway.
 
-Work with me →
-](https://jacoborbach.com/services/#what-i-do)
-[
+Work with me → ](https://jacoborbach.com/services/#what-i-do) [
 
 ### Web apps & integrations
 
-Frontend and backend by one person. React, Next.js, Node,
-TypeScript, PHP, APIs, webhooks, migrations, real-time.
+Frontend and backend by one person. React, Next.js, Node, TypeScript, PHP, APIs, webhooks, migrations, real-time.
 
-Work with me →
-](https://jacoborbach.com/services/#what-i-do)
+Work with me → ](https://jacoborbach.com/services/#what-i-do)
 
-[
-How I work
+[ How I work
 
 ](https://jacoborbach.com/services/)
 
@@ -253,8 +181,7 @@ Experience
 
 ## Professional work
 
-Full‑stack roles spanning SaaS platforms, enterprise integrations,
-and large‑scale WordPress ecosystems.
+Full‑stack roles spanning SaaS platforms, enterprise integrations, and large‑scale WordPress ecosystems.
 
 ### One Digital
 
@@ -272,12 +199,7 @@ Full Stack Developer
 
 - WPML multilingual architecture with RTL/LTR support for enterprise clients including Dimri, Sonol, and Rishumit
 
-React
-Node.js
-Strapi
-WordPress
-Azure
-Docker
+React Node.js Strapi WordPress Azure Docker
 
 ### Hertz Furniture
 
@@ -293,11 +215,7 @@ Full Stack Developer
 
 - SignNow e‑signatures integration, 90% faster contract turnaround
 
-PHP
-Yii
-Salesforce
-Microsoft Graph
-REST
+PHP Yii Salesforce Microsoft Graph REST
 
 ### Elphi (SaaS)
 
@@ -309,10 +227,7 @@ Full Stack Developer · Contract
 
 - Added GraphQL subscriptions for real‑time UI updates
 
-Firebase
-PostgreSQL
-GraphQL
-Node.js
+Firebase PostgreSQL GraphQL Node.js
 
 Education
 
@@ -344,13 +259,11 @@ Testimonials
 
 "I had the pleasure of working with Mr. Orbach for about a year. Jacob takes initiative and ownership, consistently identifying problems and solving them without being asked. He is a full-stack developer, comfortable building custom React blocks, integrating backend systems, and handling deployment automation. He reliably takes on complex or unfinished work and delivers results, with a strong focus on building maintainable, reusable systems. He excels at solving problems under pressure, including production issues."
 
-**Yaakov Aglamaz**
-VP R&D, One Digital (2024–2026)
+**Yaakov Aglamaz** VP R&D, One Digital (2024–2026)
 
 "Jacob joined our company as a junior developer, but was eager to advance and learn new things, and within a year he has successfully completed several significant projects such as our intranet-Salesforce integration using Salesforce API, Microsoft Sharepoint cloud file storage and retrieval using Microsoft Graph and adding e-signature capabilities to our PDF quotes using SignNow API. Our company relies on the systems he built for our day to day business operations. Jacob is a cheerful and hard working individual, fast learner and a pleasure to work with. I would gladly recommend Jacob to any team."
 
-**Moshe Weinstein**
-Senior Developer, Hertz Furniture (2022–2024)
+**Moshe Weinstein** Senior Developer, Hertz Furniture (2022–2024)
 
 Tech Stack
 
@@ -358,8 +271,7 @@ Tech Stack
 
 ### Frontend
 
-React, Next.js, Vite, WordPress/Gutenberg, custom block development,
-TypeScript, Tailwind, PWA flows.
+React, Next.js, Vite, WordPress/Gutenberg, custom block development, TypeScript, Tailwind, PWA flows.
 
 ### Backend
 
@@ -393,35 +305,25 @@ Core Mindset
 
 Ship fast. Measure honestly. Cut complexity.
 
-I build products the way I like to use them: lightweight, clean, fast,
-and useful from the first interaction. Everything else is secondary.
+I build products the way I like to use them: lightweight, clean, fast, and useful from the first interaction. Everything else is secondary.
 
 ## Let's build something great
 
-Whether you've got a product to build, an [AI feature to ship](https://jacoborbach.com/services/ai-integration/), a
-site that isn't ranking, or a founding engineer role to fill —
-I'd like to hear about it. Here's
-[how I work with clients](https://jacoborbach.com/services/).
+Whether you've got a product to build, an [AI feature to ship](https://jacoborbach.com/services/ai-integration/), a site that isn't ranking, or a founding engineer role to fill — I'd like to hear about it. Here's [how I work with clients](https://jacoborbach.com/services/).
 
 Email me
 
 [
 
-LinkedIn
-](https://www.linkedin.com/in/jacoborbach/)
-[
+LinkedIn ](https://www.linkedin.com/in/jacoborbach/) [
 
-GitHub
-](https://github.com/jacoborbach)
-[
+GitHub ](https://github.com/jacoborbach) [
 
-Resume
-](https://jacoborbach.comJacob_Orbach_CV.pdf)
+Resume ](https://jacoborbach.comJacob_Orbach_CV.pdf)
 
 Typically respond within 24 hours
 
 Based in Tel Aviv · Available globally
-
 
 ---
 
@@ -432,14 +334,9 @@ Work With Me
 
 # Custom development, scoped and delivered
 
-A WordPress plugin, an API integration, a payment fix, an AI
-feature. Described on Monday, delivered in about a week.
+A WordPress plugin, an API integration, a payment fix, an AI feature. Described on Monday, delivered in about a week.
 
-I'm a full-stack developer who ships production software — payment
-systems for enterprise clients, block-first WordPress, React and
-Node applications — and who runs two
-SaaS products of my own. You get one person who writes the code,
-owns the deploy, and is still around when something breaks.
+I'm a full-stack developer who ships production software — payment systems for enterprise clients, block-first WordPress, React and Node applications — and who runs two SaaS products of my own. You get one person who writes the code, owns the deploy, and is still around when something breaks.
 
 Describe your job
 
@@ -465,81 +362,49 @@ Services
 
 ## What I do
 
-Most projects touch more than one of these. That's the point —
-you don't have to coordinate between a dev shop, a WordPress
-contractor, an AI consultant, and an SEO agency.
+Most projects touch more than one of these. That's the point — you don't have to coordinate between a dev shop, a WordPress contractor, an AI consultant, and an SEO agency.
 
 [
 
 ### Custom AI integration
 
-LLM features that survive real traffic — support agents,
-grounded answers over your content, and cost-controlled model
-routing. Claude, OpenAI, or self-hosted. Running in production
-on my own SaaS today.
+LLM features that survive real traffic — support agents, grounded answers over your content, and cost-controlled model routing. Claude, OpenAI, or self-hosted. Running in production on my own SaaS today.
 
-See the AI work →
-](https://jacoborbach.com/services/ai-integration/)
+See the AI work → ](https://jacoborbach.com/services/ai-integration/)
 
 [
 
 ### Payment integrations
 
-Stripe billing, Meshulam, custom WooCommerce gateways, and
-crypto. I built the payment system behind an agency's enterprise
-clients, and run Stripe billing on my own products.
+Stripe billing, Meshulam, custom WooCommerce gateways, and crypto. I built the payment system behind an agency's enterprise clients, and run Stripe billing on my own products.
 
-See the payment work →
-](https://jacoborbach.com/services/payment-integrations/)
+See the payment work → ](https://jacoborbach.com/services/payment-integrations/)
 
 ### WordPress plugins & Gutenberg
 
-Plugins and block-first builds written like software, not
-page-builder bloat. I've shipped 30+ custom React Gutenberg
-blocks for enterprise clients, a WPML multilingual RTL
-architecture, and two plugins live on WordPress.org, one of them
-a WooCommerce payment gateway.
+Plugins and block-first builds written like software, not page-builder bloat. I've shipped 30+ custom React Gutenberg blocks for enterprise clients, a WPML multilingual RTL architecture, and two plugins live on WordPress.org, one of them a WooCommerce payment gateway.
 
 ### Web applications
 
-Frontend and backend by the same person. React, Next.js, Node,
-TypeScript, PHP. Real-time features, Chrome extensions, and
-database migrations done without downtime.
+Frontend and backend by the same person. React, Next.js, Node, TypeScript, PHP. Real-time features, Chrome extensions, and database migrations done without downtime.
 
 ### Integrations & automation
 
-Making systems agree with each other, forever, without a human
-checking: third-party APIs, OAuth, webhooks with retries,
-CRM syncs, PDF generation, and the reconciliation nobody enjoys.
+Making systems agree with each other, forever, without a human checking: third-party APIs, OAuth, webhooks with retries, CRM syncs, PDF generation, and the reconciliation nobody enjoys.
 
 ### SEO & organic growth
 
-Technical SEO shipped by the person who diagnosed it — rendering
-and indexability, keyword architecture, internal link
-engineering, and page templates you can actually scale.
+Technical SEO shipped by the person who diagnosed it — rendering and indexability, keyword architecture, internal link engineering, and page templates you can actually scale.
 
 Why It Matters
 
 ## Shipping and being found are the same project
 
-The usual split causes real damage. The dev team builds a fast
-single-page app with one URL, and there's nothing for Google to
-index. The SEO agency asks for thirty landing pages, and the dev
-team quotes six weeks because the templating wasn't built for it.
-Both are right. Neither owns the outcome.
+The usual split causes real damage. The dev team builds a fast single-page app with one URL, and there's nothing for Google to index. The SEO agency asks for thirty landing pages, and the dev team quotes six weeks because the templating wasn't built for it. Both are right. Neither owns the outcome.
 
-When one person does both, the architecture decisions get made
-with search in mind from day one — URL structure, rendering
-strategy, internal linking, page templates you can actually
-extend. And when a keyword opportunity shows up eight months
-later, shipping the page takes an afternoon instead of a sprint.
+When one person does both, the architecture decisions get made with search in mind from day one — URL structure, rendering strategy, internal linking, page templates you can actually extend. And when a keyword opportunity shows up eight months later, shipping the page takes an afternoon instead of a sprint.
 
-I've done this on my own products, which is the honest reason I
-can claim it. [GhostChat](https://ghostchat.dev/),
-[Gmailytics](https://gmailytics.com/), and
-[KaspaWoo](https://kaspawoo.com/) were built,
-launched, and grown by one person — product and
-organic growth both.
+I've done this on my own products, which is the honest reason I can claim it. [GhostChat](https://ghostchat.dev/), [Gmailytics](https://gmailytics.com/), and [KaspaWoo](https://kaspawoo.com/) were built, launched, and grown by one person — product and organic growth both.
 
 Proof
 
@@ -549,191 +414,103 @@ Everything below is live, and most of it you can inspect yourself.
 
 ### 30+ custom Gutenberg blocks — and a generator to make more
 
-At One Digital I built more than thirty React-based Gutenberg
-blocks for enterprise clients including Dimri, Sonol and Rishumit.
-Building them one at a time was the bottleneck, so I wrote a
-metadata-driven ACF block generator that produces the
-registration, fields and template from a single definition — it
-cut block development time by roughly 80%. That's the pattern I
-bring to WordPress work generally: if a task is going to happen
-fifty times, the second one should be generated, not typed. The
-same project ran WPML multilingual with Hebrew RTL and English
-LTR sharing components, which sounds like a CSS flag and turns
-out to touch layout, forms and every third-party embed.
+At One Digital I built more than thirty React-based Gutenberg blocks for enterprise clients including Dimri, Sonol and Rishumit. Building them one at a time was the bottleneck, so I wrote a metadata-driven ACF block generator that produces the registration, fields and template from a single definition — it cut block development time by roughly 80%. That's the pattern I bring to WordPress work generally: if a task is going to happen fifty times, the second one should be generated, not typed. The same project ran WPML multilingual with Hebrew RTL and English LTR sharing components, which sounds like a CSS flag and turns out to touch layout, forms and every third-party embed.
 
 ### GhostChat — a SaaS with paying customers
 
-[GhostChat](https://ghostchat.dev/) is a
-privacy-first chat widget with a ~15KB embeddable SDK: a Next.js
-dashboard on Vercel, a Cloudflare Workers API with Durable Objects
-for per-conversation state, Supabase for persistence and Stripe
-for billing. It ships
-with an AI responder running on Claude in production, a plugin on
-WordPress.org, and an open-source agent runner on npm. Scoped,
-built, launched and sold by one person. The chat widget on this
-page is that product.
+[GhostChat](https://ghostchat.dev/) is a privacy-first chat widget with a ~15KB embeddable SDK: a Next.js dashboard on Vercel, a Cloudflare Workers API with Durable Objects for per-conversation state, Supabase for persistence and Stripe for billing. It ships with an AI responder running on Claude in production, a plugin on WordPress.org, and an open-source agent runner on npm. Scoped, built, launched and sold by one person. The chat widget on this page is that product.
 
 ### Gmailytics — OAuth at scale, independently security-audited
 
-[Gmailytics](https://gmailytics.com/) is a
-web app plus Chrome extension that scans a Gmail inbox and bulk
-unsubscribes from unwanted senders. It has cleaned 5M+ emails
-and freed over 300GB of storage, and it's **Google CASA Tier
-2 certified** — it passed an independent third-party
-security assessment for its use of restricted Gmail scopes, a bar
-most side projects never clear.
+[Gmailytics](https://gmailytics.com/) is a web app plus Chrome extension that scans a Gmail inbox and bulk unsubscribes from unwanted senders. It has cleaned 5M+ emails and freed over 300GB of storage, and it's **Google CASA Tier 2 certified** — it passed an independent third-party security assessment for its use of restricted Gmail scopes, a bar most side projects never clear.
 
 ### Migrations that didn't take the site down
 
-At Hertz Furniture I migrated a CRM of over 100,000 records to
-Salesforce with zero data loss and zero downtime, then built
-LiveChat bots and Salesforce webhooks that cut response time from
-hours to under ten minutes, and integrated Microsoft OneDrive via
-the Graph API for a 40% storage cost reduction. At Elphi I moved a
-production application from Firebase to PostgreSQL and added
-GraphQL subscriptions so the UI updated in real time.
+At Hertz Furniture I migrated a CRM of over 100,000 records to Salesforce with zero data loss and zero downtime, then built LiveChat bots and Salesforce webhooks that cut response time from hours to under ten minutes, and integrated Microsoft OneDrive via the Graph API for a 40% storage cost reduction. At Elphi I moved a production application from Firebase to PostgreSQL and added GraphQL subscriptions so the UI updated in real time.
 
-**The thread running through all of it:** the
-interesting problems are rarely "build a form." They're "make
-these four systems agree with each other, forever, without a
-human checking." That's the work I like most and do best.
+**The thread running through all of it:** the interesting problems are rarely "build a form." They're "make these four systems agree with each other, forever, without a human checking." That's the work I like most and do best.
 
 Selected Client Work
 
 ## Built for other people, in production
 
-Alongside my own products, this is work I shipped as a developer
-at a digital agency and at a US company — for their clients,
-stated as outcomes rather than tech specs.
+Alongside my own products, this is work I shipped as a developer at a digital agency and at a US company — for their clients, stated as outcomes rather than tech specs.
 
 ### Payments for an agency’s enterprise clients (as an employee)
 
-Designed and built an end-to-end payment system on Strapi with the
-Meshulam SDK: the frontend SDK, lifecycle hooks and webhook
-reconciliation. It moved **₪300K+ in its first month**
-— over $1M a year annualized.
+Designed and built an end-to-end payment system on Strapi with the Meshulam SDK: the frontend SDK, lifecycle hooks and webhook reconciliation. It moved **₪300K+ in its first month** — over $1M a year annualized.
 
 ### Block-first WordPress for agency clients Dimri, Sonol and Rishumit
 
-**30+ custom React-based Gutenberg blocks** plus an
-automated ACF block generator that **cut build time by
-80%**, and a WPML multilingual architecture with full
-RTL/LTR support — delivered for named enterprise clients.
+**30+ custom React-based Gutenberg blocks** plus an automated ACF block generator that **cut build time by 80%**, and a WPML multilingual architecture with full RTL/LTR support — delivered for named enterprise clients.
 
 ### Salesforce migration and workflow automation
 
-Migrated **100K+ records** into Salesforce with the
-REST APIs and automated workflows around it. Integrated Microsoft
-Graph for OneDrive, **cutting storage costs 40%**, and
-implemented SignNow e-signatures that
-**reduced contract turnaround by 90%**. Delivered
-fully remote for a US company over two years.
+Migrated **100K+ records** into Salesforce with the REST APIs and automated workflows around it. Integrated Microsoft Graph for OneDrive, **cutting storage costs 40%**, and implemented SignNow e-signatures that **reduced contract turnaround by 90%**. Delivered fully remote for a US company over two years.
 
 ### Looking after WordPress sites, not just building them
 
-Managed and built three sites for an online media organisation:
-keeping WordPress, Elementor and plugins current, managing DNS,
-SSL and caching across cPanel and Cloudflare, and running the
-analytics and Search Console side — sitemaps, conversion
-tracking, and fixing what the data said was broken. That
-day-to-day upkeep is what the care plan below is.
+Managed and built three sites for an online media organisation: keeping WordPress, Elementor and plugins current, managing DNS, SSL and caching across cPanel and Cloudflare, and running the analytics and Search Console side — sitemaps, conversion tracking, and fixing what the data said was broken. That day-to-day upkeep is what the care plan below is.
 
 In Their Words
 
 ## What clients have said
 
-“Jacob provided meaningful insight to issues we were
-experiencing with our site. He is a forward thinker and
-solution orientated. Very happy he joined our team. Excellent
-work!”
+“Jacob provided meaningful insight to issues we were experiencing with our site. He is a forward thinker and solution orientated. Very happy he joined our team. Excellent work!”
 
-**Golda M.**
-Managing Partner
+**Golda M.** Managing Partner
 
-“Jacob was extremely responsive, flexible and easy to
-collaborate with. Jake was able to bring our ideas to life
-without long meetings or constant back and forth. We would
-rehire Jake in an instant.”
+“Jacob was extremely responsive, flexible and easy to collaborate with. Jake was able to bring our ideas to life without long meetings or constant back and forth. We would rehire Jake in an instant.”
 
-**Marvin H.**
-Founder
+**Marvin H.** Founder
 
-“Jacob is the detail-oriented and time-conscious
-developer that developed the ROOTS Africa organization
-website. His creativity and open-mindedness made the process
-easy and accommodating for us. He listens to the client’s
-needs and delivers beyond the client’s
-expectations.”
+“Jacob is the detail-oriented and time-conscious developer that developed the ROOTS Africa organization website. His creativity and open-mindedness made the process easy and accommodating for us. He listens to the client’s needs and delivers beyond the client’s expectations.”
 
-**Cedric N.**
-CEO, ROOTS Africa
+**Cedric N.** CEO, ROOTS Africa
 
 How We Work Together
 
 ## Engagement models
 
-Small, well-defined jobs have a fixed price. Larger builds are
-quoted after a conversation.
+Small, well-defined jobs have a fixed price. Larger builds are quoted after a conversation.
 
 ### Fixed-price build
 
-One clearly scoped piece of work, done in about a week: a
-WordPress plugin or block-first Gutenberg build, an AI
-assistant or LLM feature wired to your content, a third-party
-API or webhook integration, a Stripe or WooCommerce payment
-fix, a performance rescue, a migration. You describe it, I
-confirm the scope in writing, half is paid to start and half
-on delivery. Smaller scoped jobs start at $500; a custom payment
-gateway starts at $1,200. Larger work is quoted.
+One clearly scoped piece of work, done in about a week: a WordPress plugin or block-first Gutenberg build, an AI assistant or LLM feature wired to your content, a third-party API or webhook integration, a Stripe or WooCommerce payment fix, a performance rescue, a migration. You describe it, I confirm the scope in writing, half is paid to start and half on delivery. Smaller scoped jobs start at $500; a custom payment gateway starts at $1,200. Larger work is quoted.
 
-**Typical**
-About 1 week · fixed price · 50% upfront
+**Typical** About 1 week · fixed price · 50% upfront
 
 Describe the job
 
 ### Project build
 
-A defined thing, delivered. A plugin, an integration, a
-marketing site, an MVP. Fixed scope, milestone-based, with a
-written spec before anyone writes code.
+A defined thing, delivered. A plugin, an integration, a marketing site, an MVP. Fixed scope, milestone-based, with a written spec before anyone writes code.
 
-**Typical**
-2–8 weeks · quoted
+**Typical** 2–8 weeks · quoted
 
 Tell me about the project
 
 ### Care plan
 
-Keeping a WordPress site that already works from quietly falling
-over: updates with a backup first, monitoring, and up to three
-hours a month of fixes. What's included, what's extra, and how
-it works are on the [WordPress care page](https://jacoborbach.com/care/).
+Keeping a WordPress site that already works from quietly falling over: updates with a backup first, monitoring, and up to three hours a month of fixes. What's included, what's extra, and how it works are on the [WordPress care page](https://jacoborbach.com/care/).
 
-**Typical**
-$250/mo · up to 3 hours a month · catch-up quoted first if the site is badly out of date
+**Typical** $250/mo · up to 3 hours a month · catch-up quoted first if the site is badly out of date
 
 [See the care plan](https://jacoborbach.com/care/)
 
 ### Ongoing retainer
 
-A developer on your product every week, not just keeping the
-lights on — shipping new features, building out pages, and
-iterating on what the analytics and Search Console data say.
-This is where compounding growth happens.
+A developer on your product every week, not just keeping the lights on — shipping new features, building out pages, and iterating on what the analytics and Search Console data say. This is where compounding growth happens.
 
-**Typical**
-Monthly · capped hours · from $2,000/mo
+**Typical** Monthly · capped hours · from $2,000/mo
 
 Talk about a retainer
 
 ### Audit & rescue
 
-Something is broken, slow, or silently losing you traffic. I
-diagnose it, document what I find, and either hand you the fix
-list or implement it.
+Something is broken, slow, or silently losing you traffic. I diagnose it, document what I find, and either hand you the fix list or implement it.
 
-**Typical**
-3–10 days · fixed price
+**Typical** 3–10 days · fixed price
 
 Book an audit
 
@@ -741,33 +518,15 @@ Process
 
 ## What working with me looks like
 
--
-**A real conversation first**
-Thirty minutes on what you're actually trying to achieve. If I'm
-not the right person, I'll say so — I'd rather tell you in the
-first call than the third invoice.
+- **A real conversation first** Thirty minutes on what you're actually trying to achieve. If I'm not the right person, I'll say so — I'd rather tell you in the first call than the third invoice.
 
--
-**A written scope**
-What gets built, what doesn't, what it costs, and when it lands.
-No code starts before we both agree on this document.
+- **A written scope** What gets built, what doesn't, what it costs, and when it lands. No code starts before we both agree on this document.
 
--
-**Build in visible increments**
-You get a working preview URL early and it updates continuously.
-No four-week silences ending in a surprise.
+- **Build in visible increments** You get a working preview URL early and it updates continuously. No four-week silences ending in a surprise.
 
--
-**Launch with measurement wired in**
-Analytics, Search Console, and conversion tracking are part of
-the build, not a follow-up ticket. You can't iterate on what you
-aren't measuring.
+- **Launch with measurement wired in** Analytics, Search Console, and conversion tracking are part of the build, not a follow-up ticket. You can't iterate on what you aren't measuring.
 
--
-**Iterate over quarters**
-Organic growth is not a launch event. The sites I've grown got
-there through months of adding pages, fixing what underperformed,
-and doubling down on what ranked.
+- **Iterate over quarters** Organic growth is not a launch event. The sites I've grown got there through months of adding pages, fixing what underperformed, and doubling down on what ranked.
 
 Questions
 
@@ -775,51 +534,31 @@ Questions
 
 ### Do you work with clients outside Israel?
 
-Yes — most of my work is with US and European clients. I'm a
-native English speaker (American, University of Maryland), and
-Israel time zone overlaps a full working morning with Europe and
-the early afternoon with the US East Coast.
+Yes — most of my work is with US and European clients. I'm a native English speaker (American, University of Maryland), and Israel time zone overlaps a full working morning with Europe and the early afternoon with the US East Coast.
 
 ### How long until SEO work shows results?
 
-Technical fixes can move rankings in days. Building genuine
-organic traffic on a new site takes quarters, not weeks — my own
-sites took months of consistent publishing before traffic became
-meaningful. Anyone promising you page one in 30 days is selling
-something else.
+Technical fixes can move rankings in days. Building genuine organic traffic on a new site takes quarters, not weeks — my own sites took months of consistent publishing before traffic became meaningful. Anyone promising you page one in 30 days is selling something else.
 
 ### Can you take over an existing codebase?
 
-Regularly. A good portion of my professional work has been
-inheriting half-finished systems and getting them to production —
-legacy PHP, undocumented WordPress builds, and applications whose
-original developer is long gone.
+Regularly. A good portion of my professional work has been inheriting half-finished systems and getting them to production — legacy PHP, undocumented WordPress builds, and applications whose original developer is long gone.
 
 ### Are you available full time or freelance?
 
-Both. I run my own SaaS products and take on select client work
-alongside them. If you're hiring for a founding or senior
-engineering role, that conversation is welcome too — my
-[resume is here](https://jacoborbach.com/Jacob_Orbach_CV.pdf).
+Both. I run my own SaaS products and take on select client work alongside them. If you're hiring for a founding or senior engineering role, that conversation is welcome too — my [resume is here](https://jacoborbach.com/Jacob_Orbach_CV.pdf).
 
 ### Who owns the code?
 
-You do. Client work ships to your repository, your hosting, your
-accounts. No proprietary platform lock-in and no hostage
-situations if you later bring things in-house.
+You do. Client work ships to your repository, your hosting, your accounts. No proprietary platform lock-in and no hostage situations if you later bring things in-house.
 
 ## Tell me what you're building
 
-Send a couple of sentences about the project and what's currently
-in your way. I read every email and typically reply within 24
-hours.
+Send a couple of sentences about the project and what's currently in your way. I read every email and typically reply within 24 hours.
 
 Email me
 
-[
-LinkedIn
-](https://www.linkedin.com/in/jacoborbach/)
-
+[ LinkedIn ](https://www.linkedin.com/in/jacoborbach/)
 
 ---
 
@@ -830,13 +569,9 @@ WordPress maintenance
 
 # Your WordPress site, kept current and quietly working
 
-A backup before every update. Tested on a staging copy when your
-host supports it. Someone who notices when it goes down.
+A backup before every update. Tested on a staging copy when your host supports it. Someone who notices when it goes down.
 
-I build WordPress for a living: plugins on WordPress.org, 30+ custom
-Gutenberg blocks, multilingual sites. So when an update breaks
-something, I fix the cause instead of rolling back and hoping.
-One monthly price, fix time included, no ticket queue.
+I build WordPress for a living: plugins on WordPress.org, 30+ custom Gutenberg blocks, multilingual sites. So when an update breaks something, I fix the cause instead of rolling back and hoping. One monthly price, fix time included, no ticket queue.
 
 Ask about your site
 
@@ -864,82 +599,47 @@ Every month
 
 ### Updates, done safely
 
-WordPress core, plugins and theme. Backed up first, tested on a
-staging copy when your host provides one, then applied to the
-live site and checked.
-Major versions (a big Elementor or WooCommerce jump) get extra
-care, and I tell you before I start.
+WordPress core, plugins and theme. Backed up first, tested on a staging copy when your host provides one, then applied to the live site and checked. Major versions (a big Elementor or WooCommerce jump) get extra care, and I tell you before I start.
 
 ### Backups you can restore
 
-Regular automatic backups stored off your server, plus one
-before every change I make. A backup nobody has tested is a
-hope, so I check that they actually restore.
+Regular automatic backups stored off your server, plus one before every change I make. A backup nobody has tested is a hope, so I check that they actually restore.
 
 ### Uptime & security
 
-Monitoring that tells me when the site is down, SSL kept valid,
-security scanning, and removal of plugins and admin accounts
-that shouldn't be there anymore.
+Monitoring that tells me when the site is down, SSL kept valid, security scanning, and removal of plugins and admin accounts that shouldn't be there anymore.
 
 ### Fix time
 
-Up to 3 hours a month for the small things: a broken form, a
-layout glitch after an update, a slow page. Anything bigger is
-quoted first, and you decide.
+Up to 3 hours a month for the small things: a broken form, a layout glitch after an update, a slow page. Anything bigger is quoted first, and you decide.
 
 ### A short monthly report
 
-What was updated, what I found, what I fixed, and anything you
-should know about. Plain English, one email.
+What was updated, what I found, what I fixed, and anything you should know about. Plain English, one email.
 
 ### One person who knows your site
 
-Not a rotating support desk. The same developer every month,
-who remembers why that plugin is there.
+Not a rotating support desk. The same developer every month, who remembers why that plugin is there.
 
 Why me
 
 ## A developer doing the upkeep
 
-Most maintenance services are good at clicking "update" and bad at
-what happens when it breaks. I've been on the building side of
-WordPress for years:
+Most maintenance services are good at clicking "update" and bad at what happens when it breaks. I've been on the building side of WordPress for years:
 
--
-**Two plugins on WordPress.org,** one of them a
-WooCommerce payment gateway, so I know how plugins behave when
-WordPress or WooCommerce changes underneath them.
+- **Two plugins on WordPress.org,** one of them a WooCommerce payment gateway, so I know how plugins behave when WordPress or WooCommerce changes underneath them.
 
--
-**30+ custom Gutenberg blocks** for enterprise
-clients at a digital agency, plus Elementor sites and WPML
-multilingual builds with Hebrew RTL and English LTR.
+- **30+ custom Gutenberg blocks** for enterprise clients at a digital agency, plus Elementor sites and WPML multilingual builds with Hebrew RTL and English LTR.
 
--
-**Ongoing upkeep for a media organisation's three
-sites:** WordPress, Elementor and plugins kept current,
-DNS, SSL and caching across cPanel and Cloudflare, and the
-Search Console side. Including a site that was broken when I
-took it over.
+- **Ongoing upkeep for a media organisation's three sites:** WordPress, Elementor and plugins kept current, DNS, SSL and caching across cPanel and Cloudflare, and the Search Console side. Including a site that was broken when I took it over.
 
--
-**A broken Elementor site rebuilt end to end** for a
-freelance client, with new pages designed on it.
+- **A broken Elementor site rebuilt end to end** for a freelance client, with new pages designed on it.
 
-**If an update breaks something, it's on me.**
-Because every change starts with a backup, the worst case is a
-quick restore, and fixing what the update broke comes out of my
-time, not your fix hours.
+**If an update breaks something, it's on me.** Because every change starts with a backup, the worst case is a quick restore, and fixing what the update broke comes out of my time, not your fix hours.
 
 ### Before we start
 
-The monthly price is for a site in normal shape. If yours is
-badly out of date (years behind on WordPress or WooCommerce, or
-plugins that are no longer maintained), there's a one-time
-catch-up first, quoted after I look at it. That's where most of
-the risk sits, so I'd rather price it honestly than bury it in
-the monthly fee.
+The monthly price is for a site in normal shape. If yours is badly out of date (years behind on WordPress or WooCommerce, or plugins that are no longer maintained), there's a one-time catch-up first, quoted after I look at it. That's where most of the risk sits, so I'd rather price it honestly than bury it in the monthly fee.
 
 Questions
 
@@ -947,52 +647,39 @@ Questions
 
 ### What does it cost?
 
-$250 a month, including up to 3 hours of fixes. In Israel,
-₪500 a month plus VAT, including up to 2.5 hours. Extra work is
-quoted before I do it. A site that's badly out of date gets a
-one-time catch-up quote first.
+$250 a month, including up to 3 hours of fixes. In Israel, ₪500 a month plus VAT, including up to 2.5 hours. Extra work is quoted before I do it. A site that's badly out of date gets a one-time catch-up quote first.
 
 ### Do I have to move hosting?
 
-No. I work with the hosting you already have. If it's causing
-problems (slow, unreliable, or overpriced), I'll tell you and
-suggest options, but moving is your call.
+No. I work with the hosting you already have. If it's causing problems (slow, unreliable, or overpriced), I'll tell you and suggest options, but moving is your call.
 
 ### What access do you need?
 
-An administrator login for WordPress, your hosting panel,
-read access to your domain/DNS settings, and Cloudflare if you
-use it. You keep ownership of everything:
-your site, your hosting, your domain.
+An administrator login for WordPress, your hosting panel, read access to your domain/DNS settings, and Cloudflare if you use it. You keep ownership of everything: your site, your hosting, your domain.
 
 ### How fast do you respond?
 
-Within one business day. If the site is down, I look at it the
-same day during working hours.
+Within one business day. If the site is down, I look at it the same day during working hours.
 
 ### Can I cancel?
 
-Anytime, with a month's notice. No contract term. If you leave,
-you get your latest backup and everything stays yours.
+Anytime, with a month's notice. No contract term. If you leave, you get your latest backup and everything stays yours.
+
+### Do you work with agencies?
+
+Yes. If you build WordPress sites for clients and would rather not do the monthly upkeep, I can do it under your name, white label, with per-site pricing for agencies. Email me and we'll work out what fits.
 
 ### What counts as extra work?
 
-New pages, new features, content and design changes, redesigns,
-and SEO projects. Those are quoted before I start. WooCommerce
-stores and multilingual sites are quoted separately, because
-there is more to keep working. Keeping what you have working and up to date
-is what the monthly fee covers.
+New pages, new features, content and design changes, redesigns, and SEO projects. Those are quoted before I start. WooCommerce stores and multilingual sites are quoted separately, because there is more to keep working. Keeping what you have working and up to date is what the monthly fee covers.
 
 בעברית
 
 ## תחזוקת אתר וורדפרס
 
-**מענה תוך יום עסקים אחד.**
-**אם עדכון שובר משהו, משחזרים מגיבוי ומתקנים, בלי תוספת תשלום.**
+**מענה תוך יום עסקים אחד.** **אם עדכון שובר משהו, משחזרים מגיבוי ומתקנים, בלי תוספת תשלום.**
 
-אני מפתח וורדפרס: תוספים בספריית WordPress.org, מעל 30 בלוקים
-מותאמים לגוטנברג, אתרים רב-לשוניים עם RTL. כשעדכון שובר משהו, אני
-מתקן את הסיבה, לא רק מחזיר גרסה.
+אני מפתח וורדפרס: תוספים בספריית WordPress.org, מעל 30 בלוקים מותאמים לגוטנברג, אתרים רב-לשוניים עם RTL. כשעדכון שובר משהו, אני מתקן את הסיבה, לא רק מחזיר גרסה.
 
 ### מה כלול בכל חודש
 
@@ -1010,27 +697,19 @@ is what the monthly fee covers.
 
 ### מה לא כלול
 
-שינויי תוכן ועיצוב, עמודים חדשים ואינטגרציות: 200 ₪ לשעה + מע״מ,
-בהצעת מחיר מראש. חנויות WooCommerce ואתרים רב-לשוניים מקבלים
-הצעת מחיר נפרדת.
+שינויי תוכן ועיצוב, עמודים חדשים ואינטגרציות: 200 ₪ לשעה + מע״מ, בהצעת מחיר מראש. חנויות WooCommerce ואתרים רב-לשוניים מקבלים הצעת מחיר נפרדת.
 
-**המחיר: 500 ₪ לחודש + מע״מ**, כולל עד 2.5 שעות
-תיקונים. חודשי, מראש, ביטול בהודעה של חודש. המחירים לא כוללים
-מע״מ. אתר שלא עודכן זמן רב מקבל קודם הצעת מחיר חד-פעמית להשלמת
-העדכונים.
+**המחיר: 500 ₪ לחודש + מע״מ**, כולל עד 2.5 שעות תיקונים. חודשי, מראש, ביטול בהודעה של חודש. המחירים לא כוללים מע״מ. אתר שלא עודכן זמן רב מקבל קודם הצעת מחיר חד-פעמית להשלמת העדכונים.
 
 ### מה אני צריך מכם
 
-משתמש מנהל בוורדפרס, גישה לפאנל האחסון, גישת צפייה להגדרות
-הדומיין (DNS), ו-Cloudflare אם יש. אין צורך להחליף אחסון: האתר,
-הדומיין והאחסון נשארים שלכם.
+משתמש מנהל בוורדפרס, גישה לפאנל האחסון, גישת צפייה להגדרות הדומיין (DNS), ו-Cloudflare אם יש. אין צורך להחליף אחסון: האתר, הדומיין והאחסון נשארים שלכם.
 
 יעקב אורבך
 
 ## Want your site looked after?
 
-Send me the address. I'll take a look and tell you what shape
-it's in, what the first month would involve, and the price.
+Send me the address. I'll take a look and tell you what shape it's in, what the first month would involve, and the price.
 
 שלחו לי את כתובת האתר, ואחזור אליכם עם תמונת מצב והצעת מחיר.
 
@@ -1038,10 +717,7 @@ Email me
 
 [All services](https://jacoborbach.com/services/)
 
-[Work with me](https://jacoborbach.com/services/)
-[Payment integrations](https://jacoborbach.com/services/payment-integrations/)
-[Featured work](https://jacoborbach.com/#work)
-
+[Work with me](https://jacoborbach.com/services/) [Payment integrations](https://jacoborbach.com/services/payment-integrations/) [Featured work](https://jacoborbach.com/#work)
 
 ---
 
@@ -1052,15 +728,9 @@ Payments
 
 # Payment systems that reconcile at the end of the month
 
-Taking money is easy. Taking it reliably, refunding it, invoicing it,
-and proving where it went is the actual work.
+Taking money is easy. Taking it reliably, refunding it, invoicing it, and proving where it went is the actual work.
 
-I've built payment infrastructure on three different kinds of rails —
-a card gateway processing over $1M a year (annualized), Stripe subscription
-billing for my own SaaS products, and an open-source cryptocurrency
-gateway for WooCommerce. Different rails, same hard parts: webhooks
-that arrive twice, states that get stuck, and edge cases that only
-show up with real money.
+I've built payment infrastructure on three different kinds of rails — a card gateway processing over $1M a year (annualized), Stripe subscription billing for my own SaaS products, and an open-source cryptocurrency gateway for WooCommerce. Different rails, same hard parts: webhooks that arrive twice, states that get stuck, and edge cases that only show up with real money.
 
 Discuss a payments project
 
@@ -1088,37 +758,27 @@ Scope
 
 ### Stripe billing & subscriptions
 
-Checkout, subscriptions, plan changes, proration, failed-payment
-recovery, and the webhook handling that keeps your database
-agreeing with Stripe's.
+Checkout, subscriptions, plan changes, proration, failed-payment recovery, and the webhook handling that keeps your database agreeing with Stripe's.
 
 ### Meshulam & Israeli gateways
 
-Full Meshulam SDK integration including tokenization, recurring
-charges, and invoice generation — built into a Strapi backend
-and running in production.
+Full Meshulam SDK integration including tokenization, recurring charges, and invoice generation — built into a Strapi backend and running in production.
 
 ### Custom WooCommerce gateways
 
-When your processor has no plugin, or the one that exists is
-abandoned. Written to the WooCommerce gateway API properly, so
-refunds and order states behave.
+When your processor has no plugin, or the one that exists is abandoned. Written to the WooCommerce gateway API properly, so refunds and order states behave.
 
 ### Cryptocurrency payments
 
-Non-custodial crypto acceptance where funds go straight to the
-merchant's own wallet. Address derivation, confirmation
-monitoring, and order reconciliation.
+Non-custodial crypto acceptance where funds go straight to the merchant's own wallet. Address derivation, confirmation monitoring, and order reconciliation.
 
 ### Invoicing & documents
 
-Automated PDF invoice generation, e-signature flows, and the
-document trail your finance team and auditors will ask for.
+Automated PDF invoice generation, e-signature flows, and the document trail your finance team and auditors will ask for.
 
 ### Rescue & reconciliation
 
-Payments landing but orders not updating. Duplicate charges.
-Webhooks silently failing for three weeks. I find it and fix it.
+Payments landing but orders not updating. Duplicate charges. Webhooks silently failing for three weeks. I find it and fix it.
 
 Proof
 
@@ -1126,101 +786,43 @@ Proof
 
 ### Meshulam + Strapi — $1M+ per year, annualized
 
-At One Digital I built an end-to-end payment system on the
-Meshulam SDK inside a Strapi backend, processing **over
-$1,000,000 a year in transaction volume**. The interesting
-half was never the charge call. It was everything that has to stay
-true afterwards:
+At One Digital I built an end-to-end payment system on the Meshulam SDK inside a Strapi backend, processing **over $1,000,000 a year in transaction volume**. The interesting half was never the charge call. It was everything that has to stay true afterwards:
 
--
-**Webhook reconciliation.** Gateways retry. They
-deliver out of order, they deliver twice, and occasionally they
-deliver three weeks late. Getting a replayed webhook to update
-the order it already created, instead of creating a second one,
-is most of the work in any payment integration.
+- **Webhook reconciliation.** Gateways retry. They deliver out of order, they deliver twice, and occasionally they deliver three weeks late. Getting a replayed webhook to update the order it already created, instead of creating a second one, is most of the work in any payment integration.
 
--
-**Lifecycle hooks as the single source of truth.**
-Order state transitions live in Strapi lifecycle hooks rather
-than scattered through controllers, so a payment can't be
-marked paid down one code path and left pending down another.
+- **Lifecycle hooks as the single source of truth.** Order state transitions live in Strapi lifecycle hooks rather than scattered through controllers, so a payment can't be marked paid down one code path and left pending down another.
 
--
-**Invoices generated automatically.** Dockerized
-Puppeteer on Azure Functions renders the PDF invoice as part of
-the payment flow, not as a monthly chore, which is the
-difference between finance trusting the system and finance
-keeping a parallel spreadsheet.
+- **Invoices generated automatically.** Dockerized Puppeteer on Azure Functions renders the PDF invoice as part of the payment flow, not as a monthly chore, which is the difference between finance trusting the system and finance keeping a parallel spreadsheet.
 
 ### Stripe — billing my own SaaS, in production
 
-[GhostChat](https://ghostchat.dev/) and
-[Gmailytics](https://gmailytics.com/) run on
-Stripe subscription billing I built and still operate. Two
-decisions there are worth stealing for any subscription product:
+[GhostChat](https://ghostchat.dev/) and [Gmailytics](https://gmailytics.com/) run on Stripe subscription billing I built and still operate. Two decisions there are worth stealing for any subscription product:
 
--
-**Entitlements resolve from the subscription itself.**
-What a customer can do is derived from the Stripe price they're
-actually on, not from a plan name copied into your own database
-at signup. Those two drift apart the first time someone
-upgrades mid-cycle, and once they drift you are reconciling
-access by hand.
+- **Entitlements resolve from the subscription itself.** What a customer can do is derived from the Stripe price they're actually on, not from a plan name copied into your own database at signup. Those two drift apart the first time someone upgrades mid-cycle, and once they drift you are reconciling access by hand.
 
--
-**Repricing is a new Price, not a migration.**
-Because entitlement is read from the subscription itself,
-changing what you charge means publishing a new Price object
-rather than running a script against live customers at 2am —
-and you decide deliberately, per entitlement, which existing
-subscribers move.
+- **Repricing is a new Price, not a migration.** Because entitlement is read from the subscription itself, changing what you charge means publishing a new Price object rather than running a script against live customers at 2am — and you decide deliberately, per entitlement, which existing subscribers move.
 
-There is a particular kind of care you develop when the
-failed-payment webhook is your own revenue, and that's the
-standard I bring to client billing systems.
+There is a particular kind of care you develop when the failed-payment webhook is your own revenue, and that's the standard I bring to client billing systems.
 
 ### KaspaWoo — open-source crypto gateway
 
-A production Kaspa payment gateway for WooCommerce, open-sourced
-on [GitHub](https://github.com/jacoborbach/kaspa-payments-gateway-woocommerce).
-It's non-custodial: payments derive to the merchant's own wallet,
-never mine. The address derivation had to be its own package
-because no lightweight JavaScript option existed — the official
-tooling is a WASM build far too heavy to sit inside a WordPress
-plugin — so I wrote
-[kaspa-simple-wallet](https://www.npmjs.com/package/kaspa-simple-wallet)
-in pure JS and published it MIT: watch-only derivation from a
-KPUB/XPUB, Kaspium-compatible, so the store never holds a private
-key. It is written to the WooCommerce gateway API properly, which
-means refunds and order states behave the way the rest of the
-admin expects them to.
+A production Kaspa payment gateway for WooCommerce, open-sourced on [GitHub](https://github.com/jacoborbach/kaspa-payments-gateway-woocommerce). It's non-custodial: payments derive to the merchant's own wallet, never mine. The address derivation had to be its own package because no lightweight JavaScript option existed — the official tooling is a WASM build far too heavy to sit inside a WordPress plugin — so I wrote [kaspa-simple-wallet](https://www.npmjs.com/package/kaspa-simple-wallet) in pure JS and published it MIT: watch-only derivation from a KPUB/XPUB, Kaspium-compatible, so the store never holds a private key. It is written to the WooCommerce gateway API properly, which means refunds and order states behave the way the rest of the admin expects them to.
 
-**Why the non-custodial detail matters:** a store
-that never holds keys can't lose them. Most payment bugs are
-really state bugs — and the best fix is usually an architecture
-where the dangerous state doesn't exist in your system at all.
+**Why the non-custodial detail matters:** a store that never holds keys can't lose them. Most payment bugs are really state bugs — and the best fix is usually an architecture where the dangerous state doesn't exist in your system at all.
 
 ### E-signatures and contract flow
 
-At Hertz Furniture I integrated SignNow for e-signatures on PDF
-quotes, cutting contract turnaround time by 90%. Payments rarely
-live alone — they sit next to quotes, contracts, invoices, and a
-CRM that all need to agree with each other.
+At Hertz Furniture I integrated SignNow for e-signatures on PDF quotes, cutting contract turnaround time by 90%. Payments rarely live alone — they sit next to quotes, contracts, invoices, and a CRM that all need to agree with each other.
 
 ## Got a payments problem?
 
-New integration, custom gateway, or something that's quietly
-broken and costing you orders — describe it and I'll tell you what
-it'll take.
+New integration, custom gateway, or something that's quietly broken and costing you orders — describe it and I'll tell you what it'll take.
 
 Email me
 
 [All services](https://jacoborbach.com/services/)
 
-[AI integration](https://jacoborbach.com/services/ai-integration/)
-[Work with me](https://jacoborbach.com/services/)
-[Featured work](https://jacoborbach.com/#work)
-
+[AI integration](https://jacoborbach.com/services/ai-integration/) [Work with me](https://jacoborbach.com/services/) [Featured work](https://jacoborbach.com/#work)
 
 ---
 
@@ -1231,14 +833,9 @@ Custom AI Integration
 
 # AI features that survive contact with real users
 
-The demo is the easy part. Making it cheap, safe, and accurate on
-live traffic is the job.
+The demo is the easy part. Making it cheap, safe, and accurate on live traffic is the job.
 
-I build LLM features into real products — support agents that
-actually answer, retrieval grounded in your own content, and model
-routing that keeps the bill from tripling when you grow. I run this
-in production on my own SaaS, on paying customers' traffic, which is
-why I know where it breaks.
+I build LLM features into real products — support agents that actually answer, retrieval grounded in your own content, and model routing that keeps the bill from tripling when you grow. I run this in production on my own SaaS, on paying customers' traffic, which is why I know where it breaks.
 
 Discuss an AI build
 
@@ -1266,27 +863,19 @@ Scope
 
 ### AI support & sales agents
 
-Chat agents that answer from your knowledge base, your product
-pages, and your docs — and hand off to a human on the questions
-where a wrong answer would cost you a customer.
+Chat agents that answer from your knowledge base, your product pages, and your docs — and hand off to a human on the questions where a wrong answer would cost you a customer.
 
 ### Grounded answers over your content
 
-Retrieval pipelines so the model answers from your actual
-content instead of inventing plausible fiction. Includes the
-unglamorous part: chunking, freshness, and citation.
+Retrieval pipelines so the model answers from your actual content instead of inventing plausible fiction. Includes the unglamorous part: chunking, freshness, and citation.
 
 ### AI inside an existing product
 
-Summarization, classification, extraction, drafting, semantic
-search. Bolted onto the app you already have, without a rewrite
-and without a new vendor platform.
+Summarization, classification, extraction, drafting, semantic search. Bolted onto the app you already have, without a rewrite and without a new vendor platform.
 
 ### Internal tooling & automation
 
-The workflows eating your team's week — triaging tickets,
-parsing documents, enriching records, generating first drafts of
-things a human then approves.
+The workflows eating your team's week — triaging tickets, parsing documents, enriching records, generating first drafts of things a human then approves.
 
 Proof
 
@@ -1294,111 +883,45 @@ Proof
 
 ### GhostChat AI — live on customer traffic
 
-[GhostChat](https://ghostchat.dev/) is my
-privacy-first chat SaaS. Its AI responder runs on Claude via the
-Anthropic API, answering real visitor messages on paying
-customers' websites — grounded in each site's own knowledge base
-and behaviour prompt, on Cloudflare Workers with Durable Objects
-for per-conversation state. The widget on this page is that
-product.
+[GhostChat](https://ghostchat.dev/) is my privacy-first chat SaaS. Its AI responder runs on Claude via the Anthropic API, answering real visitor messages on paying customers' websites — grounded in each site's own knowledge base and behaviour prompt, on Cloudflare Workers with Durable Objects for per-conversation state. The widget on this page is that product.
 
 The parts that took the longest are the ones demos skip:
 
--
-**Grounding that refuses to guess.** The model
-answers from the site's own FAQ knowledge base and stays inside
-it. Getting a confident model to say "I'll get someone to
-answer that" instead of inventing a plausible policy is a
-prompt-and-retrieval problem, and it is most of the work.
+- **Grounding that refuses to guess.** The model answers from the site's own FAQ knowledge base and stays inside it. Getting a confident model to say "I'll get someone to answer that" instead of inventing a plausible policy is a prompt-and-retrieval problem, and it is most of the work.
 
--
-**Handoff that doesn't strand anyone.** When the
-agent hits a question it shouldn't answer, it hands off to a
-human — and if nobody is online, it says when the team is
-actually back, in the owner's own wording and the owner's own
-timezone. Every unattended handoff is a lead you already paid
-for.
+- **Handoff that doesn't strand anyone.** When the agent hits a question it shouldn't answer, it hands off to a human — and if nobody is online, it says when the team is actually back, in the owner's own wording and the owner's own timezone. Every unattended handoff is a lead you already paid for.
 
--
-**A unit cost you can defend.** Replies land around
-a third of a cent each. Knowing that number is what lets you
-offer AI on every plan instead of hiding it behind an
-enterprise tier, and it comes from model choice and prompt size,
-not from wishful pricing.
+- **A unit cost you can defend.** Replies land around a third of a cent each. Knowing that number is what lets you offer AI on every plan instead of hiding it behind an enterprise tier, and it comes from model choice and prompt size, not from wishful pricing.
 
--
-**Per-site isolation.** Each site gets its own
-knowledge base, its own behaviour prompt, and its own limits,
-because one customer's tone and another's compliance rules are
-not the same product.
+- **Per-site isolation.** Each site gets its own knowledge base, its own behaviour prompt, and its own limits, because one customer's tone and another's compliance rules are not the same product.
 
 ### ghostchat-agent — open-source, bring your own model
 
-I publish
-[ghostchat-agent](https://www.npmjs.com/package/ghostchat-agent)
-on npm (MIT licensed) so teams can run their own AI on their own
-infrastructure: their model, their server, their data. It supports
-Anthropic, OpenAI, and local Ollama models behind one webhook
-interface, with a setup wizard that provisions the whole thing in
-a couple of minutes.
+I publish [ghostchat-agent](https://www.npmjs.com/package/ghostchat-agent) on npm (MIT licensed) so teams can run their own AI on their own infrastructure: their model, their server, their data. It supports Anthropic, OpenAI, and local Ollama models behind one webhook interface, with a setup wizard that provisions the whole thing in a couple of minutes.
 
-**The part I'd point a client to first:** that
-package's README opens with a security warning, not a feature
-list. It tells you to run the agent in an isolated folder with no
-access to your codebase or databases, and explains why — visitor
-messages are untrusted input from the public internet, and an
-agent with filesystem access is a prompt-injection target.
+**The part I'd point a client to first:** that package's README opens with a security warning, not a feature list. It tells you to run the agent in an isolated folder with no access to your codebase or databases, and explains why — visitor messages are untrusted input from the public internet, and an agent with filesystem access is a prompt-injection target.
 
-Most AI integrations ship without anyone having thought about
-that. It's the first thing I design for.
+Most AI integrations ship without anyone having thought about that. It's the first thing I design for.
 
 ### Cost-controlled model routing
 
-The failure mode nobody warns you about is the invoice. Sending
-every message to a frontier model is how a working prototype
-becomes an unaffordable product at scale.
+The failure mode nobody warns you about is the invoice. Sending every message to a frontier model is how a working prototype becomes an unaffordable product at scale.
 
-I architect these systems to classify each request and route it to
-the cheapest model that can actually handle it. Simple turns —
-greetings, FAQ-answerable questions, follow-ups already covered by
-context in the conversation — go to a small fast model. Only the
-turns that genuinely need retrieval or hard synthesis escalate to a
-larger one, and once the retrieved context is in the conversation
-history, follow-ups drop back down. That routing decision is
-per-message, not per-conversation, and it is usually the difference
-between an AI feature that pays for itself and one that gets
-switched off after the first big bill.
+I architect these systems to classify each request and route it to the cheapest model that can actually handle it. Simple turns — greetings, FAQ-answerable questions, follow-ups already covered by context in the conversation — go to a small fast model. Only the turns that genuinely need retrieval or hard synthesis escalate to a larger one, and once the retrieved context is in the conversation history, follow-ups drop back down. That routing decision is per-message, not per-conversation, and it is usually the difference between an AI feature that pays for itself and one that gets switched off after the first big bill.
 
 Hard-Won
 
 ## Four things that sink AI features
 
-These are the issues that show up in month two, after the demo has
-already been approved.
+These are the issues that show up in month two, after the demo has already been approved.
 
--
-**Unbounded cost**
-No routing, no caching, no token ceilings. Works fine at 100
-messages a day and becomes indefensible at 10,000. Fixed by
-routing and hard limits designed in from the start.
+- **Unbounded cost** No routing, no caching, no token ceilings. Works fine at 100 messages a day and becomes indefensible at 10,000. Fixed by routing and hard limits designed in from the start.
 
--
-**Confident wrong answers**
-A model with no grounding will invent a refund policy you don't
-have. Fixed by retrieval over your real content plus explicit
-handoff rules for questions where being wrong is expensive.
+- **Confident wrong answers** A model with no grounding will invent a refund policy you don't have. Fixed by retrieval over your real content plus explicit handoff rules for questions where being wrong is expensive.
 
--
-**Prompt injection**
-Anything a visitor types is hostile input. An agent wired to your
-tools, files, or database without sandboxing is a live
-vulnerability, not a feature.
+- **Prompt injection** Anything a visitor types is hostile input. An agent wired to your tools, files, or database without sandboxing is a live vulnerability, not a feature.
 
--
-**No way to tell if it's working**
-Without logging, evaluation cases, and a review loop, "is the AI
-any good?" becomes a matter of opinion. I wire measurement in
-before launch so the answer stays factual.
+- **No way to tell if it's working** Without logging, evaluation cases, and a review loop, "is the AI any good?" becomes a matter of opinion. I wire measurement in before launch so the answer stays factual.
 
 Stack
 
@@ -1406,31 +929,22 @@ Stack
 
 ### Models & providers
 
-Anthropic Claude, OpenAI, and self-hosted Ollama models.
-Provider-agnostic by default so you aren't locked to one vendor's
-pricing.
+Anthropic Claude, OpenAI, and self-hosted Ollama models. Provider-agnostic by default so you aren't locked to one vendor's pricing.
 
 ### Application layer
 
-Node.js, TypeScript, React, Next.js, Cloudflare Workers and
-Durable Objects, Supabase, PostgreSQL with vector search.
+Node.js, TypeScript, React, Next.js, Cloudflare Workers and Durable Objects, Supabase, PostgreSQL with vector search.
 
 ### Around the model
 
-Retrieval and chunking, streaming responses, webhook
-architectures, evaluation harnesses, cost and latency
-instrumentation.
+Retrieval and chunking, streaming responses, webhook architectures, evaluation harnesses, cost and latency instrumentation.
 
 ## Have an AI feature in mind?
 
-Tell me what you want it to do and who it's for. I'll tell you
-honestly whether an LLM is the right tool — sometimes it isn't, and
-that's a cheaper conversation to have now than after the build.
+Tell me what you want it to do and who it's for. I'll tell you honestly whether an LLM is the right tool — sometimes it isn't, and that's a cheaper conversation to have now than after the build.
 
 Email me
 
 [All services](https://jacoborbach.com/services/)
 
-[Payment integrations](https://jacoborbach.com/services/payment-integrations/)
-[Work with me](https://jacoborbach.com/services/)
-[Featured work](https://jacoborbach.com/#work)
+[Payment integrations](https://jacoborbach.com/services/payment-integrations/) [Work with me](https://jacoborbach.com/services/) [Featured work](https://jacoborbach.com/#work)
