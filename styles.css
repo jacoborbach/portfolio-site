@@ -722,7 +722,8 @@ h1 {
 @media (min-width: 1000px) { .mini-projects-grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 
 .mini-project-card {
-  display: block;
+  display: flex;
+  flex-direction: column;
   padding: 1.2rem 1.4rem;
   border-radius: 1.1rem;
   border: 1px solid rgba(191, 219, 254, 0.9);
@@ -778,6 +779,8 @@ h1 {
 }
 
 .mini-project-link {
+  margin-top: auto;
+  align-self: flex-start;
   font-size: 0.82rem;
   font-weight: 600;
   color: #1d4ed8;
