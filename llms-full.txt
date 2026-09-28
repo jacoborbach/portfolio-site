@@ -91,6 +91,12 @@ WordPress WooCommerce Crypto Open source
 
 [
 
+Trekit Product
+
+A digital push‑pin map of everywhere you've been: pins with notes and photos, four map styles, one link to share. Next.js, D3, Neon, offline‑first. The 2016 college idea, rebuilt ten years later.
+
+trekit.app ](https://trekit.app/) [
+
 Hummus Trail Content
 
 Backpacker guides for the Israeli post‑army "hummus trail" — 14+ destination guides across India, Southeast Asia, and South America. SEO‑first content site with affiliate monetization.
@@ -251,7 +257,7 @@ B.Sc. Information Systems
 
 - Kathryn Stewart Fellowship — $5,000 entrepreneurship award
 
-- Capital One grant ($1,000) for Trekit travel app
+- Capital One grant ($1,000) for Trekit travel app (relaunched in 2026 at https://trekit.app/)
 
 Testimonials
 

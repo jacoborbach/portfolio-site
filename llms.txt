@@ -43,6 +43,7 @@ a migration.
 
 - [GhostChat](https://ghostchat.dev/): privacy-first chat widget, ~15KB vanilla-JS SDK, 3-8x faster than legacy tools. Next.js dashboard on Vercel, Cloudflare Workers API with Durable Objects for real-time messaging, Supabase, Stripe.
 - [Gmailytics](https://gmailytics.com/): Google CASA Tier 2 certified Gmail cleanup SaaS. 5M+ emails cleaned, 300GB storage freed.
+- [Trekit](https://trekit.app/): a digital push-pin map of everywhere you've been, with notes, photos, four map styles and a shareable link. Next.js, D3, Neon Postgres. Relaunch of his 2016 college project.
 - [KaspaWoo](https://kaspawoo.com/): open-source Kaspa cryptocurrency payment gateway for WooCommerce, built on his MIT-licensed `kaspa-simple-wallet` npm package.
 
 ## More
