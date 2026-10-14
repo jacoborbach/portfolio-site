@@ -65,15 +65,15 @@ SaaS
 
 ### Gmailytics
 
-Google CASA Tier 2 certified SaaS web app that scans your inbox and lets you bulk‑unsubscribe from unwanted emails in one click.
+SaaS web app and browser extension that ranks who fills your Gmail inbox by volume and storage, then clears each sender's backlog in bulk (trash, archive or unsubscribe). Passed Google's CASA Tier 2 security assessment.
 
-Web App Chrome Extension Gmail API OAuth
+Web App Browser Extension Gmail API OAuth
 
-**5M+** Emails cleaned
+**~6M** Emails cleaned
 
-**300GB** Storage freed
+**400GB+** Mail cleared
 
-**CASA Tier 2** Google certified
+**CASA Tier 2** Security assessment passed
 
 [View Project](https://gmailytics.com/) [Chrome Web Store](https://chromewebstore.google.com/detail/gmailytics/nmmkncnnggchmnoinmpoockpdpboonkj)
 
@@ -426,9 +426,9 @@ At One Digital I built more than thirty React-based Gutenberg blocks for enterpr
 
 [GhostChat](https://ghostchat.dev/) is a privacy-first chat widget with a ~15KB embeddable SDK: a Next.js dashboard on Vercel, a Cloudflare Workers API with Durable Objects for per-conversation state, Supabase for persistence and Stripe for billing. It ships with an AI responder running on Claude in production, a plugin on WordPress.org, and an open-source agent runner on npm. Scoped, built, launched and sold by one person. The chat widget on this page is that product.
 
-### Gmailytics — OAuth at scale, independently security-audited
+### Gmailytics — OAuth on restricted Gmail scopes, independently security-audited
 
-[Gmailytics](https://gmailytics.com/) is a web app plus Chrome extension that scans a Gmail inbox and bulk unsubscribes from unwanted senders. It has cleaned 5M+ emails and freed over 300GB of storage, and it's **Google CASA Tier 2 certified** — it passed an independent third-party security assessment for its use of restricted Gmail scopes, a bar most side projects never clear.
+[Gmailytics](https://gmailytics.com/) is a web app plus browser extension (Chrome, Edge, Firefox) that ranks who fills a Gmail inbox by volume and storage, then clears each sender's backlog in bulk: trash, archive or unsubscribe. It has cleaned ~6M emails, and it **passed Google's CASA Tier 2 security assessment** — an independent third-party assessment for its use of restricted Gmail scopes, a bar most side projects never clear.
 
 ### Migrations that didn't take the site down
 
@@ -802,7 +802,7 @@ At One Digital I built an end-to-end payment system on the Meshulam SDK inside a
 
 ### Stripe — billing my own SaaS, in production
 
-[GhostChat](https://ghostchat.dev/) and [Gmailytics](https://gmailytics.com/) run on Stripe subscription billing I built and still operate. Two decisions there are worth stealing for any subscription product:
+[GhostChat](https://ghostchat.dev/) runs on Stripe subscription billing I built and still operate. Two decisions there are worth stealing for any subscription product:
 
 - **Entitlements resolve from the subscription itself.** What a customer can do is derived from the Stripe price they're actually on, not from a plan name copied into your own database at signup. Those two drift apart the first time someone upgrades mid-cycle, and once they drift you are reconciling access by hand.
 
