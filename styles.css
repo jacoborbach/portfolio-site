@@ -695,6 +695,11 @@ h1 {
   background: #0e0e24;
 }
 
+/* Letterbox bars match the KaspaWoo card artwork's mint background */
+.project-image-kaspa {
+  background: #ebf6f4;
+}
+
 .project-card:hover .project-image img {
   transform: scale(1.05);
 }
