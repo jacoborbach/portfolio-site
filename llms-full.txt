@@ -51,13 +51,13 @@ SaaS
 
 ### GhostChat
 
-A privacy‑first, ultra‑light chat widget engineered to be **up to 20× smaller** and **3–8× faster** than legacy tools like Intercom or Drift. The chat widget on this site is GhostChat. Its [AI assistant](https://jacoborbach.com/services/ai-integration/) answers from each site’s own knowledge base.
+A privacy‑first, ultra‑light chat widget engineered to be **up to 20× smaller** than legacy tools like Intercom or Drift. The chat widget on this site is GhostChat. Its [AI assistant](https://jacoborbach.com/services/ai-integration/) answers from each site’s own knowledge base.
 
 Cloudflare Workers Durable Objects Next.js · Vercel Supabase Stripe
 
 **~15KB** Embeddable SDK
 
-**3–8× faster** vs. legacy tools
+**Up to 20× smaller** than Intercom's widget
 
 [View Project](https://ghostchat.dev/) [How it works](https://ghostchat.dev/how-our-widget-works?utm_source=jacoborbach&utm_campaign=portfolio-card) Chat now [Widget GitHub](https://github.com/jacoborbach/ghostchat-widget)
 
@@ -841,7 +841,7 @@ Custom AI Integration
 
 The demo is the easy part. Making it cheap, safe, and accurate on live traffic is the job.
 
-I build LLM features into real products — support agents that actually answer, retrieval grounded in your own content, and model routing that keeps the bill from tripling when you grow. I run this in production on my own SaaS, on paying customers' traffic, which is why I know where it breaks.
+I build LLM features into real products — support agents that actually answer, retrieval grounded in your own content, and model routing that keeps the bill from tripling when you grow. I run this in production on my own SaaS, on a live customer's traffic, which is why I know where it breaks.
 
 Discuss an AI build
 
@@ -889,7 +889,7 @@ Proof
 
 ### GhostChat AI — live on customer traffic
 
-[GhostChat](https://ghostchat.dev/) is my privacy-first chat SaaS. Its AI responder runs on Claude via the Anthropic API, answering real visitor messages on paying customers' websites — grounded in each site's own knowledge base and behaviour prompt, on Cloudflare Workers with Durable Objects for per-conversation state. The widget on this page is that product.
+[GhostChat](https://ghostchat.dev/) is my privacy-first chat SaaS. Its AI responder runs on Claude via the Anthropic API, answering real visitor messages on a live customer's site — grounded in each site's own knowledge base and behaviour prompt, on Cloudflare Workers with Durable Objects for per-conversation state. The widget on this page is that product.
 
 The parts that took the longest are the ones demos skip:
 
