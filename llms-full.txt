@@ -97,6 +97,12 @@ A digital push‑pin map of everywhere you've been: pins with notes and photos, 
 
 trekit.app ](https://trekit.app/) [
 
+PurgeInbox In development
+
+An inbox cleaner in development: see which senders fill your inbox, then bulk‑delete their mail and unsubscribe. Outlook first; Yahoo, AOL and iCloud planned.
+
+purgeinbox.com ](https://purgeinbox.com/) [
+
 Hummus Trail Content
 
 Backpacker guides for the Israeli post‑army "hummus trail" — 14+ destination guides across India, Southeast Asia, and South America. SEO‑first content site with affiliate monetization.
