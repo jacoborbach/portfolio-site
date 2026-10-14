@@ -726,7 +726,6 @@ h1 {
 /* "Also building" has three cards: three across on wide screens */
 @media (min-width: 1000px) { .mini-projects-grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 
-
 .mini-project-card {
   display: flex;
   flex-direction: column;
