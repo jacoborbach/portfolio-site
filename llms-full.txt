@@ -586,7 +586,7 @@ Most maintenance services are good at clicking "update" and bad at what happens 
 
 - **30+ custom Gutenberg blocks** for enterprise clients at a digital agency, plus Elementor sites and WPML multilingual builds with Hebrew RTL and English LTR.
 
-- **Looked after three independent clients' sites:** kept WordPress, Elementor and plugins current, managed DNS, SSL and caching across cPanel and Cloudflare, and ran the Search Console side. Including a site that was broken when I took it over.
+- **Looked after three independent clients' sites:** kept WordPress, Elementor and plugins current, managed DNS, SSL and caching across cPanel and Cloudflare, and ran the Search Console side.
 
 - **A broken Elementor site rebuilt end to end** for a freelance client, with new pages designed on it.
 
