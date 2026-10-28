@@ -595,9 +595,9 @@ Response time, business days
 
 Of updates preceded by a backup
 
-0
+None
 
-Lock-in: cancel with a month's notice
+Contract term: cancel with a month's notice
 
 Every month
 
