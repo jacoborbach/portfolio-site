@@ -2366,9 +2366,9 @@ a.service-card:hover {
   padding: 1.2rem 0 0.2rem;
 }
 
-.proof-strip-inline {
+.proof-strip.proof-strip-inline {
   justify-content: flex-start;
-  margin: -0.6rem 0 1.6rem;
+  margin: -0.4rem 0 1.8rem;
 }
 
 .tech-strip-wrap {
