@@ -500,7 +500,7 @@ Tell me about the project
 
 Keeping a WordPress site that already works from quietly falling over: updates with a backup first, monitoring, and up to three hours a month of fixes. What's included, what's extra, and how it works are on the [WordPress care page](https://jacoborbach.com/care/).
 
-**Typical** $250/mo · up to 3 hours a month · catch-up quoted first if the site is badly out of date
+**Typical** From $250/mo, quoted after a look · up to 3 hours a month in the base plan · catch-up quoted first if the site is badly out of date or hacked
 
 [See the care plan](https://jacoborbach.com/care/)
 
@@ -583,9 +583,9 @@ Ask about your site
 
 בעברית
 
-$250
+From $250
 
-A month, up to 3 hours of fixes included
+A month, quoted after I look at your site
 
 1 day
 
@@ -595,9 +595,9 @@ Response time, business days
 
 Of updates preceded by a backup
 
-None
+Month to month
 
-Contract term: cancel with a month's notice
+No contract, cancel with a month's notice
 
 Every month
 
@@ -653,7 +653,7 @@ Questions
 
 ### What does it cost?
 
-$250 a month, including up to 3 hours of fixes. In Israel, ₪500 a month plus VAT, including up to 2.5 hours. Extra work is quoted before I do it. A site that's badly out of date gets a one-time catch-up quote first.
+From $250 a month, quoted after I look at your site. The base plan is $250 and includes up to 3 hours of fixes; a bigger or more complex site is quoted higher. In Israel, from ₪500 a month plus VAT, including up to 2.5 hours. Extra work is quoted before I do it. A site that's badly out of date, or hacked, gets a one-time catch-up quote first.
 
 ### My site has been hacked. Can you clean it up?
 
@@ -709,7 +709,7 @@ New pages, new features, content and design changes, redesigns, and SEO projects
 
 שינויי תוכן ועיצוב, עמודים חדשים ואינטגרציות: 200 ₪ לשעה + מע״מ, בהצעת מחיר מראש. חנויות WooCommerce ואתרים רב-לשוניים מקבלים הצעת מחיר נפרדת.
 
-**המחיר: 500 ₪ לחודש + מע״מ**, כולל עד 2.5 שעות תיקונים. חודשי, מראש, ביטול בהודעה של חודש. המחירים לא כוללים מע״מ. אתר שלא עודכן זמן רב מקבל קודם הצעת מחיר חד-פעמית להשלמת העדכונים.
+**המחיר: החל מ-500 ₪ לחודש + מע״מ**, כולל עד 2.5 שעות תיקונים, בהצעת מחיר אחרי שאבדוק את האתר. חודשי, מראש, ביטול בהודעה של חודש. המחירים לא כוללים מע״מ. אתר שלא עודכן זמן רב, או שנפרץ, מקבל קודם הצעת מחיר חד-פעמית לניקוי ולהשלמת העדכונים.
 
 ### מה אני צריך מכם
 
