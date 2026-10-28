@@ -457,7 +457,7 @@ Tell me about the project
 
 ### Care plan
 
-Keeping a WordPress site that already works from quietly falling over: updates with a backup first, monitoring, and up to three hours a month of fixes. What's included, what's extra, and how it works are on the [WordPress care page](https://jacoborbach.com/care/).
+Keeping a working WordPress site from breaking: updates with a backup first, monitoring, and up to three hours a month of fixes. What's included, what's extra, and how it works are on the [WordPress care page](https://jacoborbach.com/care/).
 
 **Typical** From $250/mo, quoted after a look · up to 3 hours a month in the base plan · catch-up quoted first if the site is badly out of date or hacked
 
@@ -465,7 +465,7 @@ Keeping a WordPress site that already works from quietly falling over: updates w
 
 ### Ongoing retainer
 
-A developer on your product every week, not just keeping the lights on — shipping new features, building out pages, and iterating on what the analytics and Search Console data say. This is where compounding growth happens.
+A developer on your product every week, not just keeping the lights on — shipping new features, building out pages, and iterating on what the analytics and Search Console data say. 
 
 **Typical** Monthly · capped hours · from $2,000/mo
 
@@ -514,7 +514,7 @@ Page title: WordPress Maintenance & Care Plans · Jacob Orbach
 
 WordPress maintenance
 
-# Your WordPress site, kept current and quietly working
+# Your WordPress site, kept current and running
 
 A backup before every update. Tested on a staging copy when your host supports it. Someone who notices when it goes down.
 
@@ -548,7 +548,7 @@ WordPress core, plugins and theme. Backed up first, tested on a staging copy whe
 
 ### Backups you can restore
 
-Regular automatic backups stored off your server, plus one before every change I make. A backup nobody has tested is a hope, so I check that they actually restore.
+Regular automatic backups stored off your server, plus one before every change I make. I test that backups restore, not just that they ran.
 
 ### Uptime & security
 
@@ -560,7 +560,7 @@ Up to 3 hours a month for the small things: a broken form, a layout glitch after
 
 ### A short monthly report
 
-What was updated, what I found, what I fixed, and anything you should know about. No jargon, one email.
+What was updated, what I found, what I fixed, and anything you should know about. One email a month.
 
 ### One person who knows your site
 
@@ -761,21 +761,21 @@ At One Digital I built an end-to-end payment system on the Meshulam SDK inside a
 
 - **Repricing is a new Price, not a migration.** Because entitlement is read from the subscription itself, changing what you charge means publishing a new Price object rather than running a script against live customers at 2am — and you decide deliberately, per entitlement, which existing subscribers move.
 
-There is a particular kind of care you develop when the failed-payment webhook is your own revenue, and that's the standard I bring to client billing systems.
+When the failed-payment webhook is your own revenue, you build to a higher standard — the one I bring to client billing.
 
 ### KaspaWoo — open-source crypto gateway
 
 A production Kaspa payment gateway for WooCommerce, open-sourced on [GitHub](https://github.com/kaspawoo/woocommerce). It's non-custodial: payments derive to the merchant's own wallet, never mine. The address derivation had to be its own package because no lightweight JavaScript option existed — the official tooling is a WASM build far too heavy to sit inside a WordPress plugin — so I wrote [kaspa-simple-wallet](https://www.npmjs.com/package/kaspa-simple-wallet) in pure JS and published it MIT: watch-only derivation from a KPUB/XPUB, Kaspium-compatible, so the store never holds a private key. It is written to the WooCommerce gateway API properly, which means refunds and order states behave the way the rest of the admin expects them to.
 
-**Why the non-custodial detail matters:** a store that never holds keys can't lose them. Most payment bugs are really state bugs — and the best fix is usually an architecture where the dangerous state doesn't exist in your system at all.
+A store that never holds keys can't lose them. Most payment bugs are really state bugs — and the best fix is usually an architecture where the dangerous state doesn't exist in your system at all.
 
 ### E-signatures and contract flow
 
 At Hertz Furniture I integrated SignNow for e-signatures on PDF quotes, cutting contract turnaround time by 90%. Payments rarely live alone — they sit next to quotes, contracts, invoices, and a CRM that all need to agree with each other.
 
-## Got a payments problem?
+## Payments problem?
 
-New integration, custom gateway, or something that's quietly broken and costing you orders — describe it and I'll tell you what it'll take.
+New integration, custom gateway, or a broken checkout: describe it and I'll scope it.
 
 Email me
 
