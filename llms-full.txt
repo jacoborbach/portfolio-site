@@ -595,7 +595,7 @@ Response time, business days
 
 Of updates preceded by a backup
 
-Month to month
+Monthly
 
 No contract, cancel with a month's notice
 
