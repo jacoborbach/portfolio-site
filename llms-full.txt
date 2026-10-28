@@ -59,7 +59,7 @@ Cloudflare Workers Durable Objects Next.js · Vercel Supabase Stripe
 
 **Up to 20× smaller** than Intercom's widget
 
-[View Project](https://ghostchat.dev/) [How it works](https://ghostchat.dev/how-our-widget-works?utm_source=jacoborbach&utm_campaign=portfolio-card) Chat now [Widget GitHub](https://github.com/jacoborbach/ghostchat-widget)
+[View Project](https://ghostchat.dev/) [How it works](https://ghostchat.dev/how-our-widget-works?utm_source=jacoborbach&utm_campaign=portfolio-card) Chat now [Widget GitHub](https://github.com/ghostchat-dev/widget)
 
 SaaS
 
@@ -85,7 +85,7 @@ Production‑ready Kaspa crypto [payment gateway](https://jacoborbach.com/servic
 
 WordPress WooCommerce Crypto Open source
 
-[Site](https://kaspawoo.com/) [GitHub](https://github.com/jacoborbach/kaspa-payments-gateway-woocommerce) [npm](https://www.npmjs.com/package/kaspa-simple-wallet)
+[Site](https://kaspawoo.com/) [GitHub](https://github.com/kaspawoo/woocommerce) [npm](https://www.npmjs.com/package/kaspa-simple-wallet)
 
 ### Also building
 
@@ -137,7 +137,7 @@ Kaspa Payments for WooCommerce Plugin
 
 A complete, production cryptocurrency payment gateway for WooCommerce — non-custodial, open source, and written properly against the WooCommerce gateway API.
 
-GitHub ](https://github.com/jacoborbach/kaspa-payments-gateway-woocommerce)
+GitHub ](https://github.com/kaspawoo/woocommerce)
 
 [
 
@@ -145,7 +145,7 @@ ghostchat-widget SDK
 
 The ~15KB embeddable chat SDK behind GhostChat — up to 20× smaller than legacy widgets. It's the one running on this page right now.
 
-GitHub ](https://github.com/jacoborbach/ghostchat-widget)
+GitHub ](https://github.com/ghostchat-dev/widget)
 
 Work With Me
 
@@ -816,7 +816,7 @@ There is a particular kind of care you develop when the failed-payment webhook i
 
 ### KaspaWoo — open-source crypto gateway
 
-A production Kaspa payment gateway for WooCommerce, open-sourced on [GitHub](https://github.com/jacoborbach/kaspa-payments-gateway-woocommerce). It's non-custodial: payments derive to the merchant's own wallet, never mine. The address derivation had to be its own package because no lightweight JavaScript option existed — the official tooling is a WASM build far too heavy to sit inside a WordPress plugin — so I wrote [kaspa-simple-wallet](https://www.npmjs.com/package/kaspa-simple-wallet) in pure JS and published it MIT: watch-only derivation from a KPUB/XPUB, Kaspium-compatible, so the store never holds a private key. It is written to the WooCommerce gateway API properly, which means refunds and order states behave the way the rest of the admin expects them to.
+A production Kaspa payment gateway for WooCommerce, open-sourced on [GitHub](https://github.com/kaspawoo/woocommerce). It's non-custodial: payments derive to the merchant's own wallet, never mine. The address derivation had to be its own package because no lightweight JavaScript option existed — the official tooling is a WASM build far too heavy to sit inside a WordPress plugin — so I wrote [kaspa-simple-wallet](https://www.npmjs.com/package/kaspa-simple-wallet) in pure JS and published it MIT: watch-only derivation from a KPUB/XPUB, Kaspium-compatible, so the store never holds a private key. It is written to the WooCommerce gateway API properly, which means refunds and order states behave the way the rest of the admin expects them to.
 
 **Why the non-custodial detail matters:** a store that never holds keys can't lose them. Most payment bugs are really state bugs — and the best fix is usually an architecture where the dangerous state doesn't exist in your system at all.
 

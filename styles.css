@@ -183,6 +183,7 @@ a:hover {
 }
 
 .nav-link {
+  white-space: nowrap;
   padding: 0.45rem 0.8rem;
   border-radius: 999px;
   font-size: 0.78rem;
@@ -1373,18 +1374,21 @@ h1 {
   }
 }
 
-@media (max-width: 720px) {
-  .site-header-inner {
-    padding-inline: 0;
-    gap: 0.7rem;
-  }
-
+/* Five nav items: hand over to the hamburger below 881px so labels never wrap. */
+@media (max-width: 880px) {
   .site-nav {
     display: none;
   }
 
   .mobile-menu-toggle {
     display: flex;
+  }
+}
+
+@media (max-width: 720px) {
+  .site-header-inner {
+    padding-inline: 0;
+    gap: 0.7rem;
   }
 
   .section-hero {
