@@ -9,6 +9,26 @@
   },
   "redirects": [
     {
+      "source": "/services/ai-integration",
+      "destination": "/ai-integration/",
+      "permanent": true
+    },
+    {
+      "source": "/services/ai-integration/",
+      "destination": "/ai-integration/",
+      "permanent": true
+    },
+    {
+      "source": "/services/payment-integrations",
+      "destination": "/payment-integrations/",
+      "permanent": true
+    },
+    {
+      "source": "/services/payment-integrations/",
+      "destination": "/payment-integrations/",
+      "permanent": true
+    },
+    {
       "source": "/services/wordpress-development",
       "destination": "/services/",
       "permanent": true

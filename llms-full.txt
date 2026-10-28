@@ -51,7 +51,7 @@ SaaS
 
 ### GhostChat
 
-A privacy‑first, ultra‑light chat widget engineered to be **up to 20× smaller** than legacy tools like Intercom or Drift. The chat widget on this site is GhostChat. Its [AI assistant](https://jacoborbach.com/services/ai-integration/) answers from each site’s own knowledge base.
+A privacy‑first, ultra‑light chat widget engineered to be **up to 20× smaller** than legacy tools like Intercom or Drift. The chat widget on this site is GhostChat. Its [AI assistant](https://jacoborbach.com/ai-integration/) answers from each site’s own knowledge base.
 
 Cloudflare Workers Durable Objects Next.js · Vercel Supabase Stripe
 
@@ -81,7 +81,7 @@ Plugin
 
 ### KaspaWoo
 
-Production‑ready Kaspa crypto [payment gateway](https://jacoborbach.com/services/payment-integrations/) for WooCommerce. Open source — plugin on GitHub, powered by my kaspa‑simple‑wallet npm package.
+Production‑ready Kaspa crypto [payment gateway](https://jacoborbach.com/payment-integrations/) for WooCommerce. Open source — plugin on GitHub, powered by my kaspa‑simple‑wallet npm package.
 
 WordPress WooCommerce Crypto Open source
 
@@ -159,13 +159,13 @@ Available for client work alongside my own products. Small, well-defined jobs tu
 
 LLM features that survive real traffic: support agents, grounded answers over your own content, and cost-controlled model routing. Running in production on my own SaaS today.
 
-AI integration → ](https://jacoborbach.com/services/ai-integration/) [
+AI integration → ](https://jacoborbach.com/ai-integration/) [
 
 ### Payment integrations
 
 Stripe billing, Meshulam, custom WooCommerce gateways, crypto. Built for enterprise clients and running on my own products.
 
-Payment integrations → ](https://jacoborbach.com/services/payment-integrations/) [
+Payment integrations → ](https://jacoborbach.com/payment-integrations/) [
 
 ### WordPress plugins & blocks
 
@@ -195,7 +195,7 @@ Full Stack Developer
 
 2024–2026
 
-- Built end‑to‑end [Strapi payment system with Meshulam SDK](https://jacoborbach.com/services/payment-integrations/), processing $1M+/year (annualized) in transaction volume
+- Built end‑to‑end [Strapi payment system with Meshulam SDK](https://jacoborbach.com/payment-integrations/), processing $1M+/year (annualized) in transaction volume
 
 - 30+ custom React‑[based Gutenberg blocks](https://jacoborbach.com/services/); automated ACF block generator cutting dev time by 80%
 
@@ -315,7 +315,7 @@ I build products the way I like to use them: lightweight, clean, fast, and usefu
 
 ## Let's build something great
 
-Whether you've got a product to build, an [AI feature to ship](https://jacoborbach.com/services/ai-integration/), a site that isn't ranking, or a founding engineer role to fill — I'd like to hear about it. Here's [how I work with clients](https://jacoborbach.com/services/).
+Whether you've got a product to build, an [AI feature to ship](https://jacoborbach.com/ai-integration/), a site that isn't ranking, or a founding engineer role to fill — I'd like to hear about it. Here's [how I work with clients](https://jacoborbach.com/services/).
 
 Email me
 
@@ -376,7 +376,7 @@ Most projects touch more than one of these. That's the point — you don't have 
 
 LLM features that survive real traffic — support agents, grounded answers over your content, and cost-controlled model routing. Claude, OpenAI, or self-hosted. Running in production on my own SaaS today.
 
-See the AI work → ](https://jacoborbach.com/services/ai-integration/)
+See the AI work → ](https://jacoborbach.com/ai-integration/)
 
 [
 
@@ -384,7 +384,7 @@ See the AI work → ](https://jacoborbach.com/services/ai-integration/)
 
 Stripe billing, Meshulam, custom WooCommerce gateways, and crypto. I built the payment system behind an agency's enterprise clients, and run Stripe billing on my own products.
 
-See the payment work → ](https://jacoborbach.com/services/payment-integrations/)
+See the payment work → ](https://jacoborbach.com/payment-integrations/)
 
 ### WordPress plugins & Gutenberg
 
@@ -727,11 +727,11 @@ Email me
 
 [All services](https://jacoborbach.com/services/)
 
-[Work with me](https://jacoborbach.com/services/) [Payment integrations](https://jacoborbach.com/services/payment-integrations/) [Featured work](https://jacoborbach.com/#work)
+[Work with me](https://jacoborbach.com/services/) [Payment integrations](https://jacoborbach.com/payment-integrations/) [Featured work](https://jacoborbach.com/#work)
 
 ---
 
-Source: https://jacoborbach.com/services/payment-integrations/
+Source: https://jacoborbach.com/payment-integrations/
 Page title: Stripe, Meshulam & Custom Payment Gateways · Jacob Orbach
 
 Payments
@@ -832,11 +832,11 @@ Email me
 
 [All services](https://jacoborbach.com/services/)
 
-[AI integration](https://jacoborbach.com/services/ai-integration/) [Work with me](https://jacoborbach.com/services/) [Featured work](https://jacoborbach.com/#work)
+[AI integration](https://jacoborbach.com/ai-integration/) [Work with me](https://jacoborbach.com/services/) [Featured work](https://jacoborbach.com/#work)
 
 ---
 
-Source: https://jacoborbach.com/services/ai-integration/
+Source: https://jacoborbach.com/ai-integration/
 Page title: Custom AI Integration – Agents & Chatbots · Jacob Orbach
 
 Custom AI Integration
@@ -957,4 +957,4 @@ Email me
 
 [All services](https://jacoborbach.com/services/)
 
-[Payment integrations](https://jacoborbach.com/services/payment-integrations/) [Work with me](https://jacoborbach.com/services/) [Featured work](https://jacoborbach.com/#work)
+[Payment integrations](https://jacoborbach.com/payment-integrations/) [Work with me](https://jacoborbach.com/services/) [Featured work](https://jacoborbach.com/#work)
