@@ -590,7 +590,7 @@ Up to 3 hours a month for the small things: a broken form, a layout glitch after
 
 ### A short monthly report
 
-What was updated, what I found, what I fixed, and anything you should know about. Plain English, one email.
+What was updated, what I found, what I fixed, and anything you should know about. No jargon, one email.
 
 ### One person who knows your site
 
@@ -604,7 +604,7 @@ Most sites arrive somewhere on the left. The one-time catch-up gets them to the 
 
 **Before:** WordPress two versions behind · 14 plugin updates waiting, one no longer maintained · Spam pages nobody on the team wrote · Last backup: unknown · Nobody is told when it goes down
 
-**After:** Core, plugins and theme current, tested on staging first · Spam removed, unknown admin accounts gone, likely ways in closed · Nightly off-server backups, restore tested · Uptime and SSL monitored, I get the alert · One plain-English report a month
+**After:** Core, plugins and theme current, tested on staging first · Spam removed, unknown admin accounts gone, likely ways in closed · Nightly off-server backups, restore tested · Uptime and SSL monitored, I get the alert · One simple, jargon-free report a month
 
 Why me
 
