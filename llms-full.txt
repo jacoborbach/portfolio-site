@@ -657,7 +657,7 @@ From $250 a month, quoted after I look at your site. The base plan is $250 and i
 
 ### My site has been hacked. Can you clean it up?
 
-Yes. Posts or pages you didn't write, admin users you don't recognise, a warning from Google or from your host: those are the usual signs. I find how they got in, remove what they left behind, close the hole, and bring everything up to date so it stays closed. Cleanup is a one-time job, quoted after I look at the site. The monthly plan then keeps it that way.
+Yes. Posts or pages you didn't write, admin users you don't recognise, a warning from Google or from your host: those are the usual signs. I look into how they got in, remove what they left behind, close the likely ways in, and bring everything up to date so it stays closed. Cleanup is a one-time job, quoted after I look at the site. The monthly plan then keeps it that way.
 
 ### Do I have to move hosting?
 
