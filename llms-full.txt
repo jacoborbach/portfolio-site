@@ -727,7 +727,7 @@ Email me
 
 [All services](https://jacoborbach.com/services/)
 
-[Work with me](https://jacoborbach.com/services/) [Payment integrations](https://jacoborbach.com/payment-integrations/) [Featured work](https://jacoborbach.com/#work)
+[Services](https://jacoborbach.com/services/) [Payment integrations](https://jacoborbach.com/payment-integrations/) [Featured work](https://jacoborbach.com/#work)
 
 ---
 
@@ -832,7 +832,7 @@ Email me
 
 [All services](https://jacoborbach.com/services/)
 
-[AI integration](https://jacoborbach.com/ai-integration/) [Work with me](https://jacoborbach.com/services/) [Featured work](https://jacoborbach.com/#work)
+[AI integration](https://jacoborbach.com/ai-integration/) [Services](https://jacoborbach.com/services/) [Featured work](https://jacoborbach.com/#work)
 
 ---
 
@@ -957,4 +957,4 @@ Email me
 
 [All services](https://jacoborbach.com/services/)
 
-[Payment integrations](https://jacoborbach.com/payment-integrations/) [Work with me](https://jacoborbach.com/services/) [Featured work](https://jacoborbach.com/#work)
+[Payment integrations](https://jacoborbach.com/payment-integrations/) [Services](https://jacoborbach.com/services/) [Featured work](https://jacoborbach.com/#work)
