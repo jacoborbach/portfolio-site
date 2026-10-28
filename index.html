@@ -120,6 +120,22 @@
 <body class="theme-home">
   <a href="#top" class="skip-link">Skip to content</a>
   <div class="page">
+    <div class="lang-banner" id="lang-banner" hidden>
+      <p dir="rtl" lang="he"><a href="/he/care/">תחזוקת וורדפרס בעברית ←</a></p>
+      <button type="button" class="lang-banner-close" aria-label="Close">&#x2715;</button>
+    </div>
+    <script>
+      (function () {
+        var b = document.getElementById("lang-banner");
+        try { if (localStorage.getItem("langBannerDismissed")) return; } catch (e) {}
+        var l = navigator.languages || [navigator.language || ""];
+        for (var i = 0; i < l.length; i++) { if (/^he(-|$)/i.test(l[i])) { b.hidden = false; break; } }
+        b.querySelector(".lang-banner-close").addEventListener("click", function () {
+          b.hidden = true;
+          try { localStorage.setItem("langBannerDismissed", "1"); } catch (e) {}
+        });
+      })();
+    </script>
     <header class="site-header">
       <div class="shell">
         <div class="site-header-inner">
@@ -900,7 +916,6 @@
         <div class="site-footer-inner">
           <span>© <span id="year">2026</span> Jacob Orbach</span>
           <span class="footer-meta">Fast, lightweight, production‑ready.</span>
-          <a class="footer-lang" href="/he/care/" lang="he" hreflang="he">עברית</a>
         </div>
       </div>
     </footer>
