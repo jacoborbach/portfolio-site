@@ -415,7 +415,7 @@ Two plugins on WordPress.org · Open-source package on npm · Extension on Chrom
 - **~15 KB embeddable SDK, paying customers. GhostChat, a SaaS built and sold by one person.** Next.js dashboard, Cloudflare Workers API with Durable Objects, Supabase, Stripe billing, an AI responder in production and a plugin on WordPress.org. The chat widget on this page is it. (Cloudflare Workers, Supabase, Stripe)
 - **~6M emails cleaned, CASA Tier 2 passed. Gmailytics, OAuth on restricted Gmail scopes.** Web app plus Chrome, Edge and Firefox extension that ranks who fills an inbox and clears each sender's backlog in bulk. Independently security-assessed. (OAuth, Gmail API, Browser extension)
 - **100K+ records migrated, zero downtime. Salesforce migration and workflow automation.** CRM moved with zero data loss. LiveChat bots and webhooks cut response time to under ten minutes, OneDrive via Graph API cut storage costs 40%, SignNow made contracts 90% faster. (Salesforce, Graph API, SignNow)
-- **3 sites maintained for three independent clients. Looking after WordPress, not just building it.** Kept WordPress, Elementor and plugins updated, and managed DNS, SSL and caching across cPanel and Cloudflare, plus sitemaps and Search Console. That kind of day-to-day upkeep is what the [care plan](https://jacoborbach.com/care/) covers. (Elementor, Cloudflare, cPanel)
+- **3 sites maintained for three independent clients. Looking after WordPress, not just building it.** Kept WordPress, Elementor and plugins updated, and managed DNS, SSL and caching across cPanel and Cloudflare, plus sitemaps and Search Console. Covered by the [care plan](https://jacoborbach.com/care/). (Elementor, Cloudflare, cPanel)
 
 In Their Words
 
