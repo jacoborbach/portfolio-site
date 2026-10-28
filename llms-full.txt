@@ -645,7 +645,7 @@ Most maintenance services are good at clicking "update" and bad at what happens 
 
 ### Before we start
 
-The monthly price is for a site in normal shape. If yours is badly out of date (years behind on WordPress or WooCommerce, or plugins that are no longer maintained), there's a one-time catch-up first, quoted after I look at it. That's where most of the risk sits, so I'd rather price it honestly than bury it in the monthly fee.
+The monthly price is for a site in normal shape. If yours is badly out of date (years behind on WordPress or WooCommerce, or plugins that are no longer maintained), or it has been hacked, there's a one-time catch-up first, quoted after I look at it. That's where most of the risk sits, so I'd rather price it honestly than bury it in the monthly fee.
 
 Questions
 
@@ -654,6 +654,10 @@ Questions
 ### What does it cost?
 
 $250 a month, including up to 3 hours of fixes. In Israel, ₪500 a month plus VAT, including up to 2.5 hours. Extra work is quoted before I do it. A site that's badly out of date gets a one-time catch-up quote first.
+
+### My site has been hacked. Can you clean it up?
+
+Yes. Posts or pages you didn't write, admin users you don't recognise, a warning from Google or from your host: those are the usual signs. I find how they got in, remove what they left behind, close the hole, and bring everything up to date so it stays closed. Cleanup is a one-time job, quoted after I look at the site. The monthly plan then keeps it that way.
 
 ### Do I have to move hosting?
 
