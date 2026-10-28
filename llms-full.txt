@@ -581,8 +581,6 @@ I build WordPress for a living: plugins on WordPress.org, 30+ custom Gutenberg b
 
 Ask about your site
 
-בעברית
-
 From $250
 
 A month, quoted after I look at your site
@@ -683,7 +681,27 @@ Yes. If you build WordPress sites for clients and would rather not do the monthl
 
 New pages, new features, content and design changes, redesigns, and SEO projects. Those are quoted before I start. WooCommerce stores and multilingual sites are quoted separately, because there is more to keep working. Keeping what you have working and up to date is what the monthly fee covers.
 
-בעברית
+## Want your site looked after?
+
+Send me the address. I'll take a look and tell you what shape it's in, what the first month would involve, and the price.
+
+
+Email me
+
+[All services](https://jacoborbach.com/services/)
+
+[Services](https://jacoborbach.com/services/) [Payment integrations](https://jacoborbach.com/payment-integrations/) [Featured work](https://jacoborbach.com/#work)
+
+---
+
+Source: https://jacoborbach.com/he/care/
+Page title: תחזוקת אתרי וורדפרס · יעקב אורבך
+
+תחזוקת וורדפרס
+
+# האתר שלכם בוורדפרס, מעודכן ועובד בשקט
+
+גיבוי לפני כל עדכון. בדיקה על עותק של האתר כשהאחסון מאפשר. מישהו ששם לב כשהאתר נופל.
 
 ## תחזוקת אתר וורדפרס
 
@@ -717,17 +735,11 @@ New pages, new features, content and design changes, redesigns, and SEO projects
 
 יעקב אורבך
 
-## Want your site looked after?
+### האתר נפרץ? אפשר לנקות
 
-Send me the address. I'll take a look and tell you what shape it's in, what the first month would involve, and the price.
+פוסטים או עמודים שלא כתבתם, משתמשי ניהול שאתם לא מזהים, אזהרה מגוגל או מחברת האחסון: אלה הסימנים המוכרים. אני בודק איך נכנסו, מסיר מה שהשאירו, סוגר את דרכי הכניסה הסבירות ומעדכן הכול כדי שזה יישאר סגור. ניקוי הוא עבודה חד-פעמית, בהצעת מחיר אחרי שאבדוק את האתר. התוכנית החודשית שומרת אחר כך על המצב.
 
-שלחו לי את כתובת האתר, ואחזור אליכם עם תמונת מצב והצעת מחיר.
-
-Email me
-
-[All services](https://jacoborbach.com/services/)
-
-[Services](https://jacoborbach.com/services/) [Payment integrations](https://jacoborbach.com/payment-integrations/) [Featured work](https://jacoborbach.com/#work)
+English version: https://jacoborbach.com/care/
 
 ---
 

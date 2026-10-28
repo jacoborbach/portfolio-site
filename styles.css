@@ -2315,3 +2315,13 @@ a.service-card:hover {
   .split-hero { grid-template-columns: 1fr; }
   .art-card { transform: none; max-width: 26rem; }
 }
+
+.footer-lang {
+  font-size: 0.85rem;
+  color: #64748b;
+  text-decoration: none;
+}
+
+.footer-lang:hover {
+  color: #1d4ed8;
+}

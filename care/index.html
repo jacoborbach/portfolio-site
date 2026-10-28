@@ -9,7 +9,8 @@
     content="WordPress maintenance by a developer, not a ticket queue: a backup before every update, monitoring, and fix time every month. From $250/mo, quoted after a look." />
   <link rel="canonical" href="https://jacoborbach.com/care/" />
   <link rel="alternate" hreflang="en" href="https://jacoborbach.com/care/" />
-  <link rel="alternate" hreflang="he" href="https://jacoborbach.com/care/#he" />
+  <link rel="alternate" hreflang="he" href="https://jacoborbach.com/he/care/" />
+  <link rel="alternate" hreflang="x-default" href="https://jacoborbach.com/care/" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <meta name="theme-color" content="#1d4ed8" />
   <meta name="author" content="Jacob Orbach" />
@@ -52,8 +53,7 @@
         "provider": { "@type": "Person", "name": "Jacob Orbach", "url": "https://jacoborbach.com/" },
         "areaServed": "Worldwide",
         "offers": [
-          { "@type": "Offer", "priceSpecification": { "@type": "PriceSpecification", "minPrice": "250", "priceCurrency": "USD" }, "description": "From $250 per month, quoted after a look at the site; the base plan includes up to 3 hours of fix time" },
-          { "@type": "Offer", "priceSpecification": { "@type": "PriceSpecification", "minPrice": "500", "priceCurrency": "ILS" }, "description": "From ₪500 per month plus VAT, up to 2.5 hours of fix time (Israel)" }
+          { "@type": "Offer", "priceSpecification": { "@type": "PriceSpecification", "minPrice": "250", "priceCurrency": "USD" }, "description": "From $250 per month, quoted after a look at the site; the base plan includes up to 3 hours of fix time" }
         ]
       }
     ]
@@ -125,7 +125,6 @@
                   stroke-linejoin="round" />
               </svg>
             </a>
-            <a href="#he" class="btn btn-ghost" lang="he">בעברית</a>
           </div>
           </div>
 
@@ -388,77 +387,6 @@
         </div>
       </section>
 
-      <section class="section" id="he" lang="he" dir="rtl">
-        <div class="shell">
-          <header class="section-header">
-            <p class="eyebrow">בעברית</p>
-            <h2>תחזוקת אתר וורדפרס</h2>
-          </header>
-
-          <div class="prose">
-            <div class="callout">
-              <p>
-                <strong>מענה תוך יום עסקים אחד.</strong>
-                <strong>אם עדכון שובר משהו, משחזרים מגיבוי ומתקנים, בלי תוספת תשלום.</strong>
-              </p>
-            </div>
-
-            <p>
-              אני מפתח וורדפרס: תוספים בספריית WordPress.org, מעל 30 בלוקים
-              מותאמים לגוטנברג, אתרים רב-לשוניים עם RTL. כשעדכון שובר משהו, אני
-              מתקן את הסיבה, לא רק מחזיר גרסה.
-            </p>
-
-            <h3>מה כלול בכל חודש</h3>
-            <ul class="list">
-              <li><strong>עדכוני ליבה, תוספים וערכות נושא</strong>, תמיד אחרי גיבוי. כשהאחסון מאפשר, בדיקה קודם על עותק של האתר (סביבת staging).</li>
-              <li><strong>גיבוי לפני כל שינוי</strong>, ובנוסף גיבוי אוטומטי קבוע מחוץ לשרת.</li>
-              <li><strong>ניטור זמינות ומהירות</strong>: התראה כשהאתר נופל, תעודת SSL תקינה.</li>
-              <li><strong>סריקת אבטחה</strong> והסרת תוספים ומשתמשים מיותרים.</li>
-              <li><strong>תיקונים קטנים</strong>: עד 2.5 שעות בחודש.</li>
-              <li><strong>דוח חודשי קצר</strong>: מה עודכן, מה נמצא ומה תוקן.</li>
-            </ul>
-
-            <h3>מה לא כלול</h3>
-            <p>
-              שינויי תוכן ועיצוב, עמודים חדשים ואינטגרציות: 200 ₪ לשעה + מע״מ,
-              בהצעת מחיר מראש. חנויות WooCommerce ואתרים רב-לשוניים מקבלים
-              הצעת מחיר נפרדת.
-            </p>
-
-            <div class="callout">
-              <p>
-                <strong>המחיר: החל מ-500 ₪ לחודש + מע״מ</strong>, כולל עד 2.5 שעות
-                תיקונים, בהצעת מחיר אחרי שאבדוק את האתר. חודשי, מראש, ביטול
-                בהודעה של חודש. המחירים לא כוללים
-                מע״מ. אתר שלא עודכן זמן רב, או שנפרץ, מקבל קודם הצעת מחיר
-                חד-פעמית לניקוי ולהשלמת העדכונים.
-              </p>
-            </div>
-
-            <h3>מה אני צריך מכם</h3>
-            <p>
-              משתמש מנהל בוורדפרס, גישה לפאנל האחסון, גישת צפייה להגדרות
-              הדומיין (DNS), ו-Cloudflare אם יש. אין צורך להחליף אחסון: האתר,
-              הדומיין והאחסון נשארים שלכם.
-            </p>
-
-            <h3>איך מתחילים</h3>
-            <ol class="list">
-              <li><strong>שולחים לי את כתובת האתר.</strong></li>
-              <li><strong>אני בודק ושולח הצעת מחיר:</strong> תחזוקה חודשית, ועבודת השלמה חד-פעמית אם האתר לא עודכן זמן רב.</li>
-              <li><strong>החודש הראשון מתחיל אחרי התשלום.</strong> מאז, עדכונים, גיבויים וניטור בכל חודש.</li>
-            </ol>
-
-            <p>
-              <a href="mailto:jacoborbach96@gmail.com?subject=%D7%AA%D7%97%D7%96%D7%95%D7%A7%D7%AA%20%D7%90%D7%AA%D7%A8" class="btn btn-primary">שלחו לי את כתובת האתר</a>
-            </p>
-
-            <p>יעקב אורבך</p>
-          </div>
-        </div>
-      </section>
-
       <section class="section section-alt">
         <div class="shell">
           <div class="cta-band" id="contact">
@@ -466,9 +394,6 @@
             <p>
               Send me the address. I'll take a look and tell you what shape
               it's in, what the first month would involve, and the price.
-            </p>
-            <p lang="he" dir="rtl">
-              שלחו לי את כתובת האתר, ואחזור אליכם עם תמונת מצב והצעת מחיר.
             </p>
             <div class="cta-band-actions">
               <a href="mailto:jacoborbach96@gmail.com?subject=WordPress%20care%20plan" class="btn btn-primary btn-primary-large">
@@ -543,6 +468,7 @@
         <div class="site-footer-inner">
           <span>© <span id="year">2026</span> Jacob Orbach</span>
           <span class="footer-meta">Fast, lightweight, production‑ready.</span>
+          <a class="footer-lang" href="/he/care/" lang="he" hreflang="he">עברית</a>
         </div>
       </div>
     </footer>
