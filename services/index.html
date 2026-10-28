@@ -214,6 +214,12 @@
         </div>
       </section>
 
+      <section class="proof-strip-wrap" aria-label="Where the work lives">
+        <div class="shell">
+          <ul class="proof-strip fade-in"><li class="proof-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8.5 12.2l2.3 2.3 4.7-4.8"/></svg>Two plugins on WordPress.org</li><li class="proof-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8.5 12.2l2.3 2.3 4.7-4.8"/></svg>Open-source package on npm</li><li class="proof-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8.5 12.2l2.3 2.3 4.7-4.8"/></svg>Extension on Chrome, Edge &amp; Firefox</li><li class="proof-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8.5 12.2l2.3 2.3 4.7-4.8"/></svg>Google CASA Tier 2 passed</li><li class="proof-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8.5 12.2l2.3 2.3 4.7-4.8"/></svg>Stripe billing in production</li><li class="proof-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8.5 12.2l2.3 2.3 4.7-4.8"/></svg>Cloudflare Workers + Durable Objects</li></ul>
+        </div>
+      </section>
+
       <!-- The four tracks -->
       <section class="section section-alt" id="what-i-do">
         <div class="shell">
@@ -330,7 +336,7 @@
         </div>
       </section>
 
-      <!-- Shipped work -->
+      <!-- Case studies -->
       <section class="section" id="shipped">
         <div class="shell">
           <header class="section-header">
@@ -340,118 +346,51 @@
               Everything below is live, and most of it you can inspect yourself.
             </p>
           </header>
-          <div class="prose">
-            <h3>30+ custom Gutenberg blocks — and a generator to make more</h3>
-            <p>
-              At One Digital I built more than thirty React-based Gutenberg
-              blocks for enterprise clients including Dimri, Sonol and Rishumit.
-              Building them one at a time was the bottleneck, so I wrote a
-              metadata-driven ACF block generator that produces the
-              registration, fields and template from a single definition — it
-              cut block development time by roughly 80%. That's the pattern I
-              bring to WordPress work generally: if a task is going to happen
-              fifty times, the second one should be generated, not typed. The
-              same project ran WPML multilingual with Hebrew RTL and English
-              LTR sharing components, which sounds like a CSS flag and turns
-              out to touch layout, forms and every third-party embed.
-            </p>
-
-            <h3>GhostChat — a SaaS with paying customers</h3>
-            <p>
-              <a href="https://ghostchat.dev/" target="_blank" rel="noopener">GhostChat</a> is a
-              privacy-first chat widget with a ~15KB embeddable SDK: a Next.js
-              dashboard on Vercel, a Cloudflare Workers API with Durable Objects
-              for per-conversation state, Supabase for persistence and Stripe
-              for billing. It ships
-              with an AI responder running on Claude in production, a plugin on
-              WordPress.org, and an open-source agent runner on npm. Scoped,
-              built, launched and sold by one person. The chat widget on this
-              page is that product.
-            </p>
-
-            <h3>Gmailytics — OAuth on restricted Gmail scopes, independently security-audited</h3>
-            <p>
-              <a href="https://gmailytics.com/" target="_blank" rel="noopener">Gmailytics</a> is a
-              web app plus browser extension (Chrome, Edge, Firefox) that ranks
-              who fills a Gmail inbox by volume and storage, then clears each
-              sender's backlog in bulk: trash, archive or unsubscribe. It has
-              cleaned ~6M emails, and it <strong>passed Google's CASA Tier 2
-              security assessment</strong> — an independent third-party
-              assessment for its use of restricted Gmail scopes, a bar most
-              side projects never clear.
-            </p>
-
-            <h3>Migrations that didn't take the site down</h3>
-            <p>
-              At Hertz Furniture I migrated a CRM of over 100,000 records to
-              Salesforce with zero data loss and zero downtime, then built
-              LiveChat bots and Salesforce webhooks that cut response time from
-              hours to under ten minutes, and integrated Microsoft OneDrive via
-              the Graph API for a 40% storage cost reduction. At Elphi I moved a
-              production application from Firebase to PostgreSQL and added
-              GraphQL subscriptions so the UI updated in real time.
-            </p>
-
-            <div class="callout">
-              <p>
-                <strong>The thread running through all of it:</strong> the
-                interesting problems are rarely "build a form." They're "make
-                these four systems agree with each other, forever, without a
-                human checking." That's the work I like most and do best.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Selected client work -->
-      <section class="section" id="client-work">
-        <div class="shell">
-          <header class="section-header">
-            <p class="eyebrow">Selected Client Work</p>
-            <h2>Built for other people, in production</h2>
-            <p>
-              Alongside my own products, this is work I shipped as a developer
-              at a digital agency and at a US company &mdash; for their clients,
-              stated as outcomes rather than tech specs.
-            </p>
-          </header>
-          <div class="prose">
-            <h3>Payments for an agency&rsquo;s enterprise clients (as an employee)</h3>
-            <p>
-              Designed and built an end-to-end payment system on Strapi with the
-              Meshulam SDK: the frontend SDK, lifecycle hooks and webhook
-              reconciliation. It processes <strong>over $1M a year</strong>,
-              annualized.
-            </p>
-
-            <h3>Block-first WordPress for agency clients Dimri, Sonol and Rishumit</h3>
-            <p>
-              <strong>30+ custom React-based Gutenberg blocks</strong> plus an
-              automated ACF block generator that <strong>cut build time by
-              80%</strong>, and a WPML multilingual architecture with full
-              RTL/LTR support — delivered for named enterprise clients.
-            </p>
-
-            <h3>Salesforce migration and workflow automation</h3>
-            <p>
-              Migrated <strong>100K+ records</strong> into Salesforce with the
-              REST APIs and automated workflows around it. Integrated Microsoft
-              Graph for OneDrive, <strong>cutting storage costs 40%</strong>, and
-              implemented SignNow e-signatures that
-              <strong>reduced contract turnaround by 90%</strong>. Delivered
-              fully remote for a US company over two years.
-            </p>
-
-            <h3>Looking after WordPress sites, not just building them</h3>
-            <p>
-              Managed and built three sites for an online media organisation:
-              keeping WordPress, Elementor and plugins current, managing DNS,
-              SSL and caching across cPanel and Cloudflare, and running the
-              analytics and Search Console side &mdash; sitemaps, conversion
-              tracking, and fixing what the data said was broken. That
-              day-to-day upkeep is what the care plan below is.
-            </p>
+          <div class="case-grid">
+            <article class="case-card fade-in">
+              <div class="case-metric">$1M+<small>/yr</small></div>
+              <div class="case-metric-label">Processed, annualized</div>
+              <h3>Payments for an agency's enterprise clients</h3>
+              <p>End-to-end payment system on Strapi with the Meshulam SDK: the frontend SDK, lifecycle hooks and webhook reconciliation. Built as an employee, running in production.</p>
+              <div class="project-tags"><span>Strapi</span><span>Meshulam</span><span>Webhooks</span></div>
+            </article>
+            <article class="case-card fade-in">
+              <div class="case-metric">80%</div>
+              <div class="case-metric-label">Faster block development</div>
+              <h3>30+ Gutenberg blocks, and a generator to make more</h3>
+              <p>React blocks for Dimri, Sonol and Rishumit, plus a metadata-driven ACF generator. WPML multilingual with Hebrew RTL and English LTR sharing components.</p>
+              <div class="project-tags"><span>WordPress</span><span>React</span><span>WPML</span></div>
+            </article>
+            <article class="case-card case-card-shot fade-in">
+              <img src="/images/ghostchat-og.webp" alt="GhostChat: live chat and AI that won't slow your site" width="1200" height="630" loading="lazy" decoding="async">
+              <div class="case-metric">~15 KB</div>
+              <div class="case-metric-label">Embeddable SDK, paying customers</div>
+              <h3>GhostChat, a SaaS built and sold by one person</h3>
+              <p>Next.js dashboard, Cloudflare Workers API with Durable Objects, Supabase, Stripe billing, an AI responder in production and a plugin on WordPress.org. The chat widget on this page is it.</p>
+              <div class="project-tags"><span>Cloudflare Workers</span><span>Supabase</span><span>Stripe</span></div>
+            </article>
+            <article class="case-card case-card-shot fade-in">
+              <img src="/images/gmailytics-og.webp" alt="Gmailytics: see who's filling your inbox" width="1200" height="630" loading="lazy" decoding="async">
+              <div class="case-metric">~6M</div>
+              <div class="case-metric-label">Emails cleaned · CASA Tier 2 passed</div>
+              <h3>Gmailytics, OAuth on restricted Gmail scopes</h3>
+              <p>Web app plus Chrome, Edge and Firefox extension that ranks who fills an inbox and clears each sender's backlog in bulk. Independently security-assessed.</p>
+              <div class="project-tags"><span>OAuth</span><span>Gmail API</span><span>Browser extension</span></div>
+            </article>
+            <article class="case-card fade-in">
+              <div class="case-metric">100K+</div>
+              <div class="case-metric-label">Records migrated, zero downtime</div>
+              <h3>Salesforce migration and workflow automation</h3>
+              <p>CRM moved with zero data loss. LiveChat bots and webhooks cut response time to under ten minutes, OneDrive via Graph API cut storage costs 40%, SignNow made contracts 90% faster.</p>
+              <div class="project-tags"><span>Salesforce</span><span>Graph API</span><span>SignNow</span></div>
+            </article>
+            <article class="case-card fade-in">
+              <div class="case-metric">3 sites</div>
+              <div class="case-metric-label">Kept current for a media organisation</div>
+              <h3>Looking after WordPress, not just building it</h3>
+              <p>WordPress, Elementor and plugins kept updated, DNS, SSL and caching across cPanel and Cloudflare, sitemaps and Search Console. That day-to-day upkeep is the <a href="/care/">care plan</a>.</p>
+              <div class="project-tags"><span>Elementor</span><span>Cloudflare</span><span>cPanel</span></div>
+            </article>
           </div>
         </div>
       </section>
@@ -473,10 +412,7 @@
                   work!&rdquo;
                 </p>
               </blockquote>
-              <div class="testimonial-author">
-                <strong>Golda M.</strong>
-                <span>Managing Partner</span>
-              </div>
+              <div class="testimonial-author t-author"><span class="t-avatar" aria-hidden="true">G</span><div><strong>Golda M.</strong><span>Managing Partner</span></div></div>
             </div>
 
             <div class="testimonial-card fade-in">
@@ -488,10 +424,7 @@
                   rehire Jake in an instant.&rdquo;
                 </p>
               </blockquote>
-              <div class="testimonial-author">
-                <strong>Marvin H.</strong>
-                <span>Founder</span>
-              </div>
+              <div class="testimonial-author t-author"><span class="t-avatar" aria-hidden="true">M</span><div><strong>Marvin H.</strong><span>Founder</span></div></div>
             </div>
 
             <div class="testimonial-card fade-in">
@@ -505,10 +438,7 @@
                   expectations.&rdquo;
                 </p>
               </blockquote>
-              <div class="testimonial-author">
-                <strong>Cedric N.</strong>
-                <span>CEO, ROOTS Africa</span>
-              </div>
+              <div class="testimonial-author t-author"><span class="t-avatar" aria-hidden="true">C</span><div><strong>Cedric N.</strong><span>CEO, ROOTS Africa</span></div></div>
             </div>
           </div>
         </div>

@@ -364,6 +364,8 @@ A year in payments, annualized
 
 SaaS products shipped solo
 
+Two plugins on WordPress.org · Open-source package on npm · Extension on Chrome, Edge & Firefox · Google CASA Tier 2 passed · Stripe billing in production · Cloudflare Workers + Durable Objects
+
 Services
 
 ## What I do
@@ -418,45 +420,12 @@ Proof
 
 Everything below is live, and most of it you can inspect yourself.
 
-### 30+ custom Gutenberg blocks — and a generator to make more
-
-At One Digital I built more than thirty React-based Gutenberg blocks for enterprise clients including Dimri, Sonol and Rishumit. Building them one at a time was the bottleneck, so I wrote a metadata-driven ACF block generator that produces the registration, fields and template from a single definition — it cut block development time by roughly 80%. That's the pattern I bring to WordPress work generally: if a task is going to happen fifty times, the second one should be generated, not typed. The same project ran WPML multilingual with Hebrew RTL and English LTR sharing components, which sounds like a CSS flag and turns out to touch layout, forms and every third-party embed.
-
-### GhostChat — a SaaS with paying customers
-
-[GhostChat](https://ghostchat.dev/) is a privacy-first chat widget with a ~15KB embeddable SDK: a Next.js dashboard on Vercel, a Cloudflare Workers API with Durable Objects for per-conversation state, Supabase for persistence and Stripe for billing. It ships with an AI responder running on Claude in production, a plugin on WordPress.org, and an open-source agent runner on npm. Scoped, built, launched and sold by one person. The chat widget on this page is that product.
-
-### Gmailytics — OAuth on restricted Gmail scopes, independently security-audited
-
-[Gmailytics](https://gmailytics.com/) is a web app plus browser extension (Chrome, Edge, Firefox) that ranks who fills a Gmail inbox by volume and storage, then clears each sender's backlog in bulk: trash, archive or unsubscribe. It has cleaned ~6M emails, and it **passed Google's CASA Tier 2 security assessment** — an independent third-party assessment for its use of restricted Gmail scopes, a bar most side projects never clear.
-
-### Migrations that didn't take the site down
-
-At Hertz Furniture I migrated a CRM of over 100,000 records to Salesforce with zero data loss and zero downtime, then built LiveChat bots and Salesforce webhooks that cut response time from hours to under ten minutes, and integrated Microsoft OneDrive via the Graph API for a 40% storage cost reduction. At Elphi I moved a production application from Firebase to PostgreSQL and added GraphQL subscriptions so the UI updated in real time.
-
-**The thread running through all of it:** the interesting problems are rarely "build a form." They're "make these four systems agree with each other, forever, without a human checking." That's the work I like most and do best.
-
-Selected Client Work
-
-## Built for other people, in production
-
-Alongside my own products, this is work I shipped as a developer at a digital agency and at a US company — for their clients, stated as outcomes rather than tech specs.
-
-### Payments for an agency’s enterprise clients (as an employee)
-
-Designed and built an end-to-end payment system on Strapi with the Meshulam SDK: the frontend SDK, lifecycle hooks and webhook reconciliation. It moved **₪300K+ in its first month** — over $1M a year annualized.
-
-### Block-first WordPress for agency clients Dimri, Sonol and Rishumit
-
-**30+ custom React-based Gutenberg blocks** plus an automated ACF block generator that **cut build time by 80%**, and a WPML multilingual architecture with full RTL/LTR support — delivered for named enterprise clients.
-
-### Salesforce migration and workflow automation
-
-Migrated **100K+ records** into Salesforce with the REST APIs and automated workflows around it. Integrated Microsoft Graph for OneDrive, **cutting storage costs 40%**, and implemented SignNow e-signatures that **reduced contract turnaround by 90%**. Delivered fully remote for a US company over two years.
-
-### Looking after WordPress sites, not just building them
-
-Managed and built three sites for an online media organisation: keeping WordPress, Elementor and plugins current, managing DNS, SSL and caching across cPanel and Cloudflare, and running the analytics and Search Console side — sitemaps, conversion tracking, and fixing what the data said was broken. That day-to-day upkeep is what the care plan below is.
+- **$1M+/yr processed, annualized. Payments for an agency's enterprise clients.** End-to-end payment system on Strapi with the Meshulam SDK: the frontend SDK, lifecycle hooks and webhook reconciliation. Built as an employee, running in production. (Strapi, Meshulam, Webhooks)
+- **80% faster block development. 30+ Gutenberg blocks, and a generator to make more.** React blocks for Dimri, Sonol and Rishumit, plus a metadata-driven ACF generator. WPML multilingual with Hebrew RTL and English LTR sharing components. (WordPress, React, WPML)
+- **~15 KB embeddable SDK, paying customers. GhostChat, a SaaS built and sold by one person.** Next.js dashboard, Cloudflare Workers API with Durable Objects, Supabase, Stripe billing, an AI responder in production and a plugin on WordPress.org. The chat widget on this page is it. (Cloudflare Workers, Supabase, Stripe)
+- **~6M emails cleaned, CASA Tier 2 passed. Gmailytics, OAuth on restricted Gmail scopes.** Web app plus Chrome, Edge and Firefox extension that ranks who fills an inbox and clears each sender's backlog in bulk. Independently security-assessed. (OAuth, Gmail API, Browser extension)
+- **100K+ records migrated, zero downtime. Salesforce migration and workflow automation.** CRM moved with zero data loss. LiveChat bots and webhooks cut response time to under ten minutes, OneDrive via Graph API cut storage costs 40%, SignNow made contracts 90% faster. (Salesforce, Graph API, SignNow)
+- **3 sites kept current for a media organisation. Looking after WordPress, not just building it.** WordPress, Elementor and plugins kept updated, DNS, SSL and caching across cPanel and Cloudflare, sitemaps and Search Console. That day-to-day upkeep is the [care plan](https://jacoborbach.com/care/). (Elementor, Cloudflare, cPanel)
 
 In Their Words
 
@@ -597,6 +566,8 @@ Monthly
 
 No contract, cancel with a month's notice
 
+What I work with every month: WordPress · WooCommerce · Elementor · Gutenberg · WPML · Cloudflare · cPanel · Let's Encrypt
+
 Every month
 
 ## What's included
@@ -624,6 +595,16 @@ What was updated, what I found, what I fixed, and anything you should know about
 ### One person who knows your site
 
 Not a rotating support desk. The same developer every month, who remembers why that plugin is there.
+
+Catch-up
+
+## Before and after the first month
+
+Most sites arrive somewhere on the left. The one-time catch-up gets them to the right, and the monthly plan keeps them there.
+
+**Before:** WordPress two versions behind · 14 plugin updates waiting, one no longer maintained · Spam pages nobody on the team wrote · Last backup: unknown · Nobody is told when it goes down
+
+**After:** Core, plugins and theme current, tested on staging first · Spam removed, unknown admin accounts gone, likely ways in closed · Nightly off-server backups, restore tested · Uptime and SSL monitored, I get the alert · One plain-English report a month
 
 Why me
 
