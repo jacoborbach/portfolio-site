@@ -415,7 +415,7 @@ Two plugins on WordPress.org · Open-source package on npm · Extension on Chrom
 - **~15 KB embeddable SDK, paying customers. GhostChat, a SaaS built and sold by one person.** Next.js dashboard, Cloudflare Workers API with Durable Objects, Supabase, Stripe billing, an AI responder in production and a plugin on WordPress.org. The chat widget on this page is it. (Cloudflare Workers, Supabase, Stripe)
 - **~6M emails cleaned, CASA Tier 2 passed. Gmailytics, OAuth on restricted Gmail scopes.** Web app plus Chrome, Edge and Firefox extension that ranks who fills an inbox and clears each sender's backlog in bulk. Independently security-assessed. (OAuth, Gmail API, Browser extension)
 - **100K+ records migrated, zero downtime. Salesforce migration and workflow automation.** CRM moved with zero data loss. LiveChat bots and webhooks cut response time to under ten minutes, OneDrive via Graph API cut storage costs 40%, SignNow made contracts 90% faster. (Salesforce, Graph API, SignNow)
-- **3 sites kept current for a media organisation. Looking after WordPress, not just building it.** WordPress, Elementor and plugins kept updated, DNS, SSL and caching across cPanel and Cloudflare, sitemaps and Search Console. That day-to-day upkeep is the [care plan](https://jacoborbach.com/care/). (Elementor, Cloudflare, cPanel)
+- **3 sites maintained for a media organisation. Looking after WordPress, not just building it.** Kept WordPress, Elementor and plugins updated, and managed DNS, SSL and caching across cPanel and Cloudflare, plus sitemaps and Search Console. That kind of day-to-day upkeep is what the [care plan](https://jacoborbach.com/care/) covers. (Elementor, Cloudflare, cPanel)
 
 In Their Words
 
@@ -586,7 +586,7 @@ Most maintenance services are good at clicking "update" and bad at what happens 
 
 - **30+ custom Gutenberg blocks** for enterprise clients at a digital agency, plus Elementor sites and WPML multilingual builds with Hebrew RTL and English LTR.
 
-- **Ongoing upkeep for a media organisation's three sites:** WordPress, Elementor and plugins kept current, DNS, SSL and caching across cPanel and Cloudflare, and the Search Console side. Including a site that was broken when I took it over.
+- **Looked after a media organisation's three sites:** kept WordPress, Elementor and plugins current, managed DNS, SSL and caching across cPanel and Cloudflare, and ran the Search Console side. Including a site that was broken when I took it over.
 
 - **A broken Elementor site rebuilt end to end** for a freelance client, with new pages designed on it.
 
