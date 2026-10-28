@@ -334,7 +334,7 @@ Based in Tel Aviv · Available globally
 ---
 
 Source: https://jacoborbach.com/services/
-Page title: Work With Me – Custom WordPress, Integrations & Web Development · Jacob Orbach
+Page title: Custom WordPress & Integrations Developer · Jacob Orbach
 
 Work With Me
 
@@ -569,7 +569,7 @@ Email me
 ---
 
 Source: https://jacoborbach.com/care/
-Page title: WordPress Maintenance & Care Plans – Updates, Backups, Fixes · Jacob Orbach
+Page title: WordPress Maintenance & Care Plans · Jacob Orbach
 
 WordPress maintenance
 
@@ -732,7 +732,7 @@ Email me
 ---
 
 Source: https://jacoborbach.com/services/payment-integrations/
-Page title: Payment Integration Developer – Stripe, Meshulam & Custom Gateways · Jacob Orbach
+Page title: Stripe, Meshulam & Custom Payment Gateways · Jacob Orbach
 
 Payments
 
@@ -837,7 +837,7 @@ Email me
 ---
 
 Source: https://jacoborbach.com/services/ai-integration/
-Page title: Custom AI Integration – LLM Features, Agents & Chatbots · Jacob Orbach
+Page title: Custom AI Integration – Agents & Chatbots · Jacob Orbach
 
 Custom AI Integration
 
