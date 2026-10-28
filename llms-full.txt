@@ -171,13 +171,13 @@ Payment integrations → ](https://jacoborbach.com/payment-integrations/) [
 
 Gutenberg blocks, plugins, and themes built like software — not page-builder bloat. Two of my own plugins are live on WordPress.org, one a WooCommerce payment gateway.
 
-Services → ](https://jacoborbach.com/services/#what-i-do) [
+Work with me → ](https://jacoborbach.com/services/#what-i-do) [
 
 ### Web apps & integrations
 
 Frontend and backend by one person. React, Next.js, Node, TypeScript, PHP, APIs, webhooks, migrations, real-time.
 
-Services → ](https://jacoborbach.com/services/#what-i-do)
+Work with me → ](https://jacoborbach.com/services/#what-i-do)
 
 [ How I work
 
