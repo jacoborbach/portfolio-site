@@ -445,7 +445,7 @@ One clearly scoped piece of work, done in about a week: a WordPress plugin or bl
 
 **Typical** About 1 week · fixed price · 50% upfront
 
-Describe the job
+Describe your job
 
 ### Project build
 
@@ -483,7 +483,7 @@ Questions
 
 ## Common questions
 
-### Do you work with clients outside Israel?
+### Can you work with US and international clients?
 
 Yes — most of my work is with US and European clients. I'm a native English speaker (American, University of Maryland), and Israel time zone overlaps a full working morning with Europe and the early afternoon with the US East Coast.
 
@@ -552,7 +552,7 @@ Regular automatic backups stored off your server, plus one before every change I
 
 ### Uptime & security
 
-Monitoring that tells me when the site is down, the padlock (SSL certificate) kept valid, security scanning, and removal of plugins and admin accounts that shouldn't be there anymore.
+Monitoring that tells me when the site is down, the padlock (HTTPS) kept valid, security scanning, and removal of plugins and admin accounts that shouldn't be there anymore.
 
 ### Fix time
 
@@ -592,21 +592,17 @@ Most maintenance services are good at clicking "update" and bad at what happens 
 
 **If an update breaks something, it's on me.** Because every change starts with a backup, the worst case is a quick restore, and fixing what the update broke comes out of my time, not your fix hours.
 
-### Before we start
-
-The monthly price is for a site in normal shape. If yours is badly out of date (years behind on WordPress or WooCommerce, or plugins that are no longer maintained), or it has been hacked, there's a one-time catch-up first, quoted after I look at it. That's where most of the risk sits, so I'd rather price it honestly than bury it in the monthly fee.
-
 Questions
 
 ## Common questions
 
 ### What does it cost?
 
-From $250 a month, quoted after I look at your site. The base plan is $250 and includes up to 3 hours of fixes; a bigger or more complex site is quoted higher. In Israel, from ₪500 a month plus VAT, including up to 2.5 hours. Extra work is quoted before I do it. A site that's badly out of date, or hacked, gets a one-time catch-up quote first.
+From $250 a month, quoted after I look at your site. The base plan is $250 and includes up to 3 hours of fixes; a bigger or more complex site is quoted higher. Extra work is quoted before I do it: new pages, new features, and content or design changes. A site that's badly out of date, or hacked, gets a one-time catch-up quote first.
 
 ### My site has been hacked. Can you clean it up?
 
-Yes. Posts or pages you didn't write, admin users you don't recognise, a warning from Google or from your host: those are the usual signs. I look into how they got in, remove what they left behind, close the likely ways in, and bring everything up to date so it stays closed. Cleanup is a one-time job, quoted after I look at the site. The monthly plan then keeps it that way.
+Yes. Posts or pages you didn't write, admin users you don't recognise, a warning from Google or from your host: those are the usual signs. I look into how they got in, remove what they left behind, close the likely ways in, and bring everything up to date to make a repeat far less likely. Cleanup is a one-time job, quoted after I look at the site. The monthly plan then keeps it that way.
 
 ### Do I have to move hosting?
 
@@ -614,27 +610,17 @@ No. I work with the hosting you already have. If it's causing problems (slow, un
 
 ### What access do you need?
 
-An administrator login for WordPress, your hosting panel, read access to your domain/DNS settings, and Cloudflare if you use it. You keep ownership of everything: your site, your hosting, your domain.
-
-### How fast do you respond?
-
-Within one business day. If the site is down, I look at it the same day during working hours.
+An administrator login for WordPress, your hosting panel, read access to your domain settings (where your web address points), and Cloudflare if you use it. You keep ownership of everything: your site, your hosting, your domain.
 
 ### Can I cancel?
 
 Anytime, with a month's notice. No contract term. If you leave, you get your latest backup and everything stays yours.
 
-### Do you work with agencies?
-
-Yes. If you build WordPress sites for clients and would rather not do the monthly upkeep, I can do it under your name, white label, with per-site pricing for agencies. Email me and we'll work out what fits.
-
-### What counts as extra work?
-
-New pages, new features, content and design changes, redesigns, and SEO projects. Those are quoted before I start. WooCommerce stores and multilingual sites are quoted separately, because there is more to keep working. Keeping what you have working and up to date is what the monthly fee covers.
-
 ## Want your site looked after?
 
 Send me the address. I'll take a look and tell you what shape it's in, what the first month would involve, and the price.
+
+1. Send me your site's address. 2. I look and reply with a quote. 3. The first month starts once it's paid.
 
 
 Email me
