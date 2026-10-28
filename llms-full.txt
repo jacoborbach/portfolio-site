@@ -400,17 +400,7 @@ Making systems agree with each other, forever, without a human checking: third-p
 
 ### SEO & organic growth
 
-Technical SEO shipped by the person who diagnosed it — rendering and indexability, keyword architecture, internal link engineering, and page templates you can actually scale.
-
-Why It Matters
-
-## Shipping and being found are the same project
-
-The usual split causes real damage. The dev team builds a fast single-page app with one URL, and there's nothing for Google to index. The SEO agency asks for thirty landing pages, and the dev team quotes six weeks because the templating wasn't built for it. Both are right. Neither owns the outcome.
-
-When one person does both, the architecture decisions get made with search in mind from day one — URL structure, rendering strategy, internal linking, page templates you can actually extend. And when a keyword opportunity shows up eight months later, shipping the page takes an afternoon instead of a sprint.
-
-I've done this on my own products, which is the honest reason I can claim it. [GhostChat](https://ghostchat.dev/), [Gmailytics](https://gmailytics.com/), and [KaspaWoo](https://kaspawoo.com/) were built, launched, and grown by one person — product and organic growth both.
+Technical SEO shipped by the person who diagnosed it — rendering and indexability, keyword architecture, internal link engineering, and page templates you can actually scale. Built with search in mind from day one, so a new page takes an afternoon, not a sprint.
 
 Proof
 
@@ -489,20 +479,6 @@ Something is broken, slow, or silently losing you traffic. I diagnose it, docume
 
 Book an audit
 
-Process
-
-## What working with me looks like
-
-- **A real conversation first** Thirty minutes on what you're actually trying to achieve. If I'm not the right person, I'll say so — I'd rather tell you in the first call than the third invoice.
-
-- **A written scope** What gets built, what doesn't, what it costs, and when it lands. No code starts before we both agree on this document.
-
-- **Build in visible increments** You get a working preview URL early and it updates continuously. No four-week silences ending in a surprise.
-
-- **Launch with measurement wired in** Analytics, Search Console, and conversion tracking are part of the build, not a follow-up ticket. You can't iterate on what you aren't measuring.
-
-- **Iterate over quarters** Organic growth is not a launch event. The sites I've grown got there through months of adding pages, fixing what underperformed, and doubling down on what ranked.
-
 Questions
 
 ## Common questions
@@ -511,17 +487,13 @@ Questions
 
 Yes — most of my work is with US and European clients. I'm a native English speaker (American, University of Maryland), and Israel time zone overlaps a full working morning with Europe and the early afternoon with the US East Coast.
 
-### How long until SEO work shows results?
-
-Technical fixes can move rankings in days. Building genuine organic traffic on a new site takes quarters, not weeks — my own sites took months of consistent publishing before traffic became meaningful. Anyone promising you page one in 30 days is selling something else.
-
 ### Can you take over an existing codebase?
 
 Regularly. A good portion of my professional work has been inheriting half-finished systems and getting them to production — legacy PHP, undocumented WordPress builds, and applications whose original developer is long gone.
 
 ### Are you available full time or freelance?
 
-Both. I run my own SaaS products and take on select client work alongside them. If you're hiring for a founding or senior engineering role, that conversation is welcome too — my [resume is here](https://jacoborbach.com/Jacob_Orbach_CV.pdf).
+Freelance first. I run my own SaaS products and take on a small number of client projects and care plans alongside them, which is what this page is for. If you're hiring for a senior or founding engineering role, that conversation is still welcome; my [resume is here](https://jacoborbach.com/Jacob_Orbach_CV.pdf).
 
 ### Who owns the code?
 
@@ -565,8 +537,6 @@ Of updates preceded by a backup
 Monthly
 
 No contract, cancel with a month's notice
-
-What I work with every month: WordPress · WooCommerce · Elementor · Gutenberg · WPML · Cloudflare · cPanel · Let's Encrypt
 
 Every month
 
