@@ -364,8 +364,6 @@ A year in payments, annualized
 
 SaaS products shipped solo
 
-Two plugins on WordPress.org · Open-source package on npm · Extension on Chrome, Edge & Firefox · Google CASA Tier 2 passed · Stripe billing in production · Cloudflare Workers + Durable Objects
-
 Services
 
 ## What I do
@@ -419,6 +417,8 @@ Proof
 ## Shipped work, not a capabilities deck
 
 Everything below is live, and most of it you can inspect yourself.
+
+Two plugins on WordPress.org · Open-source package on npm · Extension on Chrome, Edge & Firefox · Google CASA Tier 2 passed · Stripe billing in production · Cloudflare Workers + Durable Objects
 
 - **$1M+/yr processed, annualized. Payments for an agency's enterprise clients.** End-to-end payment system on Strapi with the Meshulam SDK: the frontend SDK, lifecycle hooks and webhook reconciliation. Built as an employee, running in production. (Strapi, Meshulam, Webhooks)
 - **80% faster block development. 30+ Gutenberg blocks, and a generator to make more.** React blocks for Dimri, Sonol and Rishumit, plus a metadata-driven ACF generator. WPML multilingual with Hebrew RTL and English LTR sharing components. (WordPress, React, WPML)
