@@ -323,9 +323,7 @@ Email me
 
 LinkedIn ](https://www.linkedin.com/in/jacoborbach/) [
 
-GitHub ](https://github.com/jacoborbach) [
-
-Resume ](https://jacoborbach.com/Jacob_Orbach_CV.pdf)
+GitHub ](https://github.com/jacoborbach)
 
 Typically respond within 24 hours
 
@@ -493,7 +491,7 @@ Regularly. A good portion of my professional work has been inheriting half-finis
 
 ### Are you available full time or freelance?
 
-Freelance first. I run my own SaaS products and take on a small number of client projects and care plans alongside them, which is what this page is for. If you're hiring for a senior or founding engineering role, that conversation is still welcome; my [resume is here](https://jacoborbach.com/Jacob_Orbach_CV.pdf).
+Freelance first. I run my own SaaS products and take on a small number of client projects and care plans alongside them, which is what this page is for. If you're hiring for a senior or founding engineering role, that conversation is still welcome.
 
 ### Who owns the code?
 
