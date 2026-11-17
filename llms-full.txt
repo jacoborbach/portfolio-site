@@ -21,9 +21,9 @@ View my work
 
 **Specialties:** SaaS architecture · Product engineering · WordPress + Gutenberg · Node/TypeScript · Strapi · Azure · Supabase · Cloudflare Workers
 
-Based in Tel Aviv · Available globally
+Based in Tel Aviv · US citizen · Available globally
 
-Available for freelance work
+Open to full-time, contract and freelance work
 
 4+
 
@@ -55,7 +55,7 @@ A privacy‑first, ultra‑light chat widget engineered to be **up to 20× small
 
 Cloudflare Workers Durable Objects Next.js · Vercel Supabase Stripe
 
-**~15KB** Embeddable SDK
+**<20KB** Embeddable SDK, gzipped
 
 **Up to 20× smaller** than Intercom's widget
 
@@ -69,9 +69,9 @@ SaaS web app and browser extension that ranks who fills your Gmail inbox by volu
 
 Web App Browser Extension Gmail API OAuth
 
-**~6M** Emails cleaned
+**7M+** Emails cleaned
 
-**400GB+** Mail cleared
+**460GB+** Of email cleaned
 
 **CASA Tier 2** Security assessment passed
 
@@ -143,7 +143,7 @@ GitHub ](https://github.com/kaspawoo/woocommerce)
 
 ghostchat-widget SDK
 
-The ~15KB embeddable chat SDK behind GhostChat — up to 20× smaller than legacy widgets. It's the one running on this page right now.
+The under-20KB (gzipped) embeddable chat SDK behind GhostChat — up to 20× smaller than legacy widgets. It's the one running on this page right now.
 
 GitHub ](https://github.com/ghostchat-dev/widget)
 
@@ -327,7 +327,7 @@ GitHub ](https://github.com/jacoborbach)
 
 Typically respond within 24 hours
 
-Based in Tel Aviv · Available globally
+Based in Tel Aviv · US citizen · Available globally
 
 ---
 
@@ -411,7 +411,7 @@ Two plugins on WordPress.org · Open-source package on npm · Extension on Chrom
 - **$1M+/yr processed, annualized. Payments for an agency's enterprise clients.** End-to-end payment system on Strapi with the Meshulam SDK: the frontend SDK, lifecycle hooks and webhook reconciliation. Built as an employee, running in production. (Strapi, Meshulam, Webhooks)
 - **80% faster block development. 30+ Gutenberg blocks, and a generator to make more.** React blocks for an agency's enterprise clients, plus a metadata-driven ACF generator. WPML multilingual with Hebrew RTL and English LTR sharing components. (WordPress, React, WPML)
 - **~15 KB embeddable SDK, paying customers. GhostChat, a SaaS built and sold by one person.** Next.js dashboard, Cloudflare Workers API with Durable Objects, Supabase, Stripe billing, an AI responder in production and a plugin on WordPress.org. The chat widget on this page is it. (Cloudflare Workers, Supabase, Stripe)
-- **~6M emails cleaned, CASA Tier 2 passed. Gmailytics, OAuth on restricted Gmail scopes.** Web app plus Chrome, Edge and Firefox extension that ranks who fills an inbox and clears each sender's backlog in bulk. Independently security-assessed. (OAuth, Gmail API, Browser extension)
+- **7M+ emails cleaned, CASA Tier 2 passed. Gmailytics, OAuth on restricted Gmail scopes.** Web app plus Chrome, Edge and Firefox extension that ranks who fills an inbox and clears each sender's backlog in bulk. Independently security-assessed. (OAuth, Gmail API, Browser extension)
 - **100K+ records migrated, zero downtime. Salesforce migration and workflow automation.** CRM moved with zero data loss. LiveChat bots and webhooks cut response time to under ten minutes, OneDrive via Graph API cut storage costs 40%, SignNow made contracts 90% faster. (Salesforce, Graph API, SignNow)
 - **3 sites maintained for three independent clients. Looking after WordPress, not just building it.** Kept WordPress, Elementor and plugins updated, and managed DNS, SSL and caching across cPanel and Cloudflare, plus sitemaps and Search Console. Covered by the [care plan](https://jacoborbach.com/care/). (Elementor, Cloudflare, cPanel)
 
@@ -810,9 +810,9 @@ Open-source agent runner on npm
 
 LLM providers supported
 
-~15KB
+<20KB
 
-SDK it ships inside
+SDK it ships inside, gzipped
 
 Scope
 
